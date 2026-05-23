@@ -17,12 +17,7 @@
 // del diagrama. Los submódulos individuales están disponibles
 // por separado para síntesis estructural.
 // =============================================================
-`include "div_shift_register.v"
-`include "aext_reg.v"
-`include "reg_c.v"
-`include "div_comparator.v"
-`include "rest_compa2.v"
-`include "div_control_unit.v"
+
 
 module divider #(parameter N = 8)(
     input  wire         clk, rst, start,
