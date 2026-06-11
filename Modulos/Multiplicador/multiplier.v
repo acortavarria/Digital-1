@@ -1,6 +1,4 @@
-`include "shift_register.v"
-`include "accumulator.v"
-`include "control_unit.v"
+
 
 module multiplier #(parameter N = 8)(
     input  wire         clk, rst, start,
