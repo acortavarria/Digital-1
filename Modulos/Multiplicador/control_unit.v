@@ -1,50 +1,118 @@
-// =============================================================
-// Module: control_unit  (FSM final corregida)
-// El flowchart correcto es:
-//   START → leer B_LSB → si 1: R=R+A → shift A<<1, B>>1 → si B=0: DONE
-// Por tanto el orden de estados es:
-//   START → CHECK → ADD (opcional) → SHIFT → CHECK → ... → END
-// CHECK evalúa B_LSB *antes* de shiftear.
-// =============================================================
-module control_unit (
-    input  wire clk, rst, start,
-    input  wire B_LSB,
-    input  wire B_ZERO,
-    output reg  LD, SHFT, ADD, DONE
+module fsm_multiplicador (
+    input clk,
+    input reset,
+    input init,
+    input A_i,      
+    input c,       
+    input zz,
+    output reg rst,
+    output reg sum,
+    output reg sumi,
+    output reg done,
+    output reg shft
 );
-    localparam [2:0]
-        S_START = 3'd0,
-        S_CHECK = 3'd1,   // evaluar B_LSB (sin shift aún)
-        S_ADD   = 3'd2,   // R = R + A
-        S_SHIFT = 3'd3,   // A<<1, B>>1
-        S_END   = 3'd4;
 
-    reg [2:0] state, next;
+    
+    parameter START   = 0;
+    parameter SUMAR   = 1;
+    parameter SUMAR_I = 2;
+    parameter SHIFT   = 3;
+    parameter DONE_ST = 4;
 
-    always @(posedge clk or posedge rst)
-        if (rst) state <= S_START;
-        else     state <= next;
+    reg [2:0] state;
 
+  
+      always @(negedge clk) begin
+        if (reset) begin
+            state <= START;
+        end else begin
+            case (state)
+                START: begin
+                    if (init && A_i) 
+                        state <= SUMAR;
+                    else if (init && !A_i) 
+                        state <= SUMAR_I;
+                    else 
+                        state <= START;
+                end
+                
+                SUMAR: begin
+                    state <= SUMAR_I;
+                end
+                
+                SUMAR_I: begin
+                    if (c) 
+                        state <= DONE_ST;
+                    else 
+                        state <= SHIFT;
+                end
+                
+                SHIFT: begin
+                    if (A_i) 
+                        state <= SUMAR;
+                    else 
+                        state <= SUMAR_I;
+                end
+                
+                DONE_ST: begin
+                    if (zz) 
+                        state <= START;
+                    else 
+                        state <= DONE_ST;
+                end
+                
+                default: state <= START;
+            endcase
+        end
+    end
+
+   
     always @(*) begin
-        next = state;
+        
+      
         case (state)
-            S_START: if (start)  next = S_CHECK;
-            S_CHECK: if (B_LSB)  next = S_ADD;
-                     else        next = S_SHIFT;
-            S_ADD:               next = S_SHIFT;
-            S_SHIFT: if (B_ZERO) next = S_END;
-                     else        next = S_CHECK;
-            S_END:               next = S_END;
+            START:  begin rst_dp = 1'b1; 
+        sum    = 1'b0;
+        sumi   = 1'b0;
+        done   = 1'b0;
+        shft   = 1'b0;end
+            SUMAR: begin  sum    = 1'b1; rst_dp = 1'b0;
+        sumi   = 1'b0;
+        done   = 1'b0;
+        shft   = 1'b0; end
+            SUMAR_I: begin sumi   = 1'b1; rst_dp = 1'b0;
+        sum    = 1'b0;
+        done   = 1'b0;
+        shft   = 1'b0; end
+            SHIFT:   begin shft   = 1'b1; rst_dp = 1'b0;
+        sum    = 1'b0;
+        sumi   = 1'b0;
+        done   = 1'b0; end 
+            DONE_ST: begin done   = 1'b1; rst_dp = 1'b0;
+        sum    = 1'b0;
+        sumi   = 1'b0;
+        shft   = 1'b0; end
+        default: begin
+                rst_dp = 1'b0;
+                sum    = 1'b0;
+                sumi   = 1'b0;
+                done   = 1'b0;
+                shft   = 1'b0;
+            end
         endcase
     end
 
+`ifdef BENCH
+    reg [8*10:1] state_name;
     always @(*) begin
-        LD=0; SHFT=0; ADD=0; DONE=0;
-        case (state)
-            S_START: LD   = 1;
-            S_ADD:   ADD  = 1;
-            S_SHIFT: SHFT = 1;
-            S_END:   DONE = 1;
+        case(state)
+            START   : state_name = "START";
+            SUMAR   : state_name = "SUMAR";
+            SUMAR_I : state_name = "SUMAR_I";
+            SHIFT   : state_name = "SHIFT";
+            DONE_ST : state_name = "DONE_ST";
         endcase
     end
+`endif
+
 endmodule
