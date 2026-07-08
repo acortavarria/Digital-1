@@ -39,7 +39,7 @@ module multiplicador_top (
         .clk(clk),
         .rst(rst),
         .in(A),
-        .i(i_wire),
+        .i(w_i),
         .in_i(A_i),
         .in_reg()        
     );
@@ -66,7 +66,7 @@ module multiplicador_top (
 
     contador cont_i (
         .clk(clk),
-        .rst(rst_dp),
+        .rst(rst),
         .en(sumi),
         .count(w_i)
     );
@@ -74,7 +74,7 @@ module multiplicador_top (
    
     comparador comp_i (
         .in(w_i),
-        .COMP(5'd16),
+        .COMP(5'd15),
         .equal(c)
     );
 
@@ -88,8 +88,8 @@ module multiplicador_top (
 
     
     comparador comp_espera (
-        .data_in(w_count),
-        .COMP(5'd28),
+        .in(w_count),
+        .COMP(5'd27),
         .equal(zz)
     );
 
