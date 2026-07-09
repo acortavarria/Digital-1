@@ -1,4 +1,4 @@
-module RegistroAext (
+module RegistroAext2 (
     input clk,
     input rst,
     input shft,
@@ -14,7 +14,7 @@ module RegistroAext (
             A    <= in_A;
         end 
         else if (shft) begin
-            {Aext, A} <= {Aext, A}<<1;
+            {Aext, A} <= {Aext, A}<<2;
         end 
         else if (upd_Aext) begin
             

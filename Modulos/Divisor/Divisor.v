@@ -12,14 +12,12 @@ module Divisor_Top (
 
     wire [16:0] Aextreg;
     wire [15:0] Areg;
-    wire [16:0] Breg; 
+    wire [16:0] Breg; // Corregido a 17 bits para alinearse con la ALU
     wire [16:0] Aext;
     wire [4:0] i_w;
     wire [4:0] count_w; 
 
-    // LÓGICA LOOK-AHEAD: Si estamos en SHIFT, anticipa el signo mirando el bit 15.
-    // De lo contrario, lee el signo combinacional de la ALU de forma directa.
-    wire Aext_16 = (shft) ? Aextreg[15] : Aext[16]; 
+    wire Aext_16 = Aext[16]; 
     
     wire upd_Aext = sum | restar;
 
@@ -50,7 +48,7 @@ module Divisor_Top (
     );
 
     comparador Comp_I (
-        .in(i_w), .COMP(5'd16), .equal(c)
+        .in(i_w), .COMP(5'd15), .equal(c)
     );
 
     contador Contador_Wait (
@@ -58,7 +56,7 @@ module Divisor_Top (
     );
 
     comparador Comp_Wait (
-        .in(count_w), .COMP(5'd28), .equal(zz)
+        .in(count_w), .COMP(5'd27), .equal(zz)
     );
 
 endmodule
