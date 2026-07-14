@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+<th class="label">ROM16 NUMBER</th>
+</tr>
+<tr>
+<td class="label">SOC (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">93</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--CPU
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">1182</td>
+<td align = "center">142</td>
+<td align = "center">1692</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--RAM
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--per_uart
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">22</td>
+<td align = "center">-</td>
+<td align = "center">17</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--uart0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/perip_uart.v)</td>
+<td align = "center">63</td>
+<td align = "center">15</td>
+<td align = "center">63</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--bin2bcd0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">37</td>
+<td align = "center">-</td>
+<td align = "center">34</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--bin2bcd0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--lsr40
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">43</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp1
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp2
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp3
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp4
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--reg0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--count0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--control0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">18</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--bcd2bin0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">37</td>
+<td align = "center">-</td>
+<td align = "center">23</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--bcd2bin0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--rsr40
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">54</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp1
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp2
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp3
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--comp4
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--reg0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--count0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--control0
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--mult1
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">22</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--mult1
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/perip_test.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ControlUnit
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Reg_Acum
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">35</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Reg_Raiz
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ALU
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v)</td>
+<td align = "center">-</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Contador_I
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v)</td>
+<td align = "center">5</td>
+<td align = "center">4</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Contador_Wait
+ (/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v)</td>
+<td align = "center">5</td>
+<td align = "center">4</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

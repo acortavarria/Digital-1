@@ -1,0 +1,22 @@
+help: help-sim help-quartus
+clean: clean-zip clean-syn clean-sim
+top=SOC
+#test bench del proyecto para la simulación
+tb=bench_quark.v
+MACROS_SIM=
+MACROS_RTL=
+MACROS_SYN=
+DESIGN=./top.v
+DIR_BUILD=build
+DEVSERIAL=
+# Ruta donde está quartus instalado
+PATH_QUARTUS=/home/carlos/altera_lite/25.1std/quartus/bin/
+# Cable programador
+# CABLE=USB-Blaster
+# Z: Nombre para empaquetar proyecto
+Z=template
+MORE_SRC2SIM=
+MORE_SRC=docs
+
+MK_SYN=./altera-c4e6e10-syn.mk
+include $(MK_SYN) 

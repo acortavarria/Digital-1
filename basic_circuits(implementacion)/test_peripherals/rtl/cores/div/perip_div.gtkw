@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue May 20 13:42:57 2025
+[*]
+[dumpfile] "/Work/Proyects/ecb_T8_T113/femtoRV/basic/rtl/cores/div/perip_div_TB.vcd"
+[dumpfile_mtime] "Tue May 20 13:42:16 2025"
+[dumpfile_size] 10876
+[savefile] "/Work/Proyects/ecb_T8_T113/femtoRV/basic/rtl/cores/div/perip_div.gtkw"
+[timestart] 721600
+[size] 1920 1011
+[pos] -1 -1
+*-16.768877 1100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] peripheral_div_TB.
+[treeopen] peripheral_div_TB.uut.
+[sst_width] 331
+[signals_width] 387
+[sst_expanded] 1
+[sst_vpaned_height] 566
+@28
+peripheral_div_TB.clk
+peripheral_div_TB.reset
+@22
+peripheral_div_TB.d_in[15:0]
+peripheral_div_TB.addr[4:0]
+@28
+peripheral_div_TB.uut.cs
+peripheral_div_TB.rd
+peripheral_div_TB.wr
+@22
+[color] 2
+peripheral_div_TB.uut.A[15:0]
+[color] 2
+peripheral_div_TB.uut.B[15:0]
+@28
+[color] 2
+peripheral_div_TB.uut.div1.state[2:0]
+@820
+[color] 2
+peripheral_div_TB.uut.div1.state_name[320:1]
+@28
+[color] 2
+peripheral_div_TB.uut.div1.init
+@29
+[color] 2
+peripheral_div_TB.uut.div1.done
+[pattern_trace] 1
+[pattern_trace] 0

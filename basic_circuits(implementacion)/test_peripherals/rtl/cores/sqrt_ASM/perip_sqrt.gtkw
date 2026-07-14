@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Thu Oct 23 12:28:35 2025
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/sqrt_ASM/perip_sqrt_TB.vcd"
+[dumpfile_mtime] "Thu Oct 23 12:28:22 2025"
+[dumpfile_size] 12401
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/sqrt_ASM/perip_sqrt.gtkw"
+[timestart] 0
+[size] 1648 951
+[pos] -1 -1
+*-19.768877 1313000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] peripheral_sqrt_TB.
+[treeopen] peripheral_sqrt_TB.uut.
+[treeopen] peripheral_sqrt_TB.uut.sqrt0.
+[sst_width] 331
+[signals_width] 251
+[sst_expanded] 1
+[sst_vpaned_height] 507
+@28
+peripheral_sqrt_TB.uut.sqrt0.clk
+peripheral_sqrt_TB.uut.sqrt0.rst
+@22
+peripheral_sqrt_TB.uut.d_in[15:0]
+peripheral_sqrt_TB.uut.addr[4:0]
+@28
+peripheral_sqrt_TB.uut.cs
+peripheral_sqrt_TB.uut.rd
+peripheral_sqrt_TB.uut.wr
+@22
+peripheral_sqrt_TB.uut.sqrt0.A[15:0]
+@28
+peripheral_sqrt_TB.uut.sqrt0.init
+peripheral_sqrt_TB.uut.sqrt0.done
+@820
+peripheral_sqrt_TB.uut.sqrt0.control0.state_name[320:1]
+@22
+peripheral_sqrt_TB.uut.sqrt0.result[15:0]
+@c00022
+peripheral_sqrt_TB.uut.d_out[31:0]
+@28
+(0)peripheral_sqrt_TB.uut.d_out[31:0]
+(1)peripheral_sqrt_TB.uut.d_out[31:0]
+(2)peripheral_sqrt_TB.uut.d_out[31:0]
+(3)peripheral_sqrt_TB.uut.d_out[31:0]
+(4)peripheral_sqrt_TB.uut.d_out[31:0]
+(5)peripheral_sqrt_TB.uut.d_out[31:0]
+(6)peripheral_sqrt_TB.uut.d_out[31:0]
+(7)peripheral_sqrt_TB.uut.d_out[31:0]
+(8)peripheral_sqrt_TB.uut.d_out[31:0]
+(9)peripheral_sqrt_TB.uut.d_out[31:0]
+(10)peripheral_sqrt_TB.uut.d_out[31:0]
+(11)peripheral_sqrt_TB.uut.d_out[31:0]
+(12)peripheral_sqrt_TB.uut.d_out[31:0]
+(13)peripheral_sqrt_TB.uut.d_out[31:0]
+(14)peripheral_sqrt_TB.uut.d_out[31:0]
+(15)peripheral_sqrt_TB.uut.d_out[31:0]
+(16)peripheral_sqrt_TB.uut.d_out[31:0]
+(17)peripheral_sqrt_TB.uut.d_out[31:0]
+(18)peripheral_sqrt_TB.uut.d_out[31:0]
+(19)peripheral_sqrt_TB.uut.d_out[31:0]
+(20)peripheral_sqrt_TB.uut.d_out[31:0]
+(21)peripheral_sqrt_TB.uut.d_out[31:0]
+(22)peripheral_sqrt_TB.uut.d_out[31:0]
+(23)peripheral_sqrt_TB.uut.d_out[31:0]
+(24)peripheral_sqrt_TB.uut.d_out[31:0]
+(25)peripheral_sqrt_TB.uut.d_out[31:0]
+(26)peripheral_sqrt_TB.uut.d_out[31:0]
+(27)peripheral_sqrt_TB.uut.d_out[31:0]
+(28)peripheral_sqrt_TB.uut.d_out[31:0]
+(29)peripheral_sqrt_TB.uut.d_out[31:0]
+(30)peripheral_sqrt_TB.uut.d_out[31:0]
+(31)peripheral_sqrt_TB.uut.d_out[31:0]
+@1401200
+-group_end
+@800022
+peripheral_sqrt_TB.uut.s[4:0]
+@28
+(0)peripheral_sqrt_TB.uut.s[4:0]
+(1)peripheral_sqrt_TB.uut.s[4:0]
+(2)peripheral_sqrt_TB.uut.s[4:0]
+(3)peripheral_sqrt_TB.uut.s[4:0]
+(4)peripheral_sqrt_TB.uut.s[4:0]
+@23
+peripheral_sqrt_TB.uut.sqrt0.control0.count[3:0]
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

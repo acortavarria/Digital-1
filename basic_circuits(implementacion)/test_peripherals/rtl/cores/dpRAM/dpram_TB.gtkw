@@ -1,0 +1,57 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue May 27 15:14:54 2025
+[*]
+[dumpfile] "/Work/Proyects/ecb_T8_T113/femtoRV/basic/rtl/cores/dpRAM/dpram_TB.vcd"
+[dumpfile_mtime] "Tue May 27 15:10:30 2025"
+[dumpfile_size] 10309
+[savefile] "/Work/Proyects/ecb_T8_T113/femtoRV/basic/rtl/cores/dpRAM/dpram_TB.gtkw"
+[timestart] 1828800
+[size] 2560 1531
+[pos] -1 -1
+*-17.000000 1281000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dpram_TB.
+[sst_width] 331
+[signals_width] 395
+[sst_expanded] 1
+[sst_vpaned_height] 457
+@22
+dpram_TB.uut.adr_a[12:0]
+dpram_TB.uut.dat_a[15:0]
+@28
+dpram_TB.uut.clk_a
+dpram_TB.uut.en_a
+dpram_TB.we_a
+@22
+dpram_TB.uut.\ram[0][15:0]
+dpram_TB.uut.\ram[1][15:0]
+dpram_TB.uut.\ram[2][15:0]
+dpram_TB.uut.\ram[3][15:0]
+dpram_TB.uut.\ram[4][15:0]
+dpram_TB.uut.\ram[5][15:0]
+dpram_TB.uut.\ram[6][15:0]
+dpram_TB.uut.\ram[7][15:0]
+dpram_TB.uut.\ram[8][15:0]
+dpram_TB.uut.\ram[9][15:0]
+dpram_TB.uut.\ram[10][15:0]
+dpram_TB.uut.\ram[11][15:0]
+dpram_TB.uut.\ram[12][15:0]
+dpram_TB.uut.\ram[13][15:0]
+dpram_TB.uut.\ram[14][15:0]
+dpram_TB.uut.\ram[15][15:0]
+dpram_TB.uut.\ram[16][15:0]
+dpram_TB.uut.\ram[17][15:0]
+dpram_TB.uut.\ram[18][15:0]
+dpram_TB.uut.\ram[19][15:0]
+dpram_TB.uut.\ram[20][15:0]
+@28
+dpram_TB.en_b
+dpram_TB.uut.clk_b
+@22
+dpram_TB.adr_b[12:0]
+@28
+dpram_TB.re_b
+@22
+dpram_TB.uut.dat_b[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

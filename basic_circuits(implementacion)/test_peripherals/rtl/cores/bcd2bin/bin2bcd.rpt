@@ -1,0 +1,1607 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.57+263 (git sha1 da2e021e3, g++ 14.2.0-19ubuntu2 -fPIC -O3)
+
+-- Running command ` read_verilog add_sub_c2.v bin2bcd.v count.v ctrl_b2b.v lsr4.v mux2.v reg_msb.v;  synth_ice40  -top bin2bcd; write_verilog bin2bcd_synth.v' --
+
+1. Executing Verilog-2005 frontend: add_sub_c2.v
+Parsing Verilog input from `add_sub_c2.v' to AST representation.
+verilog frontend filename add_sub_c2.v
+Generating RTLIL representation for module `\add_sub_c2'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: bin2bcd.v
+Parsing Verilog input from `bin2bcd.v' to AST representation.
+verilog frontend filename bin2bcd.v
+Generating RTLIL representation for module `\bin2bcd'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: count.v
+Parsing Verilog input from `count.v' to AST representation.
+verilog frontend filename count.v
+Generating RTLIL representation for module `\count'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: ctrl_b2b.v
+Parsing Verilog input from `ctrl_b2b.v' to AST representation.
+verilog frontend filename ctrl_b2b.v
+Generating RTLIL representation for module `\ctrl_b2b'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: lsr4.v
+Parsing Verilog input from `lsr4.v' to AST representation.
+verilog frontend filename lsr4.v
+Generating RTLIL representation for module `\lsr4'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: mux2.v
+Parsing Verilog input from `mux2.v' to AST representation.
+verilog frontend filename mux2.v
+Generating RTLIL representation for module `\mux'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: reg_msb.v
+Parsing Verilog input from `reg_msb.v' to AST representation.
+verilog frontend filename reg_msb.v
+Generating RTLIL representation for module `\reg_msb'.
+Successfully finished Verilog frontend.
+
+8. Executing SYNTH_ICE40 pass.
+
+8.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/cells_sim.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/cells_sim.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/cells_sim.v
+Generating RTLIL representation for module `\SB_IO'.
+Generating RTLIL representation for module `\SB_GB_IO'.
+Generating RTLIL representation for module `\SB_GB'.
+Generating RTLIL representation for module `\SB_LUT4'.
+Generating RTLIL representation for module `\SB_CARRY'.
+Generating RTLIL representation for module `\SB_DFF'.
+Generating RTLIL representation for module `\SB_DFFE'.
+Generating RTLIL representation for module `\SB_DFFSR'.
+Generating RTLIL representation for module `\SB_DFFR'.
+Generating RTLIL representation for module `\SB_DFFSS'.
+Generating RTLIL representation for module `\SB_DFFS'.
+Generating RTLIL representation for module `\SB_DFFESR'.
+Generating RTLIL representation for module `\SB_DFFER'.
+Generating RTLIL representation for module `\SB_DFFESS'.
+Generating RTLIL representation for module `\SB_DFFES'.
+Generating RTLIL representation for module `\SB_DFFN'.
+Generating RTLIL representation for module `\SB_DFFNE'.
+Generating RTLIL representation for module `\SB_DFFNSR'.
+Generating RTLIL representation for module `\SB_DFFNR'.
+Generating RTLIL representation for module `\SB_DFFNSS'.
+Generating RTLIL representation for module `\SB_DFFNS'.
+Generating RTLIL representation for module `\SB_DFFNESR'.
+Generating RTLIL representation for module `\SB_DFFNER'.
+Generating RTLIL representation for module `\SB_DFFNESS'.
+Generating RTLIL representation for module `\SB_DFFNES'.
+Generating RTLIL representation for module `\SB_RAM40_4K'.
+Generating RTLIL representation for module `\SB_RAM40_4KNR'.
+Generating RTLIL representation for module `\SB_RAM40_4KNW'.
+Generating RTLIL representation for module `\SB_RAM40_4KNRNW'.
+Generating RTLIL representation for module `\ICESTORM_LC'.
+Generating RTLIL representation for module `\SB_PLL40_CORE'.
+Generating RTLIL representation for module `\SB_PLL40_PAD'.
+Generating RTLIL representation for module `\SB_PLL40_2_PAD'.
+Generating RTLIL representation for module `\SB_PLL40_2F_CORE'.
+Generating RTLIL representation for module `\SB_PLL40_2F_PAD'.
+Generating RTLIL representation for module `\SB_WARMBOOT'.
+Generating RTLIL representation for module `\SB_SPRAM256KA'.
+Generating RTLIL representation for module `\SB_HFOSC'.
+Generating RTLIL representation for module `\SB_LFOSC'.
+Generating RTLIL representation for module `\SB_RGBA_DRV'.
+Generating RTLIL representation for module `\SB_LED_DRV_CUR'.
+Generating RTLIL representation for module `\SB_RGB_DRV'.
+Generating RTLIL representation for module `\SB_I2C'.
+Generating RTLIL representation for module `\SB_SPI'.
+Generating RTLIL representation for module `\SB_LEDDA_IP'.
+Generating RTLIL representation for module `\SB_FILTER_50NS'.
+Generating RTLIL representation for module `\SB_IO_I3C'.
+Generating RTLIL representation for module `\SB_IO_OD'.
+Generating RTLIL representation for module `\SB_MAC16'.
+Generating RTLIL representation for module `\ICESTORM_RAM'.
+Successfully finished Verilog frontend.
+
+8.2. Executing HIERARCHY pass (managing design hierarchy).
+
+8.2.1. Analyzing design hierarchy..
+Top module:  \bin2bcd
+Used module:     \ctrl_b2b
+Used module:     \count
+Used module:     \reg_msb
+Used module:     \add_sub_c2
+Used module:     \mux
+Used module:     \lsr4
+
+8.2.2. Analyzing design hierarchy..
+Top module:  \bin2bcd
+Used module:     \ctrl_b2b
+Used module:     \count
+Used module:     \reg_msb
+Used module:     \add_sub_c2
+Used module:     \mux
+Used module:     \lsr4
+Removed 0 unused modules.
+
+8.3. Executing PROC pass (convert processes to netlists).
+
+8.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+8.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$reg_msb.v:22$22 in module reg_msb.
+Marked 1 switch rules as full_case in process $proc$reg_msb.v:14$20 in module reg_msb.
+Marked 1 switch rules as full_case in process $proc$mux2.v:8$19 in module mux.
+Marked 2 switch rules as full_case in process $proc$lsr4.v:15$13 in module lsr4.
+Marked 1 switch rules as full_case in process $proc$ctrl_b2b.v:78$12 in module ctrl_b2b.
+Marked 4 switch rules as full_case in process $proc$ctrl_b2b.v:31$8 in module ctrl_b2b.
+Marked 2 switch rules as full_case in process $proc$count.v:11$3 in module count.
+Removed a total of 0 dead cases.
+
+8.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 1 redundant assignment.
+Promoted 13 assignments to connections.
+
+8.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\count.$proc$count.v:8$7'.
+  Set init value: \cont = 5'01000
+
+8.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+8.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~18 debug messages>
+
+8.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\reg_msb.$proc$reg_msb.v:22$22'.
+     1/1: $0\cont[4:0]
+Creating decoders for process `\reg_msb.$proc$reg_msb.v:14$20'.
+     1/1: $1\out[4:0]
+Creating decoders for process `\mux.$proc$mux2.v:8$19'.
+     1/1: $1\out[3:0]
+Creating decoders for process `\lsr4.$proc$lsr4.v:15$13'.
+     1/6: $0\data[35:0] [23:20]
+     2/6: $0\data[35:0] [19:16]
+     3/6: $0\data[35:0] [27:24]
+     4/6: $0\data[35:0] [31:28]
+     5/6: $0\data[35:0] [35:32]
+     6/6: $0\data[35:0] [15:0]
+Creating decoders for process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12'.
+     1/6: $1\add[0:0]
+     2/6: $1\ld[0:0]
+     3/6: $1\sh[0:0]
+     4/6: $1\sel[0:0]
+     5/6: $1\ld_msb[0:0]
+     6/6: $1\done[0:0]
+Creating decoders for process `\ctrl_b2b.$proc$ctrl_b2b.v:31$8'.
+     1/6: $4\state[2:0]
+     2/6: $3\state[2:0]
+     3/6: $2\state[2:0]
+     4/6: $2\count[3:0]
+     5/6: $1\count[3:0]
+     6/6: $1\state[2:0]
+Creating decoders for process `\count.$proc$count.v:8$7'.
+Creating decoders for process `\count.$proc$count.v:11$3'.
+     1/1: $0\cont[4:0]
+Creating decoders for process `\add_sub_c2.$proc$add_sub_c2.v:7$1'.
+
+8.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\reg_msb.\out' from process `\reg_msb.$proc$reg_msb.v:14$20'.
+No latch inferred for signal `\mux.\out' from process `\mux.$proc$mux2.v:8$19'.
+Latch inferred for signal `\ctrl_b2b.\done' from process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12': $auto$proc_dlatch.cc:432:proc_dlatch$603
+Latch inferred for signal `\ctrl_b2b.\sel' from process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12': $auto$proc_dlatch.cc:432:proc_dlatch$644
+Latch inferred for signal `\ctrl_b2b.\ld' from process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12': $auto$proc_dlatch.cc:432:proc_dlatch$685
+Latch inferred for signal `\ctrl_b2b.\sh' from process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12': $auto$proc_dlatch.cc:432:proc_dlatch$726
+Latch inferred for signal `\ctrl_b2b.\ld_msb' from process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12': $auto$proc_dlatch.cc:432:proc_dlatch$767
+Latch inferred for signal `\ctrl_b2b.\add' from process `\ctrl_b2b.$proc$ctrl_b2b.v:78$12': $auto$proc_dlatch.cc:432:proc_dlatch$808
+No latch inferred for signal `\add_sub_c2.\Result' from process `\add_sub_c2.$proc$add_sub_c2.v:7$1'.
+
+8.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\reg_msb.\cont' using process `\reg_msb.$proc$reg_msb.v:22$22'.
+  created $dff cell `$procdff$809' with negative edge clock.
+Creating register for signal `\lsr4.\data' using process `\lsr4.$proc$lsr4.v:15$13'.
+  created $dff cell `$procdff$810' with negative edge clock.
+Creating register for signal `\ctrl_b2b.\count' using process `\ctrl_b2b.$proc$ctrl_b2b.v:31$8'.
+  created $dff cell `$procdff$811' with positive edge clock.
+Creating register for signal `\ctrl_b2b.\state' using process `\ctrl_b2b.$proc$ctrl_b2b.v:31$8'.
+  created $dff cell `$procdff$812' with positive edge clock.
+Creating register for signal `\count.\z' using process `\count.$proc$count.v:11$3'.
+  created $dff cell `$procdff$813' with negative edge clock.
+Creating register for signal `\count.\cont' using process `\count.$proc$count.v:11$3'.
+  created $dff cell `$procdff$814' with negative edge clock.
+
+8.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+8.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 2 empty switches in `\reg_msb.$proc$reg_msb.v:22$22'.
+Removing empty process `reg_msb.$proc$reg_msb.v:22$22'.
+Found and cleaned up 1 empty switch in `\reg_msb.$proc$reg_msb.v:14$20'.
+Removing empty process `reg_msb.$proc$reg_msb.v:14$20'.
+Found and cleaned up 1 empty switch in `\mux.$proc$mux2.v:8$19'.
+Removing empty process `mux.$proc$mux2.v:8$19'.
+Found and cleaned up 7 empty switches in `\lsr4.$proc$lsr4.v:15$13'.
+Removing empty process `lsr4.$proc$lsr4.v:15$13'.
+Found and cleaned up 1 empty switch in `\ctrl_b2b.$proc$ctrl_b2b.v:78$12'.
+Removing empty process `ctrl_b2b.$proc$ctrl_b2b.v:78$12'.
+Found and cleaned up 4 empty switches in `\ctrl_b2b.$proc$ctrl_b2b.v:31$8'.
+Removing empty process `ctrl_b2b.$proc$ctrl_b2b.v:31$8'.
+Removing empty process `count.$proc$count.v:8$7'.
+Found and cleaned up 2 empty switches in `\count.$proc$count.v:11$3'.
+Removing empty process `count.$proc$count.v:11$3'.
+Removing empty process `add_sub_c2.$proc$add_sub_c2.v:7$1'.
+Cleaned up 18 empty switches.
+
+8.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module reg_msb.
+Optimizing module mux.
+Optimizing module lsr4.
+<suppressed ~5 debug messages>
+Optimizing module ctrl_b2b.
+<suppressed ~62 debug messages>
+Optimizing module count.
+<suppressed ~1 debug messages>
+Optimizing module bin2bcd.
+Optimizing module add_sub_c2.
+
+8.4. Executing FLATTEN pass (flatten design).
+Deleting now unused module reg_msb.
+Deleting now unused module mux.
+Deleting now unused module lsr4.
+Deleting now unused module ctrl_b2b.
+Deleting now unused module count.
+Deleting now unused module add_sub_c2.
+<suppressed ~14 debug messages>
+
+8.5. Executing TRIBUF pass.
+
+8.6. Executing DEMINOUT pass (demote inout ports to input or output).
+
+8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 6 unused cells and 151 unused wires.
+<suppressed ~7 debug messages>
+
+8.9. Executing CHECK pass (checking for obvious problems).
+Checking module bin2bcd...
+Found and reported 0 problems.
+
+8.10. Executing OPT pass (performing simple optimizations).
+
+8.10.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.10.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+<suppressed ~282 debug messages>
+Removed a total of 94 cells.
+
+8.10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 2/2 on $mux $flatten\control0.$procmux$515.
+    dead port 1/2 on $mux $flatten\control0.$procmux$518.
+    dead port 2/2 on $mux $flatten\control0.$procmux$529.
+    dead port 1/2 on $mux $flatten\control0.$procmux$532.
+    dead port 1/2 on $mux $flatten\control0.$procmux$543.
+    dead port 1/2 on $mux $flatten\control0.$procmux$549.
+Removed 6 multiplexer ports.
+<suppressed ~70 debug messages>
+
+8.10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+    New ctrl vector for $pmux cell $flatten\control0.$procmux$485: $auto$opt_reduce.cc:137:opt_pmux$830
+    New ctrl vector for $pmux cell $flatten\control0.$procmux$493: $auto$opt_reduce.cc:137:opt_pmux$832
+    New ctrl vector for $pmux cell $flatten\control0.$procmux$501: $flatten\control0.$procmux$462_CMP
+    New ctrl vector for $pmux cell $flatten\control0.$procmux$461: $flatten\control0.$procmux$464_CMP
+    New ctrl vector for $pmux cell $flatten\control0.$procmux$477: $flatten\control0.$procmux$466_CMP
+    New ctrl vector for $pmux cell $flatten\control0.$procmux$469: $auto$opt_reduce.cc:137:opt_pmux$834
+  Optimizing cells in module \bin2bcd.
+Performed a total of 6 changes.
+
+8.10.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+<suppressed ~21 debug messages>
+Removed a total of 7 cells.
+
+8.10.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 0 unused cells and 102 unused wires.
+<suppressed ~1 debug messages>
+
+8.10.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.10.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+8.10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~54 debug messages>
+
+8.10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.10.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.10.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.10.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.10.16. Finished fast OPT passes. (There is nothing left to do.)
+
+8.11. Executing FSM pass (extract and optimize FSM).
+
+8.11.1. Executing FSM_DETECT pass (finding FSMs in design).
+Found FSM state register bin2bcd.control0.state.
+
+8.11.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+Extracting FSM `\control0.state' from module `\bin2bcd'.
+  found $dff cell for state register: $flatten\control0.$procdff$812
+  root of input selection tree: $flatten\control0.$0\state[2:0]
+  found reset state: 3'000 (guessed from mux tree)
+  found ctrl input: \rst
+  found ctrl input: $flatten\control0.$procmux$462_CMP
+  found ctrl input: $flatten\control0.$procmux$463_CMP
+  found ctrl input: $flatten\control0.$procmux$464_CMP
+  found ctrl input: $flatten\control0.$procmux$465_CMP
+  found ctrl input: $flatten\control0.$procmux$466_CMP
+  found ctrl input: $flatten\control0.$procmux$467_CMP
+  found state code: 3'000
+  found ctrl input: $flatten\control0.$gt$ctrl_b2b.v:69$10_Y
+  found state code: 3'101
+  found state code: 3'010
+  found state code: 3'011
+  found ctrl input: \count0.z
+  found state code: 3'100
+  found state code: 3'001
+  found ctrl input: \init
+  found ctrl output: $flatten\control0.$procmux$467_CMP
+  found ctrl output: $flatten\control0.$procmux$466_CMP
+  found ctrl output: $flatten\control0.$procmux$465_CMP
+  found ctrl output: $flatten\control0.$procmux$464_CMP
+  found ctrl output: $flatten\control0.$procmux$463_CMP
+  found ctrl output: $flatten\control0.$procmux$462_CMP
+  ctrl inputs: { $flatten\control0.$gt$ctrl_b2b.v:69$10_Y \count0.z \rst \init }
+  ctrl outputs: { $flatten\control0.$0\state[2:0] $flatten\control0.$procmux$462_CMP $flatten\control0.$procmux$463_CMP $flatten\control0.$procmux$464_CMP $flatten\control0.$procmux$465_CMP $flatten\control0.$procmux$466_CMP $flatten\control0.$procmux$467_CMP }
+  transition:      3'000 4'--00 ->      3'000 9'000000001
+  transition:      3'000 4'--01 ->      3'010 9'010000001
+  transition:      3'000 4'--1- ->      3'000 9'000000001
+  transition:      3'100 4'--0- ->      3'011 9'011001000
+  transition:      3'100 4'--1- ->      3'000 9'000001000
+  transition:      3'010 4'--0- ->      3'001 9'001000010
+  transition:      3'010 4'--1- ->      3'000 9'000000010
+  transition:      3'001 4'-00- ->      3'100 9'100000100
+  transition:      3'001 4'-10- ->      3'101 9'101000100
+  transition:      3'001 4'--1- ->      3'000 9'000000100
+  transition:      3'101 4'0-0- ->      3'101 9'101100000
+  transition:      3'101 4'1-0- ->      3'000 9'000100000
+  transition:      3'101 4'--1- ->      3'000 9'000100000
+  transition:      3'011 4'--0- ->      3'010 9'010010000
+  transition:      3'011 4'--1- ->      3'000 9'000010000
+
+8.11.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+Optimizing FSM `$fsm$\control0.state$835' from module `\bin2bcd'.
+
+8.11.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 12 unused cells and 12 unused wires.
+<suppressed ~13 debug messages>
+
+8.11.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+Optimizing FSM `$fsm$\control0.state$835' from module `\bin2bcd'.
+  Removing unused output signal $flatten\control0.$0\state[2:0] [0].
+  Removing unused output signal $flatten\control0.$0\state[2:0] [1].
+  Removing unused output signal $flatten\control0.$0\state[2:0] [2].
+
+8.11.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+Recoding FSM `$fsm$\control0.state$835' from module `\bin2bcd' using `auto' encoding:
+  mapping auto encoding to `one-hot` for this FSM.
+  000 -> -----1
+  100 -> ----1-
+  010 -> ---1--
+  001 -> --1---
+  101 -> -1----
+  011 -> 1-----
+
+8.11.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+FSM `$fsm$\control0.state$835' from module `bin2bcd':
+-------------------------------------
+
+  Information on FSM $fsm$\control0.state$835 (\control0.state):
+
+  Number of input signals:    4
+  Number of output signals:   6
+  Number of state bits:       6
+
+  Input signals:
+    0: \init
+    1: \rst
+    2: \count0.z
+    3: $flatten\control0.$gt$ctrl_b2b.v:69$10_Y
+
+  Output signals:
+    0: $flatten\control0.$procmux$467_CMP
+    1: $flatten\control0.$procmux$466_CMP
+    2: $flatten\control0.$procmux$465_CMP
+    3: $flatten\control0.$procmux$464_CMP
+    4: $flatten\control0.$procmux$463_CMP
+    5: $flatten\control0.$procmux$462_CMP
+
+  State encoding:
+    0:   6'-----1  <RESET STATE>
+    1:   6'----1-
+    2:   6'---1--
+    3:   6'--1---
+    4:   6'-1----
+    5:   6'1-----
+
+  Transition Table (state_in, ctrl_in, state_out, ctrl_out):
+      0:     0 4'--00   ->     0 6'000001
+      1:     0 4'--1-   ->     0 6'000001
+      2:     0 4'--01   ->     2 6'000001
+      3:     1 4'--1-   ->     0 6'001000
+      4:     1 4'--0-   ->     5 6'001000
+      5:     2 4'--1-   ->     0 6'000010
+      6:     2 4'--0-   ->     3 6'000010
+      7:     3 4'--1-   ->     0 6'000100
+      8:     3 4'-00-   ->     1 6'000100
+      9:     3 4'-10-   ->     4 6'000100
+     10:     4 4'1-0-   ->     0 6'100000
+     11:     4 4'--1-   ->     0 6'100000
+     12:     4 4'0-0-   ->     4 6'100000
+     13:     5 4'--1-   ->     0 6'010000
+     14:     5 4'--0-   ->     2 6'010000
+
+-------------------------------------
+
+8.11.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+Mapping FSM `$fsm$\control0.state$835' from module `\bin2bcd'.
+
+8.12. Executing OPT pass (performing simple optimizations).
+
+8.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+<suppressed ~7 debug messages>
+
+8.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+8.12.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~48 debug messages>
+
+8.12.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.12.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.12.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $flatten\reg0.$procdff$809 ($dff) from module bin2bcd (D = $flatten\reg0.$procmux$403_Y, Q = \reg0.cont, rval = 5'00000).
+Adding EN signal on $auto$ff.cc:266:slice$888 ($sdff) from module bin2bcd (D = { \comp4.Result [3] \comp3.Result [3] \comp2.Result [3] \comp1.Result [3] \comp0.Result [3] }, Q = \reg0.cont).
+Adding SRST signal on $flatten\lsr40.$procdff$810 ($dff) from module bin2bcd (D = { $flatten\lsr40.$procmux$449_Y $flatten\lsr40.$procmux$441_Y $flatten\lsr40.$procmux$433_Y $flatten\lsr40.$procmux$417_Y $flatten\lsr40.$procmux$425_Y }, Q = \lsr40.data [35:16], rval = 20'00000000000000000000).
+Adding EN signal on $flatten\lsr40.$procdff$810 ($dff) from module bin2bcd (D = $flatten\lsr40.$0\data[35:0] [15:0], Q = \lsr40.data [15:0]).
+Adding EN signal on $auto$ff.cc:266:slice$890 ($sdff) from module bin2bcd (D = $flatten\lsr40.$procmux$425_Y, Q = \lsr40.data [19:16]).
+Adding EN signal on $auto$ff.cc:266:slice$890 ($sdff) from module bin2bcd (D = $flatten\lsr40.$procmux$417_Y, Q = \lsr40.data [23:20]).
+Adding EN signal on $auto$ff.cc:266:slice$890 ($sdff) from module bin2bcd (D = $flatten\lsr40.$procmux$433_Y, Q = \lsr40.data [27:24]).
+Adding EN signal on $auto$ff.cc:266:slice$890 ($sdff) from module bin2bcd (D = $flatten\lsr40.$procmux$441_Y, Q = \lsr40.data [31:28]).
+Adding EN signal on $auto$ff.cc:266:slice$890 ($sdff) from module bin2bcd (D = $flatten\lsr40.$procmux$449_Y, Q = \lsr40.data [35:32]).
+Adding SRST signal on $flatten\count0.$procdff$814 ($dff) from module bin2bcd (D = $flatten\count0.$procmux$558_Y, Q = \count0.cont, rval = 5'10000).
+Adding EN signal on $auto$ff.cc:266:slice$910 ($sdff) from module bin2bcd (D = $flatten\count0.$sub$count.v:16$4_Y [4:0], Q = \count0.cont).
+Adding SRST signal on $flatten\control0.$procdff$811 ($dff) from module bin2bcd (D = $flatten\control0.$2\count[3:0], Q = \control0.count, rval = 4'0000).
+Adding EN signal on $auto$ff.cc:266:slice$912 ($sdff) from module bin2bcd (D = $flatten\control0.$add$ctrl_b2b.v:68$9_Y [3:0], Q = \control0.count).
+
+8.12.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 11 unused cells and 18 unused wires.
+<suppressed ~12 debug messages>
+
+8.12.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+<suppressed ~6 debug messages>
+
+8.12.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+8.12.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~34 debug messages>
+
+8.12.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.12.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.12.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.12.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.12.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.12.16. Finished fast OPT passes. (There is nothing left to do.)
+
+8.13. Executing WREDUCE pass (reducing word size of cells).
+Removed top 31 bits (of 32) from mux cell bin2bcd.$flatten\count0.$ternary$count.v:20$6 ($mux).
+Removed top 31 bits (of 32) from port B of cell bin2bcd.$flatten\count0.$sub$count.v:16$4 ($sub).
+Removed top 27 bits (of 32) from port Y of cell bin2bcd.$flatten\count0.$sub$count.v:16$4 ($sub).
+Removed top 1 bits (of 2) from port B of cell bin2bcd.$auto$fsm_map.cc:77:implement_pattern_cache$863 ($eq).
+Removed top 28 bits (of 32) from port B of cell bin2bcd.$flatten\control0.$gt$ctrl_b2b.v:69$10 ($gt).
+Removed top 31 bits (of 32) from port B of cell bin2bcd.$flatten\control0.$add$ctrl_b2b.v:68$9 ($add).
+Removed top 28 bits (of 32) from port Y of cell bin2bcd.$flatten\control0.$add$ctrl_b2b.v:68$9 ($add).
+Removed top 28 bits (of 32) from wire bin2bcd.$flatten\control0.$add$ctrl_b2b.v:68$9_Y.
+Removed top 27 bits (of 32) from wire bin2bcd.$flatten\count0.$sub$count.v:16$4_Y.
+Removed top 20 bits (of 36) from wire bin2bcd.$flatten\lsr40.$0\data[35:0].
+
+8.14. Executing PEEPOPT pass (run peephole optimizers).
+
+8.15. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 0 unused cells and 4 unused wires.
+<suppressed ~1 debug messages>
+
+8.16. Executing SHARE pass (SAT-based resource sharing).
+
+8.17. Executing TECHMAP pass (map to technology primitives).
+
+8.17.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/cmp2lut.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/cmp2lut.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/cmp2lut.v
+Generating RTLIL representation for module `\_90_lut_cmp_'.
+Successfully finished Verilog frontend.
+
+8.17.2. Continuing TECHMAP pass.
+Using template $paramod$e4c92889d88a2565010b877d9939a0ac6b8fc9a2\_90_lut_cmp_ for cells of type $gt.
+No more expansions possible.
+<suppressed ~36 debug messages>
+
+8.18. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.19. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 0 unused cells and 3 unused wires.
+<suppressed ~1 debug messages>
+
+8.20. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module bin2bcd:
+  creating $macc model for $flatten\comp0.$add$add_sub_c2.v:8$2 ($add).
+  creating $macc model for $flatten\comp1.$add$add_sub_c2.v:8$2 ($add).
+  creating $macc model for $flatten\comp2.$add$add_sub_c2.v:8$2 ($add).
+  creating $macc model for $flatten\comp3.$add$add_sub_c2.v:8$2 ($add).
+  creating $macc model for $flatten\comp4.$add$add_sub_c2.v:8$2 ($add).
+  creating $macc model for $flatten\control0.$add$ctrl_b2b.v:68$9 ($add).
+  creating $macc model for $flatten\count0.$sub$count.v:16$4 ($sub).
+  creating $alu model for $macc $flatten\count0.$sub$count.v:16$4.
+  creating $alu model for $macc $flatten\control0.$add$ctrl_b2b.v:68$9.
+  creating $alu model for $macc $flatten\comp4.$add$add_sub_c2.v:8$2.
+  creating $alu model for $macc $flatten\comp3.$add$add_sub_c2.v:8$2.
+  creating $alu model for $macc $flatten\comp2.$add$add_sub_c2.v:8$2.
+  creating $alu model for $macc $flatten\comp1.$add$add_sub_c2.v:8$2.
+  creating $alu model for $macc $flatten\comp0.$add$add_sub_c2.v:8$2.
+  creating $alu cell for $flatten\comp0.$add$add_sub_c2.v:8$2: $auto$alumacc.cc:495:replace_alu$920
+  creating $alu cell for $flatten\comp1.$add$add_sub_c2.v:8$2: $auto$alumacc.cc:495:replace_alu$923
+  creating $alu cell for $flatten\comp2.$add$add_sub_c2.v:8$2: $auto$alumacc.cc:495:replace_alu$926
+  creating $alu cell for $flatten\comp3.$add$add_sub_c2.v:8$2: $auto$alumacc.cc:495:replace_alu$929
+  creating $alu cell for $flatten\comp4.$add$add_sub_c2.v:8$2: $auto$alumacc.cc:495:replace_alu$932
+  creating $alu cell for $flatten\control0.$add$ctrl_b2b.v:68$9: $auto$alumacc.cc:495:replace_alu$935
+  creating $alu cell for $flatten\count0.$sub$count.v:16$4: $auto$alumacc.cc:495:replace_alu$938
+  created 7 $alu and 0 $macc cells.
+
+8.21. Executing OPT pass (performing simple optimizations).
+
+8.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.21.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~34 debug messages>
+
+8.21.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.21.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.21.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.21.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.21.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.21.9. Finished fast OPT passes. (There is nothing left to do.)
+
+8.22. Executing MEMORY pass.
+
+8.22.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+8.22.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+8.22.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+8.22.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+8.22.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+8.22.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.22.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+8.22.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+8.22.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.22.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+8.23. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.24. Executing MEMORY_LIBMAP pass (mapping memories to cells).
+
+8.25. Executing TECHMAP pass (map to technology primitives).
+
+8.25.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/brams_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/brams_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/brams_map.v
+Generating RTLIL representation for module `\$__ICE40_RAM4K_'.
+Successfully finished Verilog frontend.
+
+8.25.2. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/spram_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/spram_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/spram_map.v
+Generating RTLIL representation for module `\$__ICE40_SPRAM_'.
+Successfully finished Verilog frontend.
+
+8.25.3. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+8.26. Executing ICE40_BRAMINIT pass.
+
+8.27. Executing OPT pass (performing simple optimizations).
+
+8.27.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+<suppressed ~11 debug messages>
+
+8.27.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.27.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.27.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 0 unused cells and 11 unused wires.
+<suppressed ~1 debug messages>
+
+8.27.5. Finished fast OPT passes.
+
+8.28. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+8.29. Executing OPT pass (performing simple optimizations).
+
+8.29.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.29.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.29.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~18 debug messages>
+
+8.29.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+    Consolidated identical input bits for $mux cell $flatten\mux0.$procmux$412:
+      Old ports: A=4'0011, B=4'1011, Y=\comp0.in_B
+      New ports: A=1'0, B=1'1, Y=\comp0.in_B [3]
+      New connections: \comp0.in_B [2:0] = 3'011
+  Optimizing cells in module \bin2bcd.
+Performed a total of 1 changes.
+
+8.29.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.29.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $auto$ff.cc:266:slice$892 ($dffe) from module bin2bcd (D = \A [0], Q = \lsr40.data [0], rval = 1'0).
+
+8.29.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.29.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.29.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+8.29.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~18 debug messages>
+
+8.29.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.29.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.29.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.29.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.29.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.29.16. Finished fast OPT passes. (There is nothing left to do.)
+
+8.30. Executing ICE40_WRAPCARRY pass (wrap carries).
+
+8.31. Executing TECHMAP pass (map to technology primitives).
+
+8.31.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+8.31.2. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/arith_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/arith_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/arith_map.v
+Generating RTLIL representation for module `\_80_ice40_alu'.
+Successfully finished Verilog frontend.
+
+8.31.3. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $mux.
+Using template $paramod$740b056ede97228d3eae64ea2fdc81f0a33e0fe7\_80_ice40_alu for cells of type $alu.
+Using template $paramod$32a7b7b86c07519b7537abc18e96f0331f97914d\_80_ice40_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $sdffe.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $lut.
+Using extmapper simplemap for cells of type $dff.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $reduce_bool.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $eq.
+Using extmapper simplemap for cells of type $sdffce.
+Using extmapper simplemap for cells of type $dffe.
+Using extmapper simplemap for cells of type $dlatch.
+Using template $paramod$dc04b7d98e503a7bab16fce2df70e6e2c5ca34d6\_80_ice40_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $pos.
+No more expansions possible.
+<suppressed ~243 debug messages>
+
+8.32. Executing OPT pass (performing simple optimizations).
+
+8.32.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+<suppressed ~93 debug messages>
+
+8.32.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+<suppressed ~15 debug messages>
+Removed a total of 5 cells.
+
+8.32.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.32.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 25 unused cells and 147 unused wires.
+<suppressed ~26 debug messages>
+
+8.32.5. Finished fast OPT passes.
+
+8.33. Executing ICE40_OPT pass (performing simple optimizations).
+
+8.33.1. Running ICE40 specific optimizations.
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$920.slice[0].carry: CO=\lsr40.data [16]
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$923.slice[0].carry: CO=\lsr40.data [20]
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$926.slice[0].carry: CO=\lsr40.data [24]
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$929.slice[0].carry: CO=\lsr40.data [28]
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$932.slice[0].carry: CO=\lsr40.data [32]
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$935.slice[0].carry: CO=\control0.count [0]
+Optimized $__ICE40_CARRY_WRAPPER cell back to logic (without SB_CARRY) bin2bcd.$auto$alumacc.cc:495:replace_alu$938.slice[0].carry: CO=\count0.cont [0]
+
+8.33.2. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.33.3. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.33.4. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.33.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.33.6. Rerunning OPT passes. (Removed registers in this run.)
+
+8.33.7. Running ICE40 specific optimizations.
+
+8.33.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.33.9. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.33.10. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.33.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.33.12. Finished OPT passes. (There is nothing left to do.)
+
+8.34. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+
+8.35. Executing TECHMAP pass (map to technology primitives).
+
+8.35.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/ff_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/ff_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/ff_map.v
+Generating RTLIL representation for module `\$_DFF_N_'.
+Generating RTLIL representation for module `\$_DFF_P_'.
+Generating RTLIL representation for module `\$_DFFE_NP_'.
+Generating RTLIL representation for module `\$_DFFE_PP_'.
+Generating RTLIL representation for module `\$_DFF_NP0_'.
+Generating RTLIL representation for module `\$_DFF_NP1_'.
+Generating RTLIL representation for module `\$_DFF_PP0_'.
+Generating RTLIL representation for module `\$_DFF_PP1_'.
+Generating RTLIL representation for module `\$_DFFE_NP0P_'.
+Generating RTLIL representation for module `\$_DFFE_NP1P_'.
+Generating RTLIL representation for module `\$_DFFE_PP0P_'.
+Generating RTLIL representation for module `\$_DFFE_PP1P_'.
+Generating RTLIL representation for module `\$_SDFF_NP0_'.
+Generating RTLIL representation for module `\$_SDFF_NP1_'.
+Generating RTLIL representation for module `\$_SDFF_PP0_'.
+Generating RTLIL representation for module `\$_SDFF_PP1_'.
+Generating RTLIL representation for module `\$_SDFFCE_NP0P_'.
+Generating RTLIL representation for module `\$_SDFFCE_NP1P_'.
+Generating RTLIL representation for module `\$_SDFFCE_PP0P_'.
+Generating RTLIL representation for module `\$_SDFFCE_PP1P_'.
+Successfully finished Verilog frontend.
+
+8.35.2. Continuing TECHMAP pass.
+Using template \$_SDFFCE_NP0P_ for cells of type $_SDFFCE_NP0P_.
+Using template \$_SDFFCE_PP0P_ for cells of type $_SDFFCE_PP0P_.
+Using template \$_DFFE_NP_ for cells of type $_DFFE_NP_.
+Using template \$_DFF_P_ for cells of type $_DFF_P_.
+Using template \$_SDFFCE_NP1P_ for cells of type $_SDFFCE_NP1P_.
+Using template \$_DFF_N_ for cells of type $_DFF_N_.
+No more expansions possible.
+<suppressed ~79 debug messages>
+
+8.36. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.37. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$920.slice[0].carry ($lut).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$923.slice[0].carry ($lut).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$926.slice[0].carry ($lut).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$929.slice[0].carry ($lut).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$932.slice[0].carry ($lut).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$935.slice[0].carry ($lut).
+Mapping bin2bcd.$auto$alumacc.cc:495:replace_alu$938.slice[0].carry ($lut).
+
+8.38. Executing ICE40_OPT pass (performing simple optimizations).
+
+8.38.1. Running ICE40 specific optimizations.
+
+8.38.2. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+<suppressed ~99 debug messages>
+
+8.38.3. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+<suppressed ~99 debug messages>
+Removed a total of 33 cells.
+
+8.38.4. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.38.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 0 unused cells and 368 unused wires.
+<suppressed ~1 debug messages>
+
+8.38.6. Rerunning OPT passes. (Removed registers in this run.)
+
+8.38.7. Running ICE40 specific optimizations.
+
+8.38.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.38.9. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.38.10. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.38.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.38.12. Finished OPT passes. (There is nothing left to do.)
+
+8.39. Executing TECHMAP pass (map to technology primitives).
+
+8.39.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/latches_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/latches_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/latches_map.v
+Generating RTLIL representation for module `\$_DLATCH_N_'.
+Generating RTLIL representation for module `\$_DLATCH_P_'.
+Successfully finished Verilog frontend.
+
+8.39.2. Continuing TECHMAP pass.
+
+8.39.3. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+Mapping \$_DLATCH_N_.$ternary$/usr/local/bin/../share/yosys/ice40/latches_map.v:4$1664 ($mux).
+Mapping \$_DLATCH_N_.$logic_not$/usr/local/bin/../share/yosys/ice40/latches_map.v:4$1663 ($logic_not).
+<suppressed ~4 debug messages>
+
+8.39.4. Executing OPT pass (performing simple optimizations).
+
+8.39.4.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module \$_DLATCH_N_.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+<suppressed ~1 debug messages>
+
+8.39.4.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\$_DLATCH_N_'.
+Removed a total of 0 cells.
+
+8.39.4.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \$_DLATCH_N_..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.39.4.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \$_DLATCH_N_.
+Performed a total of 0 changes.
+
+8.39.4.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\$_DLATCH_N_'.
+Removed a total of 0 cells.
+
+8.39.4.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.39.4.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \$_DLATCH_N_..
+Removed 1 unused cells and 2 unused wires.
+<suppressed ~2 debug messages>
+
+8.39.4.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module \$_DLATCH_N_.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+
+8.39.4.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+8.39.4.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \$_DLATCH_N_..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.39.4.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \$_DLATCH_N_.
+Performed a total of 0 changes.
+
+8.39.4.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\$_DLATCH_N_'.
+Removed a total of 0 cells.
+
+8.39.4.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.39.4.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \$_DLATCH_N_..
+
+8.39.4.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module \$_DLATCH_N_.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+Couldn't topologically sort cells, optimizing module \$_DLATCH_N_ may take a longer time.
+
+8.39.4.16. Finished fast OPT passes. (There is nothing left to do.)
+Using template \$_DLATCH_N_ for cells of type $_DLATCH_N_.
+No more expansions possible.
+<suppressed ~5 debug messages>
+
+8.40. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/abc9_model.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/abc9_model.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/abc9_model.v
+Generating RTLIL representation for module `$__ICE40_CARRY_WRAPPER'.
+Successfully finished Verilog frontend.
+
+8.41. Executing ABC9 pass.
+
+8.41.1. Executing ABC9_OPS pass (helper functions for ABC9).
+
+8.41.2. Executing ABC9_OPS pass (helper functions for ABC9).
+
+8.41.3. Executing SCC pass (detecting logic loops).
+Found an SCC: $techmap$auto$ff.cc:266:slice$1235.$auto$simplemap.cc:298:simplemap_mux$1666
+Found an SCC: $techmap$auto$ff.cc:266:slice$1229.$auto$simplemap.cc:298:simplemap_mux$1666
+Found an SCC: $techmap$auto$ff.cc:266:slice$1228.$auto$simplemap.cc:298:simplemap_mux$1666
+Found an SCC: $techmap$auto$ff.cc:266:slice$1227.$auto$simplemap.cc:298:simplemap_mux$1666
+Found an SCC: $techmap$auto$ff.cc:266:slice$1223.$auto$simplemap.cc:298:simplemap_mux$1666
+Found 5 SCCs in module bin2bcd.
+Found 5 SCCs.
+
+8.41.4. Executing ABC9_OPS pass (helper functions for ABC9).
+
+8.41.5. Executing TECHMAP pass (map to technology primitives).
+
+8.41.5.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+8.41.5.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~130 debug messages>
+
+8.41.6. Executing OPT pass (performing simple optimizations).
+
+8.41.6.1. Executing OPT_EXPR pass (perform const folding).
+
+8.41.6.2. Executing OPT_MERGE pass (detect identical cells).
+Removed a total of 0 cells.
+
+8.41.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Removed 0 multiplexer ports.
+
+8.41.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+Performed a total of 0 changes.
+
+8.41.6.5. Executing OPT_MERGE pass (detect identical cells).
+Removed a total of 0 cells.
+
+8.41.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.41.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+
+8.41.6.8. Executing OPT_EXPR pass (perform const folding).
+
+8.41.6.9. Finished fast OPT passes. (There is nothing left to do.)
+
+8.41.7. Executing TECHMAP pass (map to technology primitives).
+
+8.41.7.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/abc9_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/abc9_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/abc9_map.v
+Successfully finished Verilog frontend.
+
+8.41.7.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~2 debug messages>
+
+8.41.8. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/abc9_model.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/abc9_model.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/abc9_model.v
+Generating RTLIL representation for module `$__ABC9_DELAY'.
+Generating RTLIL representation for module `$__ABC9_SCC_BREAKER'.
+Generating RTLIL representation for module `$__DFF_N__$abc9_flop'.
+Generating RTLIL representation for module `$__DFF_P__$abc9_flop'.
+Successfully finished Verilog frontend.
+
+8.41.9. Executing ABC9_OPS pass (helper functions for ABC9).
+<suppressed ~94 debug messages>
+
+8.41.10. Executing ABC9_OPS pass (helper functions for ABC9).
+
+8.41.11. Executing ABC9_OPS pass (helper functions for ABC9).
+<suppressed ~2 debug messages>
+
+8.41.12. Executing TECHMAP pass (map to technology primitives).
+
+8.41.12.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+8.41.12.2. Continuing TECHMAP pass.
+Using template $paramod$__ICE40_CARRY_WRAPPER\LUT=16'0110100110010110\I3_IS_CI=1'1 for cells of type $paramod$__ICE40_CARRY_WRAPPER\LUT=16'0110100110010110\I3_IS_CI=1'1.
+Using template SB_CARRY for cells of type SB_CARRY.
+Using template $paramod\SB_LUT4\LUT_INIT=16'0110100110010110 for cells of type SB_LUT4.
+Using extmapper simplemap for cells of type $logic_or.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $logic_and.
+No more expansions possible.
+<suppressed ~151 debug messages>
+
+8.41.13. Executing OPT pass (performing simple optimizations).
+
+8.41.13.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+<suppressed ~4 debug messages>
+
+8.41.13.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+<suppressed ~29 debug messages>
+Removed a total of 12 cells.
+
+8.41.13.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.41.13.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.41.13.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.41.13.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.41.13.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+Removed 0 unused cells and 24 unused wires.
+<suppressed ~1 debug messages>
+
+8.41.13.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.41.13.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+8.41.13.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bin2bcd..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.41.13.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bin2bcd.
+Performed a total of 0 changes.
+
+8.41.13.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bin2bcd'.
+Removed a total of 0 cells.
+
+8.41.13.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.41.13.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bin2bcd..
+
+8.41.13.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bin2bcd.
+
+8.41.13.16. Finished fast OPT passes. (There is nothing left to do.)
+
+8.41.14. Executing AIGMAP pass (map logic to AIG).
+Module bin2bcd: replaced 7 cells with 43 new cells, skipped 11 cells.
+  replaced 2 cell types:
+       5 $_MUX_
+       2 $_OR_
+  not replaced 3 cell types:
+       2 $_AND_
+       1 $_NOT_
+       8 $specify2
+
+8.41.15. Executing AIGMAP pass (map logic to AIG).
+Module bin2bcd: replaced 73 cells with 412 new cells, skipped 239 cells.
+  replaced 2 cell types:
+      40 $_MUX_
+      33 $_OR_
+  not replaced 13 cell types:
+      20 $_AND_
+      33 $_NOT_
+       1 $__ABC9_SCC_BREAKER
+      14 $scopeinfo
+       6 SB_DFF
+       4 SB_DFFESR
+       1 SB_DFFN
+      15 SB_DFFNE
+      29 SB_DFFNESR
+       2 SB_DFFNESS
+      35 $paramod$__ABC9_DELAY\DELAY=32'00000000000000000000000011001011
+      57 $paramod$__ABC9_DELAY\DELAY=32'00000000000000000000000000010101
+      22 $paramod$__ICE40_CARRY_WRAPPER\LUT=16'0110100110010110\I3_IS_CI=1'1
+
+8.41.15.1. Executing ABC9_OPS pass (helper functions for ABC9).
+
+8.41.15.2. Executing ABC9_OPS pass (helper functions for ABC9).
+
+8.41.15.3. Executing XAIGER backend.
+<suppressed ~68 debug messages>
+Extracted 173 AND gates and 792 wires from module `bin2bcd' to a netlist network with 81 inputs and 126 outputs.
+
+8.41.15.4. Executing ABC9_EXE pass (technology mapping using ABC9).
+
+8.41.15.5. Executing ABC9.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_lut <abc-temp-dir>/input.lut 
+ABC: + read_box <abc-temp-dir>/input.box 
+ABC: + &read <abc-temp-dir>/input.xaig 
+ABC: + &ps 
+ABC: <abc-temp-dir>/input : i/o =     81/    126  and =     173  lev =    7 (0.44)  mem = 0.01 MB  box = 114  bb = 92
+ABC: + &scorr 
+ABC: Warning: The network is combinational.
+ABC: + &sweep 
+ABC: + &dc2 
+ABC: + &dch -f -r 
+ABC: + &ps 
+ABC: <abc-temp-dir>/input : i/o =     81/    126  and =     264  lev =    6 (0.40)  mem = 0.01 MB  ch =   37  box = 114  bb = 92
+ABC: cst =       0  cls =     37  lit =      37  unused =     407  proof =     0
+ABC: + &if -W 250 -v 
+ABC: K = 4. Memory (bytes): Truth =    0. Cut =   52. Obj =  136. Set =  564. CutMin = no
+ABC: Node =     264.  Ch =    37.  Total mem =    0.12 MB. Peak cut mem =    0.00 MB.
+ABC: P:  Del = 2366.00.  Ar =      63.0.  Edge =      194.  Cut =      571.  T =     0.00 sec
+ABC: P:  Del = 2366.00.  Ar =      62.0.  Edge =      193.  Cut =      566.  T =     0.00 sec
+ABC: P:  Del = 2366.00.  Ar =      61.0.  Edge =      190.  Cut =      566.  T =     0.00 sec
+ABC: F:  Del = 2366.00.  Ar =      60.0.  Edge =      187.  Cut =      557.  T =     0.00 sec
+ABC: A:  Del = 2366.00.  Ar =      60.0.  Edge =      182.  Cut =      555.  T =     0.00 sec
+ABC: A:  Del = 2366.00.  Ar =      60.0.  Edge =      182.  Cut =      555.  T =     0.00 sec
+ABC: Total time =     0.00 sec
+ABC: + &write -n <abc-temp-dir>/output.aig 
+ABC: + &mfs 
+ABC: + &ps -l 
+ABC: <abc-temp-dir>/input : i/o =     81/    126  and =     167  lev =    5 (0.40)  mem = 0.01 MB  box = 114  bb = 92
+ABC: Mapping (K=4)  :  lut =     60  edge =     182  lev =    3 (0.22)  Boxes are not in a topological order. Switching to level computation without boxes.
+ABC: levB =    5  mem = 0.00 MB
+ABC: LUT = 60 : 2=6 10.0 %  3=46 76.7 %  4=8 13.3 %  Ave = 3.03
+ABC: + &write -n <abc-temp-dir>/output.aig 
+ABC: + time 
+ABC: elapse: 0.01 seconds, total: 0.01 seconds
+
+8.41.15.6. Executing AIGER frontend.
+<suppressed ~426 debug messages>
+Removed 236 unused cells and 762 unused wires.
+
+8.41.15.7. Executing ABC9_OPS pass (helper functions for ABC9).
+ABC RESULTS:              $lut cells:       65
+ABC RESULTS:   $paramod$__ICE40_CARRY_WRAPPER\LUT=16'0110100110010110\I3_IS_CI=1'1 cells:       22
+ABC RESULTS:           input signals:       20
+ABC RESULTS:          output signals:      107
+Removing temp directory.
+
+8.41.16. Executing TECHMAP pass (map to technology primitives).
+
+8.41.16.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/abc9_unmap.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/abc9_unmap.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/abc9_unmap.v
+Generating RTLIL representation for module `\$__DFF_x__$abc9_flop'.
+Generating RTLIL representation for module `\$__ABC9_SCC_BREAKER'.
+Successfully finished Verilog frontend.
+
+8.41.16.2. Continuing TECHMAP pass.
+Using template $paramod$__ICE40_CARRY_WRAPPER\LUT=16'0110100110010110\I3_IS_CI=1'1 for cells of type $paramod$__ICE40_CARRY_WRAPPER\LUT=16'0110100110010110\I3_IS_CI=1'1.
+Using template $paramod\$__ABC9_SCC_BREAKER\WIDTH=32'00000000000000000000000000000101 for cells of type $__ABC9_SCC_BREAKER.
+No more expansions possible.
+<suppressed ~40 debug messages>
+
+8.42. Executing ICE40_WRAPCARRY pass (wrap carries).
+
+8.43. Executing TECHMAP pass (map to technology primitives).
+
+8.43.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/ff_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/ff_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/ff_map.v
+Generating RTLIL representation for module `\$_DFF_N_'.
+Generating RTLIL representation for module `\$_DFF_P_'.
+Generating RTLIL representation for module `\$_DFFE_NP_'.
+Generating RTLIL representation for module `\$_DFFE_PP_'.
+Generating RTLIL representation for module `\$_DFF_NP0_'.
+Generating RTLIL representation for module `\$_DFF_NP1_'.
+Generating RTLIL representation for module `\$_DFF_PP0_'.
+Generating RTLIL representation for module `\$_DFF_PP1_'.
+Generating RTLIL representation for module `\$_DFFE_NP0P_'.
+Generating RTLIL representation for module `\$_DFFE_NP1P_'.
+Generating RTLIL representation for module `\$_DFFE_PP0P_'.
+Generating RTLIL representation for module `\$_DFFE_PP1P_'.
+Generating RTLIL representation for module `\$_SDFF_NP0_'.
+Generating RTLIL representation for module `\$_SDFF_NP1_'.
+Generating RTLIL representation for module `\$_SDFF_PP0_'.
+Generating RTLIL representation for module `\$_SDFF_PP1_'.
+Generating RTLIL representation for module `\$_SDFFCE_NP0P_'.
+Generating RTLIL representation for module `\$_SDFFCE_NP1P_'.
+Generating RTLIL representation for module `\$_SDFFCE_PP0P_'.
+Generating RTLIL representation for module `\$_SDFFCE_PP1P_'.
+Successfully finished Verilog frontend.
+
+8.43.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~22 debug messages>
+Removed 57 unused cells and 1053 unused wires.
+
+8.44. Executing OPT_LUT pass (optimize LUTs).
+Discovering LUTs.
+Number of LUTs:       82
+  1-LUT                5
+  2-LUT                8
+  3-LUT               61
+  4-LUT                8
+  with \SB_CARRY    (#0)   10
+  with \SB_CARRY    (#1)   15
+
+Eliminating LUTs.
+Number of LUTs:       82
+  1-LUT                5
+  2-LUT                8
+  3-LUT               61
+  4-LUT                8
+  with \SB_CARRY    (#0)   10
+  with \SB_CARRY    (#1)   15
+
+Combining LUTs.
+Number of LUTs:       81
+  1-LUT                4
+  2-LUT                8
+  3-LUT               61
+  4-LUT                8
+  with \SB_CARRY    (#0)   10
+  with \SB_CARRY    (#1)   15
+
+Eliminated 0 LUTs.
+Combined 1 LUTs.
+<suppressed ~253 debug messages>
+
+8.45. Executing TECHMAP pass (map to technology primitives).
+
+8.45.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/ice40/cells_map.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/ice40/cells_map.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/ice40/cells_map.v
+Generating RTLIL representation for module `\$lut'.
+Successfully finished Verilog frontend.
+
+8.45.2. Continuing TECHMAP pass.
+Using template $paramod$d546db88fc169832512e499a9cdf9a41b89ab74e\$lut for cells of type $lut.
+Using template $paramod$fd904e9e35cfd343a9df248824bd3f1408724879\$lut for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000010\LUT=4'0001 for cells of type $lut.
+Using template $paramod$6e238df02989b317f10820a22773676e71120644\$lut for cells of type $lut.
+Using template $paramod$908a274b55b4a97121027dd10242798b841faf7a\$lut for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'00010000 for cells of type $lut.
+Using template $paramod$bf9d12be9e757c28b1374b63e168615e76b4b315\$lut for cells of type $lut.
+Using template $paramod$ba318f6d3458908ac57d56e5fa81a962ff2ab52b\$lut for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'11100000 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000010\LUT=4'1110 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'11110010 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'11100001 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000001\LUT=2'01 for cells of type $lut.
+Using template $paramod$4282def8dbd6df3d1248ad282c629bee684502c2\$lut for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'11001001 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'10111000 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000010\LUT=4'0100 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'10110001 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'01000000 for cells of type $lut.
+Using template $paramod$d5841602ab17202e972b290147d14b63f75b0ad1\$lut for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'00000001 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'00100000 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'10001011 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'10100011 for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'11101100 for cells of type $lut.
+No more expansions possible.
+<suppressed ~409 debug messages>
+Removed 0 unused cells and 166 unused wires.
+
+8.46. Executing AUTONAME pass.
+Renamed 242 objects in module bin2bcd (38 iterations).
+<suppressed ~242 debug messages>
+
+8.47. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `bin2bcd'. Setting top module to bin2bcd.
+
+8.47.1. Analyzing design hierarchy..
+Top module:  \bin2bcd
+
+8.47.2. Analyzing design hierarchy..
+Top module:  \bin2bcd
+Removed 0 unused modules.
+
+8.48. Printing statistics.
+
+=== bin2bcd ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      165 wires
+      434 wire bits
+      165 public wires
+      434 public wire bits
+        6 ports
+       40 port bits
+       14 cells
+       14   $scopeinfo
+      153 submodules
+       15   SB_CARRY
+        6   SB_DFF
+        4   SB_DFFESR
+        1   SB_DFFN
+       15   SB_DFFNE
+       29   SB_DFFNESR
+        2   SB_DFFNESS
+       81   SB_LUT4
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+       14 bin2bcd
+
+        +----------Count including submodules.
+        | 
+      165 wires
+      434 wire bits
+      165 public wires
+      434 public wire bits
+        6 ports
+       40 port bits
+        - memories
+        - memory bits
+        - processes
+       14 cells
+       14   $scopeinfo
+      153 submodules
+       15   SB_CARRY
+        6   SB_DFF
+        4   SB_DFFESR
+        1   SB_DFFN
+       15   SB_DFFNE
+       29   SB_DFFNESR
+        2   SB_DFFNESS
+       81   SB_LUT4
+
+8.49. Executing CHECK pass (checking for obvious problems).
+Checking module bin2bcd...
+Found and reported 0 problems.
+
+9. Executing Verilog backend.
+
+9.1. Executing BMUXMAP pass.
+
+9.2. Executing DEMUXMAP pass.
+Dumping module `\bin2bcd'.
+
+End of script. Logfile hash: 5bdfe9977c, CPU: user 0.31s system 0.01s, MEM: 32.90 MB peak
+Yosys 0.57+263 (git sha1 da2e021e3, g++ 14.2.0-19ubuntu2 -fPIC -O3)
+Time spent: 53% 27x read_verilog (0 sec), 7% 25x opt_clean (0 sec), ...

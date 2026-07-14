@@ -1,0 +1,4 @@
+export PATH=$PATH:/home/angelmcs/Gowin/IDE/bin/
+export QT_QPA_PLATFORM_PLUGIN_PATH=/home/angelmcs/Gowin/IDE/bin/PyQt5/qt-plugins
+export QT_QPA_PLATFORM=xcb
+export LD_LIBRARY_PATH=/home/angelmcs/Gowin/IDE/lib:/usr/lib/x86_64-linux-gnu ./gw_ide

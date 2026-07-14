@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue May 20 13:34:16 2025
+[*]
+[dumpfile] "/Work/Proyects/ecb_T8_T113/femtoRV/basic/rtl/cores/div/div_TB.vcd"
+[dumpfile_mtime] "Tue May 20 13:33:15 2025"
+[dumpfile_size] 8731
+[savefile] "/Work/Proyects/ecb_T8_T113/femtoRV/basic/rtl/cores/div/div.gtkw"
+[timestart] 0
+[size] 1920 1011
+[pos] -88 -88
+*-14.888634 1660 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] div_TB.
+[sst_width] 331
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 566
+@28
+[color] 2
+div_TB.clk
+@22
+[color] 2
+div_TB.op_A[15:0]
+[color] 2
+div_TB.op_B[15:0]
+@28
+[color] 2
+div_TB.init
+@29
+[color] 2
+div_TB.reset
+@28
+div_TB.done
+@22
+div_TB.result[31:0]
+@820
+div_TB.uut.state_name[320:1]
+[pattern_trace] 1
+[pattern_trace] 0

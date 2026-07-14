@@ -1,0 +1,33 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Thu Apr 16 12:45:21 2026
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/basic_circuits/Verilog/control_mult2_TB.vcd"
+[dumpfile_mtime] "Thu Apr 16 12:41:42 2026"
+[dumpfile_size] 11302
+[savefile] "/Work/Embedded/digital_UN/basic_circuits/Verilog/control_mult_sim.gtkw"
+[timestart] 0
+[size] 1648 951
+[pos] -325 -176
+*-17.000000 140200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] control_mult_TB.
+[treeopen] control_mult_TB.uut.
+[sst_width] 278
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 523
+@28
+control_mult_TB.uut.clk
+control_mult_TB.uut.reset
+control_mult_TB.uut.init
+[color] 2
+control_mult_TB.uut.z
+[color] 2
+control_mult_TB.uut.lsb_B
+control_mult_TB.uut.add
+@29
+control_mult_TB.uut.sh
+@28
+control_mult_TB.uut.done
+[pattern_trace] 1
+[pattern_trace] 0

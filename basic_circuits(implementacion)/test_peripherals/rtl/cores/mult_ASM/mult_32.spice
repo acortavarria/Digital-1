@@ -1,0 +1,1964 @@
+* NGSPICE file created from mult_32.ext - technology: sky130A
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__inv_2 abstract view
+.subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_2 abstract view
+.subckt sky130_fd_sc_hd__fill_2 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_1 abstract view
+.subckt sky130_fd_sc_hd__fill_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfxtp_1 abstract view
+.subckt sky130_fd_sc_hd__dfxtp_1 CLK D VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__tapvpwrvgnd_1 abstract view
+.subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_4 abstract view
+.subckt sky130_fd_sc_hd__decap_4 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21a_1 abstract view
+.subckt sky130_fd_sc_hd__o21a_1 A1 A2 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor3_1 abstract view
+.subckt sky130_fd_sc_hd__nor3_1 A B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_ef_sc_hd__decap_12 abstract view
+.subckt sky130_ef_sc_hd__decap_12 VPWR VGND VPB VNB
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor2_1 abstract view
+.subckt sky130_fd_sc_hd__nor2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a41o_1 abstract view
+.subckt sky130_fd_sc_hd__a41o_1 A1 A2 A3 A4 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and2_1 abstract view
+.subckt sky130_fd_sc_hd__and2_1 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_6 abstract view
+.subckt sky130_fd_sc_hd__decap_6 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_3 abstract view
+.subckt sky130_fd_sc_hd__decap_3 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and3_1 abstract view
+.subckt sky130_fd_sc_hd__and3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a211oi_1 abstract view
+.subckt sky130_fd_sc_hd__a211oi_1 A1 A2 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_16 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_16 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2_1 abstract view
+.subckt sky130_fd_sc_hd__nand2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dlygate4sd3_1 abstract view
+.subckt sky130_fd_sc_hd__dlygate4sd3_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21o_1 abstract view
+.subckt sky130_fd_sc_hd__a21o_1 A1 A2 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_2 abstract view
+.subckt sky130_fd_sc_hd__buf_2 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_4 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_4 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_8 abstract view
+.subckt sky130_fd_sc_hd__decap_8 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or4b_4 abstract view
+.subckt sky130_fd_sc_hd__or4b_4 A B C D_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21boi_1 abstract view
+.subckt sky130_fd_sc_hd__a21boi_1 A1 A2 B1_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o211a_1 abstract view
+.subckt sky130_fd_sc_hd__o211a_1 A1 A2 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a22o_1 abstract view
+.subckt sky130_fd_sc_hd__a22o_1 A1 A2 B1 B2 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__xnor2_1 abstract view
+.subckt sky130_fd_sc_hd__xnor2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21ai_1 abstract view
+.subckt sky130_fd_sc_hd__o21ai_1 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or3_1 abstract view
+.subckt sky130_fd_sc_hd__or3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or2_1 abstract view
+.subckt sky130_fd_sc_hd__or2_1 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a31o_1 abstract view
+.subckt sky130_fd_sc_hd__a31o_1 A1 A2 A3 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or4_1 abstract view
+.subckt sky130_fd_sc_hd__or4_1 A B C D VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21ba_1 abstract view
+.subckt sky130_fd_sc_hd__o21ba_1 A1 A2 B1_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a211o_1 abstract view
+.subckt sky130_fd_sc_hd__a211o_1 A1 A2 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and2b_1 abstract view
+.subckt sky130_fd_sc_hd__and2b_1 A_N B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__xor2_1 abstract view
+.subckt sky130_fd_sc_hd__xor2_1 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or3_2 abstract view
+.subckt sky130_fd_sc_hd__or3_2 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkinvlp_4 abstract view
+.subckt sky130_fd_sc_hd__clkinvlp_4 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o221a_1 abstract view
+.subckt sky130_fd_sc_hd__o221a_1 A1 A2 B1 B2 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or3b_1 abstract view
+.subckt sky130_fd_sc_hd__or3b_1 A B C_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21oi_1 abstract view
+.subckt sky130_fd_sc_hd__a21oi_1 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_1 abstract view
+.subckt sky130_fd_sc_hd__buf_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a311o_1 abstract view
+.subckt sky130_fd_sc_hd__a311o_1 A1 A2 A3 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o31a_1 abstract view
+.subckt sky130_fd_sc_hd__o31a_1 A1 A2 A3 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21bo_1 abstract view
+.subckt sky130_fd_sc_hd__a21bo_1 A1 A2 B1_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a22oi_1 abstract view
+.subckt sky130_fd_sc_hd__a22oi_1 A1 A2 B1 B2 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or4b_1 abstract view
+.subckt sky130_fd_sc_hd__or4b_1 A B C D_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o311a_1 abstract view
+.subckt sky130_fd_sc_hd__o311a_1 A1 A2 A3 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand3_1 abstract view
+.subckt sky130_fd_sc_hd__nand3_1 A B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_1 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o22a_1 abstract view
+.subckt sky130_fd_sc_hd__o22a_1 A1 A2 B1 B2 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux2_1 abstract view
+.subckt sky130_fd_sc_hd__mux2_1 A0 A1 S VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand4_1 abstract view
+.subckt sky130_fd_sc_hd__nand4_1 A B C D VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and4_1 abstract view
+.subckt sky130_fd_sc_hd__and4_1 A B C D VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or4_4 abstract view
+.subckt sky130_fd_sc_hd__or4_4 A B C D VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a32o_1 abstract view
+.subckt sky130_fd_sc_hd__a32o_1 A1 A2 A3 B1 B2 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21oi_2 abstract view
+.subckt sky130_fd_sc_hd__a21oi_2 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_2 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_2 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and3b_1 abstract view
+.subckt sky130_fd_sc_hd__and3b_1 A_N B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o211ai_1 abstract view
+.subckt sky130_fd_sc_hd__o211ai_1 A1 A2 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2_2 abstract view
+.subckt sky130_fd_sc_hd__nand2_2 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfxtp_2 abstract view
+.subckt sky130_fd_sc_hd__dfxtp_2 CLK D VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o31ai_1 abstract view
+.subckt sky130_fd_sc_hd__o31ai_1 A1 A2 A3 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or2b_1 abstract view
+.subckt sky130_fd_sc_hd__or2b_1 A B_N VGND VNB VPB VPWR X
+.ends
+
+.subckt mult_32 A[0] A[10] A[11] A[12] A[13] A[14] A[15] A[1] A[2] A[3] A[4] A[5]
++ A[6] A[7] A[8] A[9] B[0] B[10] B[11] B[12] B[13] B[14] B[15] B[1] B[2] B[3] B[4]
++ B[5] B[6] B[7] B[8] B[9] VGND VPWR clk done init pp[0] pp[10] pp[11] pp[12] pp[13]
++ pp[14] pp[15] pp[16] pp[17] pp[18] pp[19] pp[1] pp[20] pp[21] pp[22] pp[23] pp[24]
++ pp[25] pp[26] pp[27] pp[28] pp[29] pp[2] pp[30] pp[31] pp[3] pp[4] pp[5] pp[6] pp[7]
++ pp[8] pp[9] rst
+X_0895__34 clknet_1_0__leaf__0461_ VGND VGND VPWR VPWR net101 sky130_fd_sc_hd__inv_2
+XFILLER_0_23_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_1_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0985_ net71 _0083_ VGND VGND VPWR VPWR net61 sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_6_107 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_1_163 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_37_231 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_20_164 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0770_ _0243_ _0389_ control0.add VGND VGND VPWR VPWR _0390_ sky130_fd_sc_hd__o21a_1
+X_0874__15 clknet_1_0__leaf__0459_ VGND VGND VPWR VPWR net82 sky130_fd_sc_hd__inv_2
+X_0968_ net34 control0.state\[1\] control0.state\[0\] VGND VGND VPWR VPWR _0486_ sky130_fd_sc_hd__nor3_1
+XFILLER_0_24_94 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_37_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_0_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0822_ acc0.A\[6\] net64 VGND VGND VPWR VPWR _0430_ sky130_fd_sc_hd__nor2_1
+X_0753_ _0222_ _0233_ _0231_ _0375_ _0343_ VGND VGND VPWR VPWR _0377_ sky130_fd_sc_hd__a41o_1
+XFILLER_0_3_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0684_ acc0.A\[27\] net55 VGND VGND VPWR VPWR _0316_ sky130_fd_sc_hd__and2_1
+XFILLER_0_36_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_19_50 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XPHY_EDGE_ROW_8_Left_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1021_ net107 _0119_ VGND VGND VPWR VPWR acc0.A\[21\] sky130_fd_sc_hd__dfxtp_1
+X_0805_ _0281_ _0286_ _0402_ VGND VGND VPWR VPWR _0417_ sky130_fd_sc_hd__and3_1
+X_0598_ _0226_ _0227_ _0229_ VGND VGND VPWR VPWR _0230_ sky130_fd_sc_hd__o21a_1
+X_0736_ _0219_ _0362_ _0363_ _0181_ VGND VGND VPWR VPWR _0107_ sky130_fd_sc_hd__a211oi_1
+Xclkbuf_1_0__f__0459_ clknet_0__0459_ VGND VGND VPWR VPWR clknet_1_0__leaf__0459_
++ sky130_fd_sc_hd__clkbuf_16
+X_0667_ acc0.A\[13\] net40 VGND VGND VPWR VPWR _0299_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_30_164 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold41 acc0.A\[10\] VGND VGND VPWR VPWR net188 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold30 _0121_ VGND VGND VPWR VPWR net177 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold52 acc0.A\[24\] VGND VGND VPWR VPWR net199 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold63 acc0.A\[25\] VGND VGND VPWR VPWR net210 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold74 acc0.A\[16\] VGND VGND VPWR VPWR net221 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_30_197 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xhold96 net50 VGND VGND VPWR VPWR net243 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold85 _0164_ VGND VGND VPWR VPWR net232 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_13_109 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0521_ net230 _0179_ _0192_ VGND VGND VPWR VPWR _0151_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_21_164 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1004_ net90 _0102_ VGND VGND VPWR VPWR net50 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_29_220 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_12_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0719_ control0.add VGND VGND VPWR VPWR _0350_ sky130_fd_sc_hd__buf_2
+Xoutput64 net64 VGND VGND VPWR VPWR pp[6] sky130_fd_sc_hd__clkbuf_4
+Xoutput53 net53 VGND VGND VPWR VPWR pp[25] sky130_fd_sc_hd__buf_2
+Xoutput42 net42 VGND VGND VPWR VPWR pp[15] sky130_fd_sc_hd__buf_2
+XFILLER_0_37_39 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0504_ _0182_ VGND VGND VPWR VPWR _0183_ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_27_61 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_17_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_7_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_4_161 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_37_Left_76 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_13_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_14_140 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0984_ net70 _0082_ VGND VGND VPWR VPWR net58 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_1_153 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_14_226 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_38_93 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_6_108 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_37_232 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_20_165 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_34_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_34_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0967_ control0.state\[0\] control0.state\[2\] _0476_ control0.state\[1\] VGND VGND
++ VPWR VPWR _0485_ sky130_fd_sc_hd__or4b_4
+X_0937__72 clknet_1_0__leaf__0465_ VGND VGND VPWR VPWR net139 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_12_Right_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_4_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_21_Right_21 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_30_Right_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0821_ _0251_ _0252_ VGND VGND VPWR VPWR _0429_ sky130_fd_sc_hd__nand2_1
+X_0752_ _0222_ _0375_ _0234_ VGND VGND VPWR VPWR _0376_ sky130_fd_sc_hd__a21boi_1
+X_0683_ _0313_ _0314_ VGND VGND VPWR VPWR _0315_ sky130_fd_sc_hd__nand2_1
+XPHY_EDGE_ROW_24_Left_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_19_84 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_29_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_19_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_35_94 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0916__53 clknet_1_1__leaf__0463_ VGND VGND VPWR VPWR net120 sky130_fd_sc_hd__inv_2
+X_1020_ net106 _0118_ VGND VGND VPWR VPWR acc0.A\[20\] sky130_fd_sc_hd__dfxtp_1
+X_0931__67 clknet_1_0__leaf__0464_ VGND VGND VPWR VPWR net134 sky130_fd_sc_hd__inv_2
+X_0735_ _0350_ net224 VGND VGND VPWR VPWR _0363_ sky130_fd_sc_hd__nor2_1
+Xclkbuf_1_0__f__0458_ clknet_0__0458_ VGND VGND VPWR VPWR clknet_1_0__leaf__0458_
++ sky130_fd_sc_hd__clkbuf_16
+X_0804_ _0347_ _0415_ _0416_ _0399_ VGND VGND VPWR VPWR _0092_ sky130_fd_sc_hd__o211a_1
+X_0597_ _0228_ VGND VGND VPWR VPWR _0229_ sky130_fd_sc_hd__inv_2
+X_0666_ acc0.A\[12\] net39 VGND VGND VPWR VPWR _0298_ sky130_fd_sc_hd__nand2_1
+Xhold42 _0155_ VGND VGND VPWR VPWR net189 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold31 acc0.A\[8\] VGND VGND VPWR VPWR net178 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold97 net54 VGND VGND VPWR VPWR net244 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold20 control0.count\[3\] VGND VGND VPWR VPWR net167 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold53 _0123_ VGND VGND VPWR VPWR net200 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold64 acc0.A\[19\] VGND VGND VPWR VPWR net211 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold86 net61 VGND VGND VPWR VPWR net233 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold75 net58 VGND VGND VPWR VPWR net222 sky130_fd_sc_hd__dlygate4sd3_1
+X_0520_ _0180_ net14 _0186_ net168 VGND VGND VPWR VPWR _0192_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_21_198 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_1003_ net89 _0101_ VGND VGND VPWR VPWR net49 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_16_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_16_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_16_96 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_6_Right_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0718_ _0337_ _0348_ VGND VGND VPWR VPWR _0349_ sky130_fd_sc_hd__xnor2_1
+X_0649_ acc0.A\[10\] net37 VGND VGND VPWR VPWR _0281_ sky130_fd_sc_hd__nand2_1
+X_0910__48 clknet_1_1__leaf__0462_ VGND VGND VPWR VPWR net115 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_11_Left_50 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xoutput65 net65 VGND VGND VPWR VPWR pp[7] sky130_fd_sc_hd__clkbuf_4
+Xoutput54 net54 VGND VGND VPWR VPWR pp[26] sky130_fd_sc_hd__buf_2
+Xoutput43 net43 VGND VGND VPWR VPWR pp[16] sky130_fd_sc_hd__buf_2
+X_0503_ _0180_ control0.sh VGND VGND VPWR VPWR _0182_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_11_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_4_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_23_174 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_14_141 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0983_ net69 _0081_ VGND VGND VPWR VPWR net47 sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_6_109 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_38_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_37_233 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_6_224 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0966_ _0482_ _0483_ net236 VGND VGND VPWR VPWR _0484_ sky130_fd_sc_hd__o21ai_1
+XTAP_TAPCELL_ROW_31_206 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_9_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0751_ _0225_ _0227_ _0374_ VGND VGND VPWR VPWR _0375_ sky130_fd_sc_hd__or3_1
+X_0820_ _0369_ net214 _0428_ _0399_ VGND VGND VPWR VPWR _0088_ sky130_fd_sc_hd__o211a_1
+X_0682_ acc0.A\[25\] net53 VGND VGND VPWR VPWR _0314_ sky130_fd_sc_hd__or2_1
+XTAP_TAPCELL_ROW_0_80 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_35_84 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_19_116 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0949_ control0.state\[0\] _0468_ VGND VGND VPWR VPWR _0469_ sky130_fd_sc_hd__and2_1
+XFILLER_0_18_193 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0734_ _0318_ _0361_ VGND VGND VPWR VPWR _0362_ sky130_fd_sc_hd__xnor2_1
+Xclkbuf_1_0__f__0457_ clknet_0__0457_ VGND VGND VPWR VPWR clknet_1_0__leaf__0457_
++ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_24_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_24_152 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0665_ acc0.A\[13\] net40 VGND VGND VPWR VPWR _0297_ sky130_fd_sc_hd__nor2_1
+X_0803_ _0218_ net39 VGND VGND VPWR VPWR _0416_ sky130_fd_sc_hd__or2_1
+X_0596_ acc0.A\[21\] net49 VGND VGND VPWR VPWR _0228_ sky130_fd_sc_hd__and2_1
+XFILLER_0_1_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xhold32 _0153_ VGND VGND VPWR VPWR net179 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold21 acc0.A\[7\] VGND VGND VPWR VPWR net168 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold43 acc0.A\[28\] VGND VGND VPWR VPWR net190 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold76 net46 VGND VGND VPWR VPWR net223 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold54 comp0.B\[1\] VGND VGND VPWR VPWR net201 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold87 net36 VGND VGND VPWR VPWR net234 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold98 net40 VGND VGND VPWR VPWR net245 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold10 comp0.B\[15\] VGND VGND VPWR VPWR net157 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold65 net65 VGND VGND VPWR VPWR net212 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_38_200 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_21_177 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1002_ net88 _0100_ VGND VGND VPWR VPWR net48 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_32_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0717_ _0221_ _0333_ _0334_ _0335_ VGND VGND VPWR VPWR _0348_ sky130_fd_sc_hd__a31o_1
+X_0648_ _0276_ _0277_ _0278_ _0279_ VGND VGND VPWR VPWR _0280_ sky130_fd_sc_hd__or4_1
+X_0579_ net187 _0183_ _0217_ net211 VGND VGND VPWR VPWR _0118_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_35_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xoutput66 net66 VGND VGND VPWR VPWR pp[8] sky130_fd_sc_hd__clkbuf_4
+Xoutput55 net55 VGND VGND VPWR VPWR pp[27] sky130_fd_sc_hd__buf_2
+Xoutput44 net44 VGND VGND VPWR VPWR pp[17] sky130_fd_sc_hd__buf_2
+X_0859__1 clknet_1_0__leaf__0458_ VGND VGND VPWR VPWR net68 sky130_fd_sc_hd__inv_2
+XFILLER_0_5_108 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0502_ _0180_ VGND VGND VPWR VPWR _0181_ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_27_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_17_150 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_17_203 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_4_141 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_17_214 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_17_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_9_118 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_23_175 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0886__26 clknet_1_1__leaf__0460_ VGND VGND VPWR VPWR net93 sky130_fd_sc_hd__inv_2
+XFILLER_0_13_76 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0982_ net68 _0080_ VGND VGND VPWR VPWR net36 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_24_64 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0965_ control0.count\[3\] _0478_ VGND VGND VPWR VPWR _0483_ sky130_fd_sc_hd__xnor2_1
+XFILLER_0_4_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_28_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_31_207 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0681_ acc0.A\[25\] net53 VGND VGND VPWR VPWR _0313_ sky130_fd_sc_hd__nand2_1
+X_0750_ _0226_ _0229_ _0373_ VGND VGND VPWR VPWR _0374_ sky130_fd_sc_hd__and3_1
+XFILLER_0_10_88 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_0_81 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_35_30 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_35_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0948_ net34 control0.state\[2\] VGND VGND VPWR VPWR _0468_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_0_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_33_197 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0802_ _0404_ _0414_ VGND VGND VPWR VPWR _0415_ sky130_fd_sc_hd__and2_1
+X_0733_ _0321_ _0360_ _0319_ VGND VGND VPWR VPWR _0361_ sky130_fd_sc_hd__o21ba_1
+XFILLER_0_24_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0664_ _0281_ _0284_ _0285_ VGND VGND VPWR VPWR _0296_ sky130_fd_sc_hd__o21a_1
+X_0595_ acc0.A\[21\] net49 VGND VGND VPWR VPWR _0227_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_34_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xhold22 _0152_ VGND VGND VPWR VPWR net169 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_15_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold11 _0144_ VGND VGND VPWR VPWR net158 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_30_189 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold66 net49 VGND VGND VPWR VPWR net213 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold44 _0127_ VGND VGND VPWR VPWR net191 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold77 net55 VGND VGND VPWR VPWR net224 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold55 _0130_ VGND VGND VPWR VPWR net202 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold33 comp0.B\[8\] VGND VGND VPWR VPWR net180 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold99 net38 VGND VGND VPWR VPWR net246 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold88 net64 VGND VGND VPWR VPWR net235 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_38_212 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_1001_ net87 _0099_ VGND VGND VPWR VPWR net46 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_12_101 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_12_123 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_12_178 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0578_ net150 _0183_ _0217_ net187 VGND VGND VPWR VPWR _0119_ sky130_fd_sc_hd__a22o_1
+X_0647_ acc0.A\[12\] net39 VGND VGND VPWR VPWR _0279_ sky130_fd_sc_hd__xnor2_1
+X_0716_ _0346_ VGND VGND VPWR VPWR _0347_ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_35_204 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_7_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xoutput67 net67 VGND VGND VPWR VPWR pp[9] sky130_fd_sc_hd__clkbuf_4
+Xoutput56 net56 VGND VGND VPWR VPWR pp[28] sky130_fd_sc_hd__buf_2
+Xoutput45 net45 VGND VGND VPWR VPWR pp[18] sky130_fd_sc_hd__buf_2
+X_0501_ control0.reset VGND VGND VPWR VPWR _0180_ sky130_fd_sc_hd__buf_2
+XFILLER_0_27_97 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_17_151 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_153 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_9_119 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_23_176 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0861__3 clknet_1_0__leaf__0458_ VGND VGND VPWR VPWR net70 sky130_fd_sc_hd__inv_2
+X_0981_ net167 _0466_ _0490_ _0488_ VGND VGND VPWR VPWR _0170_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_38_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_38_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_1_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_204 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0964_ _0480_ _0481_ VGND VGND VPWR VPWR _0482_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_24_43 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0943__78 clknet_1_1__leaf__0465_ VGND VGND VPWR VPWR net145 sky130_fd_sc_hd__inv_2
+X_0928__64 clknet_1_1__leaf__0464_ VGND VGND VPWR VPWR net131 sky130_fd_sc_hd__inv_2
+XFILLER_0_28_129 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_31_208 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0680_ _0294_ _0305_ _0311_ _0238_ VGND VGND VPWR VPWR _0312_ sky130_fd_sc_hd__a211o_1
+XTAP_TAPCELL_ROW_0_82 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0870__11 clknet_1_1__leaf__0459_ VGND VGND VPWR VPWR net78 sky130_fd_sc_hd__inv_2
+XFILLER_0_35_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0947_ control0.state\[2\] _0466_ VGND VGND VPWR VPWR _0467_ sky130_fd_sc_hd__nor2_1
+Xclkload0 clknet_1_0__leaf_clk VGND VGND VPWR VPWR clkload0/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_33_154 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_33_176 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_28_Left_67 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_21_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0801_ _0279_ _0403_ VGND VGND VPWR VPWR _0414_ sky130_fd_sc_hd__nand2_1
+X_0732_ _0324_ _0359_ _0313_ _0328_ VGND VGND VPWR VPWR _0360_ sky130_fd_sc_hd__a31o_1
+X_0907__45 clknet_1_0__leaf__0462_ VGND VGND VPWR VPWR net112 sky130_fd_sc_hd__inv_2
+X_0594_ acc0.A\[20\] net48 VGND VGND VPWR VPWR _0226_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_24_176 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_24_187 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0663_ _0288_ _0290_ VGND VGND VPWR VPWR _0295_ sky130_fd_sc_hd__and2b_1
+X_0922__59 clknet_1_0__leaf__0463_ VGND VGND VPWR VPWR net126 sky130_fd_sc_hd__inv_2
+XFILLER_0_27_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_15_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_15_121 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold34 acc0.A\[9\] VGND VGND VPWR VPWR net181 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold45 acc0.A\[11\] VGND VGND VPWR VPWR net192 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold12 net35 VGND VGND VPWR VPWR net159 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold56 comp0.B\[2\] VGND VGND VPWR VPWR net203 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold23 acc0.A\[3\] VGND VGND VPWR VPWR net170 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold89 control0.state\[2\] VGND VGND VPWR VPWR net236 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold78 net60 VGND VGND VPWR VPWR net225 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold67 net66 VGND VGND VPWR VPWR net214 sky130_fd_sc_hd__dlygate4sd3_1
+X_1000_ net86 _0098_ VGND VGND VPWR VPWR net45 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_12_135 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0715_ _0343_ VGND VGND VPWR VPWR _0346_ sky130_fd_sc_hd__clkbuf_4
+X_0577_ acc0.A\[22\] _0183_ _0217_ net150 VGND VGND VPWR VPWR _0120_ sky130_fd_sc_hd__a22o_1
+X_0646_ acc0.A\[13\] net40 VGND VGND VPWR VPWR _0278_ sky130_fd_sc_hd__xnor2_1
+XFILLER_0_35_216 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xoutput57 net57 VGND VGND VPWR VPWR pp[29] sky130_fd_sc_hd__buf_2
+Xoutput35 net35 VGND VGND VPWR VPWR done sky130_fd_sc_hd__buf_2
+Xoutput46 net46 VGND VGND VPWR VPWR pp[19] sky130_fd_sc_hd__buf_2
+XPHY_EDGE_ROW_19_Right_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0500_ _0178_ VGND VGND VPWR VPWR _0179_ sky130_fd_sc_hd__clkbuf_4
+XPHY_EDGE_ROW_28_Right_28 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_37_Right_37 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_27_21 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_17_152 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_15_Left_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0629_ acc0.A\[2\] net58 VGND VGND VPWR VPWR _0261_ sky130_fd_sc_hd__and2_1
+XTAP_TAPCELL_ROW_23_177 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0980_ _0483_ VGND VGND VPWR VPWR _0490_ sky130_fd_sc_hd__inv_2
+XFILLER_0_1_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_1_135 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_1_179 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_0_Left_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_24_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_216 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0963_ control0.count\[1\] control0.count\[0\] VGND VGND VPWR VPWR _0481_ sky130_fd_sc_hd__xor2_1
+XFILLER_0_24_88 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_4_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_31_209 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_10_46 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_0_83 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0946_ net34 control0.state\[1\] control0.state\[0\] VGND VGND VPWR VPWR _0466_ sky130_fd_sc_hd__or3_2
+XFILLER_0_18_185 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xclkload1 clknet_1_0__leaf__0465_ VGND VGND VPWR VPWR clkload1/Y sky130_fd_sc_hd__clkinvlp_4
+XFILLER_0_33_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_33_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_33_188 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_3_Left_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0731_ _0250_ _0312_ _0326_ VGND VGND VPWR VPWR _0359_ sky130_fd_sc_hd__a21o_1
+X_0800_ _0219_ net245 _0412_ _0413_ _0345_ VGND VGND VPWR VPWR _0093_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_24_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0593_ _0222_ _0224_ VGND VGND VPWR VPWR _0225_ sky130_fd_sc_hd__nand2_1
+X_0662_ _0259_ _0275_ _0293_ VGND VGND VPWR VPWR _0294_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_15_144 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_15_155 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_15_177 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_30_158 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+Xhold35 _0154_ VGND VGND VPWR VPWR net182 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold79 control0.count\[1\] VGND VGND VPWR VPWR net226 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold68 acc0.A\[23\] VGND VGND VPWR VPWR net215 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold13 comp0.B\[5\] VGND VGND VPWR VPWR net160 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold57 comp0.B\[6\] VGND VGND VPWR VPWR net204 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold24 comp0.B\[7\] VGND VGND VPWR VPWR net171 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold46 comp0.B\[13\] VGND VGND VPWR VPWR net193 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_38_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_21_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_29_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_32_22 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0714_ net225 _0219_ _0342_ _0344_ _0345_ VGND VGND VPWR VPWR _0111_ sky130_fd_sc_hd__o221a_1
+X_0645_ acc0.A\[14\] net41 VGND VGND VPWR VPWR _0277_ sky130_fd_sc_hd__xnor2_1
+X_0576_ acc0.A\[23\] _0183_ _0217_ net176 VGND VGND VPWR VPWR _0121_ sky130_fd_sc_hd__a22o_1
+X_1059_ net145 _0157_ VGND VGND VPWR VPWR acc0.A\[13\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_7_185 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xoutput47 net47 VGND VGND VPWR VPWR pp[1] sky130_fd_sc_hd__clkbuf_4
+Xoutput58 net58 VGND VGND VPWR VPWR pp[2] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_9_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xoutput36 net36 VGND VGND VPWR VPWR pp[0] sky130_fd_sc_hd__buf_2
+X_0898__37 clknet_1_0__leaf__0461_ VGND VGND VPWR VPWR net104 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_26_186 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_26_206 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_17_153 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_7_98 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_7_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0628_ acc0.A\[3\] net61 VGND VGND VPWR VPWR _0260_ sky130_fd_sc_hd__nor2_1
+X_0559_ _0208_ net26 _0173_ net205 _0212_ VGND VGND VPWR VPWR _0133_ sky130_fd_sc_hd__o221a_1
+XPHY_EDGE_ROW_32_Left_71 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_3_94 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_1_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0877__18 clknet_1_1__leaf__0459_ VGND VGND VPWR VPWR net85 sky130_fd_sc_hd__inv_2
+XFILLER_0_9_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_5_102 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_180 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_11_126 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_34_218 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0962_ _0478_ _0479_ VGND VGND VPWR VPWR _0480_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_4_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_36_197 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_36_186 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_3_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_0_84 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_18_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xclkload2 clknet_1_0__leaf__0464_ VGND VGND VPWR VPWR clkload2/Y sky130_fd_sc_hd__clkinvlp_4
+X_0730_ _0347_ _0357_ _0358_ _0352_ VGND VGND VPWR VPWR _0108_ sky130_fd_sc_hd__o211a_1
+X_0661_ _0287_ _0288_ _0289_ _0292_ VGND VGND VPWR VPWR _0293_ sky130_fd_sc_hd__or4_1
+X_0592_ acc0.A\[22\] net50 VGND VGND VPWR VPWR _0224_ sky130_fd_sc_hd__or2_1
+XFILLER_0_15_101 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_15_189 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xhold69 net52 VGND VGND VPWR VPWR net216 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold58 comp0.B\[4\] VGND VGND VPWR VPWR net205 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold14 _0134_ VGND VGND VPWR VPWR net161 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold25 _0136_ VGND VGND VPWR VPWR net172 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold36 comp0.B\[14\] VGND VGND VPWR VPWR net183 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold47 _0142_ VGND VGND VPWR VPWR net194 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_21_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0912__50 clknet_1_1__leaf__0462_ VGND VGND VPWR VPWR net117 sky130_fd_sc_hd__inv_2
+XFILLER_0_32_67 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_12_148 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0713_ _0208_ VGND VGND VPWR VPWR _0345_ sky130_fd_sc_hd__clkbuf_4
+X_0644_ acc0.A\[15\] net42 VGND VGND VPWR VPWR _0276_ sky130_fd_sc_hd__xnor2_1
+X_0575_ net199 _0216_ _0217_ net215 VGND VGND VPWR VPWR _0122_ sky130_fd_sc_hd__a22o_1
+X_1058_ net144 _0156_ VGND VGND VPWR VPWR acc0.A\[12\] sky130_fd_sc_hd__dfxtp_1
+Xoutput37 net37 VGND VGND VPWR VPWR pp[10] sky130_fd_sc_hd__clkbuf_4
+Xoutput48 net48 VGND VGND VPWR VPWR pp[20] sky130_fd_sc_hd__buf_2
+XPHY_EDGE_ROW_1_Right_1 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xoutput59 net59 VGND VGND VPWR VPWR pp[30] sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_26_187 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_26_218 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_27_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_4_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_7_44 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0558_ net185 _0175_ VGND VGND VPWR VPWR _0212_ sky130_fd_sc_hd__or2_1
+X_0627_ _0254_ _0255_ _0258_ VGND VGND VPWR VPWR _0259_ sky130_fd_sc_hd__or3b_1
+XFILLER_0_30_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_31_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_3_95 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_38_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold100 acc0.A\[14\] VGND VGND VPWR VPWR net247 sky130_fd_sc_hd__dlygate4sd3_1
+XTAP_TAPCELL_ROW_5_103 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_192 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_11_127 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0882__22 clknet_1_0__leaf__0460_ VGND VGND VPWR VPWR net89 sky130_fd_sc_hd__inv_2
+X_0961_ control0.count\[1\] control0.count\[0\] control0.count\[2\] VGND VGND VPWR
++ VPWR _0479_ sky130_fd_sc_hd__a21oi_1
+XFILLER_0_24_68 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_34_219 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_10_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_0_85 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0919__56 clknet_1_0__leaf__0463_ VGND VGND VPWR VPWR net123 sky130_fd_sc_hd__inv_2
+XFILLER_0_19_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_27_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_27_121 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_2_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_27_198 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xclkload3 clknet_1_1__leaf__0461_ VGND VGND VPWR VPWR clkload3/Y sky130_fd_sc_hd__clkinvlp_4
+X_0591_ acc0.A\[23\] net51 VGND VGND VPWR VPWR _0223_ sky130_fd_sc_hd__nor2_1
+X_0660_ _0290_ _0291_ VGND VGND VPWR VPWR _0292_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_1_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0858_ clknet_1_1__leaf__0457_ VGND VGND VPWR VPWR _0458_ sky130_fd_sc_hd__buf_1
+X_0789_ _0299_ _0298_ _0404_ _0297_ _0277_ VGND VGND VPWR VPWR _0405_ sky130_fd_sc_hd__a311o_1
+Xhold15 acc0.A\[31\] VGND VGND VPWR VPWR net162 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold59 acc0.A\[18\] VGND VGND VPWR VPWR net206 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold26 comp0.B\[9\] VGND VGND VPWR VPWR net173 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold37 _0143_ VGND VGND VPWR VPWR net184 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold48 comp0.B\[12\] VGND VGND VPWR VPWR net195 sky130_fd_sc_hd__dlygate4sd3_1
+X_0864__6 clknet_1_1__leaf__0458_ VGND VGND VPWR VPWR net73 sky130_fd_sc_hd__inv_2
+X_0574_ acc0.A\[25\] _0216_ _0217_ net199 VGND VGND VPWR VPWR _0123_ sky130_fd_sc_hd__a22o_1
+X_0712_ _0220_ _0339_ _0340_ _0341_ _0343_ VGND VGND VPWR VPWR _0344_ sky130_fd_sc_hd__a41o_1
+X_0643_ _0260_ _0269_ _0272_ _0274_ VGND VGND VPWR VPWR _0275_ sky130_fd_sc_hd__o31a_1
+XFILLER_0_25_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1057_ net143 net189 VGND VGND VPWR VPWR acc0.A\[11\] sky130_fd_sc_hd__dfxtp_1
+Xoutput49 net49 VGND VGND VPWR VPWR pp[21] sky130_fd_sc_hd__buf_2
+Xoutput38 net38 VGND VGND VPWR VPWR pp[11] sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_26_188 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_27_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xclkbuf_0_clk clk VGND VGND VPWR VPWR clknet_0_clk sky130_fd_sc_hd__clkbuf_16
+XPHY_EDGE_ROW_15_Right_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0557_ _0208_ net27 _0173_ net160 _0211_ VGND VGND VPWR VPWR _0134_ sky130_fd_sc_hd__o221a_1
+X_0626_ _0256_ _0257_ VGND VGND VPWR VPWR _0258_ sky130_fd_sc_hd__or2_1
+XPHY_EDGE_ROW_24_Right_24 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_33_Right_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_13_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_13_37 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_3_96 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_19_Left_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xhold101 net63 VGND VGND VPWR VPWR net248 sky130_fd_sc_hd__dlygate4sd3_1
+XTAP_TAPCELL_ROW_5_104 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_160 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0609_ acc0.A\[19\] net46 VGND VGND VPWR VPWR _0241_ sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_11_128 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0960_ control0.count\[1\] control0.count\[0\] control0.count\[2\] VGND VGND VPWR
++ VPWR _0478_ sky130_fd_sc_hd__and3_1
+XFILLER_0_10_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0891_ clknet_1_0__leaf__0457_ VGND VGND VPWR VPWR _0461_ sky130_fd_sc_hd__buf_1
+XFILLER_0_27_177 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_18_144 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xclkload4 clknet_1_0__leaf__0459_ VGND VGND VPWR VPWR clkload4/Y sky130_fd_sc_hd__clkinvlp_4
+XFILLER_0_33_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0590_ acc0.A\[22\] net50 VGND VGND VPWR VPWR _0222_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_1_36 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_1_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0857_ clknet_1_1__leaf_clk VGND VGND VPWR VPWR _0457_ sky130_fd_sc_hd__buf_1
+XFILLER_0_15_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold38 comp0.B\[3\] VGND VGND VPWR VPWR net185 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold16 _0129_ VGND VGND VPWR VPWR net163 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold27 _0138_ VGND VGND VPWR VPWR net174 sky130_fd_sc_hd__dlygate4sd3_1
+X_0788_ _0279_ _0403_ VGND VGND VPWR VPWR _0404_ sky130_fd_sc_hd__or2_1
+XFILLER_0_30_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold49 _0141_ VGND VGND VPWR VPWR net196 sky130_fd_sc_hd__dlygate4sd3_1
+XPHY_EDGE_ROW_7_Left_46 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_12_106 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0711_ control0.add VGND VGND VPWR VPWR _0343_ sky130_fd_sc_hd__inv_2
+X_0642_ _0252_ _0273_ _0251_ VGND VGND VPWR VPWR _0274_ sky130_fd_sc_hd__a21bo_1
+XFILLER_0_12_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0573_ _0178_ VGND VGND VPWR VPWR _0217_ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_20_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0903__41 clknet_1_0__leaf__0462_ VGND VGND VPWR VPWR net108 sky130_fd_sc_hd__inv_2
+X_1056_ net142 net182 VGND VGND VPWR VPWR acc0.A\[10\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_7_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xoutput39 net39 VGND VGND VPWR VPWR pp[12] sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_26_189 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0889__29 clknet_1_1__leaf__0460_ VGND VGND VPWR VPWR net96 sky130_fd_sc_hd__inv_2
+XFILLER_0_25_220 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0625_ acc0.A\[5\] net63 VGND VGND VPWR VPWR _0257_ sky130_fd_sc_hd__and2_1
+X_0556_ comp0.B\[4\] _0175_ VGND VGND VPWR VPWR _0211_ sky130_fd_sc_hd__or2_1
+XFILLER_0_16_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1039_ net125 _0137_ VGND VGND VPWR VPWR comp0.B\[7\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_7_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_13_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_3_97 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_22_170 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_22_201 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_9_206 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0608_ acc0.A\[17\] net44 _0239_ VGND VGND VPWR VPWR _0240_ sky130_fd_sc_hd__o21ai_1
+XTAP_TAPCELL_ROW_5_105 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0539_ comp0.B\[12\] _0176_ VGND VGND VPWR VPWR _0202_ sky130_fd_sc_hd__or2_1
+XTAP_TAPCELL_ROW_11_129 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_36_Left_75 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_5_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_20_Left_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_4_36 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0945__80 clknet_1_0__leaf__0465_ VGND VGND VPWR VPWR net147 sky130_fd_sc_hd__inv_2
+XFILLER_0_14_70 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_27_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_30_202 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_32_192 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1072_ clknet_1_0__leaf_clk _0170_ VGND VGND VPWR VPWR control0.count\[3\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_1_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XPHY_EDGE_ROW_23_Left_62 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0856_ _0346_ _0264_ _0456_ _0345_ VGND VGND VPWR VPWR _0080_ sky130_fd_sc_hd__o211a_1
+X_0787_ _0281_ _0285_ _0402_ _0284_ VGND VGND VPWR VPWR _0403_ sky130_fd_sc_hd__a31o_1
+Xhold17 control0.count\[2\] VGND VGND VPWR VPWR net164 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold39 _0132_ VGND VGND VPWR VPWR net186 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold28 acc0.A\[2\] VGND VGND VPWR VPWR net175 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_21_129 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_29_198 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_32_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0641_ acc0.A\[6\] net64 VGND VGND VPWR VPWR _0273_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_12_118 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0710_ _0220_ _0339_ _0340_ _0341_ VGND VGND VPWR VPWR _0342_ sky130_fd_sc_hd__a22oi_1
+X_0572_ net155 _0216_ _0195_ net210 VGND VGND VPWR VPWR _0124_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_20_184 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1055_ net141 net179 VGND VGND VPWR VPWR acc0.A\[9\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_32_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0839_ _0432_ _0443_ VGND VGND VPWR VPWR _0444_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_34_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0624_ acc0.A\[4\] net62 VGND VGND VPWR VPWR _0256_ sky130_fd_sc_hd__and2_1
+X_0555_ _0208_ net28 _0173_ net204 _0210_ VGND VGND VPWR VPWR _0135_ sky130_fd_sc_hd__o221a_1
+XPHY_EDGE_ROW_5_Right_5 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1038_ net124 net172 VGND VGND VPWR VPWR comp0.B\[6\] sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_8_114 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0894__33 clknet_1_0__leaf__0461_ VGND VGND VPWR VPWR net100 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_14_138 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_22_171 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0607_ acc0.A\[17\] net44 net43 acc0.A\[16\] VGND VGND VPWR VPWR _0239_ sky130_fd_sc_hd__a22o_1
+X_0538_ _0172_ net21 _0174_ net183 _0201_ VGND VGND VPWR VPWR _0143_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_24_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_4_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_14_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_14_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0873__14 clknet_1_1__leaf__0459_ VGND VGND VPWR VPWR net81 sky130_fd_sc_hd__inv_2
+XFILLER_0_36_135 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_10_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_10_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_35_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_30_203 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_18_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_18_124 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_18_179 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_33_116 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_1071_ clknet_1_0__leaf_clk _0169_ VGND VGND VPWR VPWR control0.count\[2\] sky130_fd_sc_hd__dfxtp_1
+X_0924_ clknet_1_1__leaf__0457_ VGND VGND VPWR VPWR _0464_ sky130_fd_sc_hd__buf_1
+XFILLER_0_15_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_15_149 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0855_ net149 _0350_ net234 VGND VGND VPWR VPWR _0456_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_30_108 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0786_ _0295_ _0401_ _0283_ _0289_ VGND VGND VPWR VPWR _0402_ sky130_fd_sc_hd__a211o_1
+Xhold29 acc0.A\[22\] VGND VGND VPWR VPWR net176 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold18 acc0.A\[15\] VGND VGND VPWR VPWR net165 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_21_108 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_14_160 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_29_199 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_29_208 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_32_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0571_ acc0.A\[27\] _0216_ _0195_ net155 VGND VGND VPWR VPWR _0125_ sky130_fd_sc_hd__a22o_1
+X_0640_ _0254_ _0257_ _0255_ _0271_ VGND VGND VPWR VPWR _0272_ sky130_fd_sc_hd__or4b_1
+X_1054_ net140 net169 VGND VGND VPWR VPWR acc0.A\[8\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_22_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0769_ _0386_ _0388_ _0244_ VGND VGND VPWR VPWR _0389_ sky130_fd_sc_hd__a21o_1
+X_0838_ _0431_ _0271_ VGND VGND VPWR VPWR _0443_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_6_190 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0554_ net160 _0175_ VGND VGND VPWR VPWR _0210_ sky130_fd_sc_hd__or2_1
+X_0623_ acc0.A\[5\] net63 VGND VGND VPWR VPWR _0255_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_23_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1037_ net123 _0135_ VGND VGND VPWR VPWR comp0.B\[5\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_31_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_8_115 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0879__20 clknet_1_0__leaf__0459_ VGND VGND VPWR VPWR net87 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_11_Right_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_14_139 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_22_172 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_38_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_20_Right_20 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_13_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_0_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0606_ _0225_ _0234_ _0236_ _0237_ VGND VGND VPWR VPWR _0238_ sky130_fd_sc_hd__or4b_1
+X_0537_ comp0.B\[13\] _0176_ VGND VGND VPWR VPWR _0201_ sky130_fd_sc_hd__or2_1
+XFILLER_0_4_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0867__9 clknet_1_1__leaf__0458_ VGND VGND VPWR VPWR net76 sky130_fd_sc_hd__inv_2
+X_0936__71 clknet_1_0__leaf__0465_ VGND VGND VPWR VPWR net138 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_0_78 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_27_147 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_27_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_30_204 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_25_93 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_33_128 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_24_128 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_32_161 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0915__52 clknet_1_1__leaf__0463_ VGND VGND VPWR VPWR net119 sky130_fd_sc_hd__inv_2
+X_1070_ clknet_1_0__leaf_clk _0168_ VGND VGND VPWR VPWR control0.count\[1\] sky130_fd_sc_hd__dfxtp_1
+X_0930__66 clknet_1_0__leaf__0464_ VGND VGND VPWR VPWR net133 sky130_fd_sc_hd__inv_2
+X_0854_ _0347_ _0454_ _0455_ _0399_ VGND VGND VPWR VPWR _0081_ sky130_fd_sc_hd__o211a_1
+X_0785_ _0259_ _0275_ _0292_ VGND VGND VPWR VPWR _0401_ sky130_fd_sc_hd__a21o_1
+Xhold19 _0114_ VGND VGND VPWR VPWR net166 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_16_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0570_ net190 _0216_ _0195_ net197 VGND VGND VPWR VPWR _0126_ sky130_fd_sc_hd__a22o_1
+X_1053_ net139 _0151_ VGND VGND VPWR VPWR acc0.A\[7\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_18_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_7_158 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_7_125 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_22_50 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0837_ _0346_ _0440_ _0441_ _0442_ _0172_ VGND VGND VPWR VPWR _0085_ sky130_fd_sc_hd__o311a_1
+X_0699_ acc0.A\[28\] net56 VGND VGND VPWR VPWR _0331_ sky130_fd_sc_hd__or2_1
+X_0768_ _0387_ _0310_ _0240_ VGND VGND VPWR VPWR _0388_ sky130_fd_sc_hd__o21ai_1
+XFILLER_0_2_60 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_4_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_212 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0553_ _0208_ net29 _0174_ net171 _0209_ VGND VGND VPWR VPWR _0136_ sky130_fd_sc_hd__o221a_1
+X_0622_ _0251_ _0252_ _0253_ VGND VGND VPWR VPWR _0254_ sky130_fd_sc_hd__nand3_1
+XFILLER_0_17_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1036_ net122 net161 VGND VGND VPWR VPWR comp0.B\[4\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_16_212 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_8_116 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_161 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_22_173 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_38_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_38_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0605_ _0228_ _0227_ VGND VGND VPWR VPWR _0237_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_0_197 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0536_ _0172_ net22 _0174_ net157 _0200_ VGND VGND VPWR VPWR _0144_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_28_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1019_ net105 net207 VGND VGND VPWR VPWR acc0.A\[19\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_24_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xclkbuf_1_1__f__0465_ clknet_0__0465_ VGND VGND VPWR VPWR clknet_1_1__leaf__0465_
++ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_30_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0519_ net168 _0179_ _0191_ VGND VGND VPWR VPWR _0152_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_3_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_0_79 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_27_159 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_30_205 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_35_192 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0999_ net85 _0097_ VGND VGND VPWR VPWR net44 sky130_fd_sc_hd__dfxtp_1
+X_0853_ _0218_ net47 VGND VGND VPWR VPWR _0455_ sky130_fd_sc_hd__or2_1
+X_0784_ acc0.A\[14\] net41 VGND VGND VPWR VPWR _0400_ sky130_fd_sc_hd__nand2_1
+Xinput1 A[0] VGND VGND VPWR VPWR net1 sky130_fd_sc_hd__buf_1
+XFILLER_0_32_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_20_176 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XPHY_EDGE_ROW_27_Left_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1052_ net138 _0150_ VGND VGND VPWR VPWR acc0.A\[6\] sky130_fd_sc_hd__dfxtp_1
+X_0767_ _0294_ _0305_ VGND VGND VPWR VPWR _0387_ sky130_fd_sc_hd__and2_1
+X_0836_ _0218_ net248 VGND VGND VPWR VPWR _0442_ sky130_fd_sc_hd__or2_1
+X_0698_ _0317_ _0319_ _0316_ VGND VGND VPWR VPWR _0330_ sky130_fd_sc_hd__a21oi_1
+XFILLER_0_2_72 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_25_182 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0621_ acc0.A\[6\] net64 VGND VGND VPWR VPWR _0253_ sky130_fd_sc_hd__xor2_1
+X_0552_ comp0.B\[6\] _0176_ VGND VGND VPWR VPWR _0209_ sky130_fd_sc_hd__or2_1
+X_1035_ net121 _0133_ VGND VGND VPWR VPWR comp0.B\[3\] sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_8_117 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_184 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_3_140 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0819_ _0401_ _0427_ _0346_ VGND VGND VPWR VPWR _0428_ sky130_fd_sc_hd__a21o_1
+X_0885__25 clknet_1_0__leaf__0460_ VGND VGND VPWR VPWR net92 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_9_Right_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0604_ _0226_ _0235_ VGND VGND VPWR VPWR _0236_ sky130_fd_sc_hd__nand2_1
+X_0535_ comp0.B\[14\] _0176_ VGND VGND VPWR VPWR _0200_ sky130_fd_sc_hd__or2_1
+XPHY_EDGE_ROW_14_Left_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1018_ net104 _0116_ VGND VGND VPWR VPWR acc0.A\[18\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xclkbuf_1_1__f__0464_ clknet_0__0464_ VGND VGND VPWR VPWR clknet_1_1__leaf__0464_
++ sky130_fd_sc_hd__clkbuf_16
+XTAP_TAPCELL_ROW_10_122 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_10_208 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_33_214 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_14_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0518_ _0180_ net15 _0186_ acc0.A\[8\] VGND VGND VPWR VPWR _0191_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_35_18 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0998_ net84 _0096_ VGND VGND VPWR VPWR net43 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_24_119 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_1_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0783_ _0347_ _0397_ _0398_ _0399_ VGND VGND VPWR VPWR _0096_ sky130_fd_sc_hd__o211a_1
+X_0852_ _0264_ _0453_ VGND VGND VPWR VPWR _0454_ sky130_fd_sc_hd__xor2_1
+Xinput2 A[10] VGND VGND VPWR VPWR net2 sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_14_130 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_14_152 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XPHY_EDGE_ROW_2_Left_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_20_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1051_ net137 _0149_ VGND VGND VPWR VPWR acc0.A\[5\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_22_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0697_ _0324_ _0313_ _0328_ _0322_ VGND VGND VPWR VPWR _0329_ sky130_fd_sc_hd__a211o_1
+XFILLER_0_11_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_11_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0766_ _0244_ _0245_ VGND VGND VPWR VPWR _0386_ sky130_fd_sc_hd__nor2_1
+X_0835_ _0257_ _0255_ _0432_ _0256_ VGND VGND VPWR VPWR _0441_ sky130_fd_sc_hd__o22a_1
+XFILLER_0_37_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_11_177 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_25_183 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_25_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0551_ _0171_ VGND VGND VPWR VPWR _0208_ sky130_fd_sc_hd__buf_2
+X_0620_ acc0.A\[7\] net65 VGND VGND VPWR VPWR _0252_ sky130_fd_sc_hd__nand2_1
+X_1034_ net120 net186 VGND VGND VPWR VPWR comp0.B\[2\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_3_152 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0749_ _0248_ _0372_ _0236_ VGND VGND VPWR VPWR _0373_ sky130_fd_sc_hd__a21o_1
+X_0818_ _0259_ _0275_ _0292_ VGND VGND VPWR VPWR _0427_ sky130_fd_sc_hd__nand3_1
+XFILLER_0_38_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_0_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0603_ acc0.A\[20\] net48 VGND VGND VPWR VPWR _0235_ sky130_fd_sc_hd__or2_1
+X_0534_ net149 _0195_ _0199_ VGND VGND VPWR VPWR _0145_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_8_200 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1017_ net103 _0115_ VGND VGND VPWR VPWR acc0.A\[17\] sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_10_123 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_1_1__f__0463_ clknet_0__0463_ VGND VGND VPWR VPWR clknet_1_1__leaf__0463_
++ sky130_fd_sc_hd__clkbuf_16
+XPHY_EDGE_ROW_31_Left_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_33_215 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_5_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_30_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0517_ net178 _0179_ _0190_ VGND VGND VPWR VPWR _0153_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_36_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0927__63 clknet_1_1__leaf__0464_ VGND VGND VPWR VPWR net130 sky130_fd_sc_hd__inv_2
+X_0942__77 clknet_1_1__leaf__0465_ VGND VGND VPWR VPWR net144 sky130_fd_sc_hd__inv_2
+XFILLER_0_25_63 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0997_ net83 _0095_ VGND VGND VPWR VPWR net42 sky130_fd_sc_hd__dfxtp_1
+Xclkbuf_0__0465_ _0465_ VGND VGND VPWR VPWR clknet_0__0465_ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_32_120 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0782_ _0208_ VGND VGND VPWR VPWR _0399_ sky130_fd_sc_hd__clkbuf_4
+X_0851_ _0266_ _0452_ VGND VGND VPWR VPWR _0453_ sky130_fd_sc_hd__nand2_1
+X_0906__44 clknet_1_0__leaf__0462_ VGND VGND VPWR VPWR net111 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_18_Right_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0921__58 clknet_1_0__leaf__0463_ VGND VGND VPWR VPWR net125 sky130_fd_sc_hd__inv_2
+Xinput3 A[11] VGND VGND VPWR VPWR net3 sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_27_Right_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_36_Right_36 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_37_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1050_ net136 _0148_ VGND VGND VPWR VPWR acc0.A\[4\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_22_64 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0834_ _0255_ _0433_ VGND VGND VPWR VPWR _0440_ sky130_fd_sc_hd__nor2_1
+X_0696_ acc0.A\[25\] net53 VGND VGND VPWR VPWR _0328_ sky130_fd_sc_hd__nor2_1
+X_0765_ _0369_ net220 _0385_ _0352_ VGND VGND VPWR VPWR _0100_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_19_201 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_6_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_6_161 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0900__39 clknet_1_0__leaf__0461_ VGND VGND VPWR VPWR net106 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_25_184 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0550_ _0172_ net30 _0174_ net180 _0207_ VGND VGND VPWR VPWR _0137_ sky130_fd_sc_hd__o221a_1
+X_1033_ net119 _0131_ VGND VGND VPWR VPWR comp0.B\[1\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_3_131 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0817_ _0346_ _0424_ _0425_ _0426_ _0345_ VGND VGND VPWR VPWR _0089_ sky130_fd_sc_hd__o311a_1
+X_0679_ _0246_ _0310_ VGND VGND VPWR VPWR _0311_ sky130_fd_sc_hd__or2_1
+X_0748_ _0294_ _0305_ _0311_ VGND VGND VPWR VPWR _0372_ sky130_fd_sc_hd__a21o_1
+XPHY_EDGE_ROW_0_Right_0 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0602_ _0233_ _0231_ VGND VGND VPWR VPWR _0234_ sky130_fd_sc_hd__nand2_1
+X_0533_ _0180_ net8 _0182_ acc0.A\[1\] VGND VGND VPWR VPWR _0199_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_21_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_28_74 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_28_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_1016_ net102 net166 VGND VGND VPWR VPWR acc0.A\[16\] sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_4_100 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_1_1__f__0462_ clknet_0__0462_ VGND VGND VPWR VPWR clknet_1_1__leaf__0462_
++ sky130_fd_sc_hd__clkbuf_16
+X_0890__30 clknet_1_1__leaf__0460_ VGND VGND VPWR VPWR net97 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_10_124 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_14_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_33_216 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0516_ _0181_ net16 _0186_ acc0.A\[9\] VGND VGND VPWR VPWR _0190_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_27_129 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_35_151 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_35_162 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0996_ net82 _0094_ VGND VGND VPWR VPWR net41 sky130_fd_sc_hd__dfxtp_1
+Xclkbuf_0__0464_ _0464_ VGND VGND VPWR VPWR clknet_0__0464_ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_5_96 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_32_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_32_132 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_1_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0850_ acc0.A\[1\] net47 VGND VGND VPWR VPWR _0452_ sky130_fd_sc_hd__or2_1
+X_0781_ _0218_ net43 VGND VGND VPWR VPWR _0398_ sky130_fd_sc_hd__or2_1
+Xinput4 A[12] VGND VGND VPWR VPWR net4 sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_36_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0979_ net164 _0466_ _0480_ _0488_ VGND VGND VPWR VPWR _0169_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_14_165 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0902_ clknet_1_0__leaf__0457_ VGND VGND VPWR VPWR _0462_ sky130_fd_sc_hd__buf_1
+X_0833_ _0369_ net235 _0439_ _0399_ VGND VGND VPWR VPWR _0086_ sky130_fd_sc_hd__o211a_1
+X_0695_ _0250_ _0312_ _0323_ _0326_ VGND VGND VPWR VPWR _0327_ sky130_fd_sc_hd__a211o_1
+X_0764_ _0373_ _0384_ _0346_ VGND VGND VPWR VPWR _0385_ sky130_fd_sc_hd__a21o_1
+XTAP_TAPCELL_ROW_19_160 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_213 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0897__36 clknet_1_1__leaf__0461_ VGND VGND VPWR VPWR net103 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_25_185 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1032_ net118 net202 VGND VGND VPWR VPWR comp0.B\[0\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_17_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_3_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0747_ _0369_ net216 _0371_ _0352_ VGND VGND VPWR VPWR _0104_ sky130_fd_sc_hd__o211a_1
+X_0816_ _0218_ net67 VGND VGND VPWR VPWR _0426_ sky130_fd_sc_hd__or2_1
+X_0678_ _0308_ _0309_ VGND VGND VPWR VPWR _0310_ sky130_fd_sc_hd__or2_1
+X_0601_ acc0.A\[23\] net51 VGND VGND VPWR VPWR _0233_ sky130_fd_sc_hd__or2_1
+XFILLER_0_0_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0532_ net218 _0195_ _0198_ VGND VGND VPWR VPWR _0146_ sky130_fd_sc_hd__a21o_1
+X_1015_ net101 _0113_ VGND VGND VPWR VPWR comp0.B\[15\] sky130_fd_sc_hd__dfxtp_1
+X_0876__17 clknet_1_0__leaf__0459_ VGND VGND VPWR VPWR net84 sky130_fd_sc_hd__inv_2
+XFILLER_0_8_74 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_4_101 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_1_1__f__0461_ clknet_0__0461_ VGND VGND VPWR VPWR clknet_1_1__leaf__0461_
++ sky130_fd_sc_hd__clkbuf_16
+XTAP_TAPCELL_ROW_10_125 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_5_216 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_14_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_33_217 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_18_Left_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0515_ net181 _0179_ _0189_ VGND VGND VPWR VPWR _0154_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_25_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0995_ net81 _0093_ VGND VGND VPWR VPWR net40 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_26_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_26_174 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_5_31 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xclkbuf_0__0463_ _0463_ VGND VGND VPWR VPWR clknet_0__0463_ sky130_fd_sc_hd__clkbuf_16
+X_0780_ _0387_ _0308_ VGND VGND VPWR VPWR _0397_ sky130_fd_sc_hd__xor2_1
+XFILLER_0_23_199 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xinput5 A[13] VGND VGND VPWR VPWR net5 sky130_fd_sc_hd__clkbuf_1
+X_0978_ net226 _0466_ _0481_ _0488_ VGND VGND VPWR VPWR _0168_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_37_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_28_194 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_28_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0763_ _0236_ _0248_ _0372_ VGND VGND VPWR VPWR _0384_ sky130_fd_sc_hd__nand3_1
+XFILLER_0_22_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0832_ _0350_ _0438_ VGND VGND VPWR VPWR _0439_ sky130_fd_sc_hd__nand2_1
+X_0694_ _0324_ _0325_ VGND VGND VPWR VPWR _0326_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_11_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_19_161 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_19_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_6_174 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_6_Left_45 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_10_180 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1031_ net117 net163 VGND VGND VPWR VPWR acc0.A\[31\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_17_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_3_100 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0746_ _0359_ _0370_ _0346_ VGND VGND VPWR VPWR _0371_ sky130_fd_sc_hd__a21o_1
+Xinput30 B[7] VGND VGND VPWR VPWR net30 sky130_fd_sc_hd__clkbuf_1
+X_0815_ _0290_ _0401_ _0423_ VGND VGND VPWR VPWR _0425_ sky130_fd_sc_hd__a21oi_1
+XFILLER_0_31_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0677_ acc0.A\[17\] net44 VGND VGND VPWR VPWR _0309_ sky130_fd_sc_hd__xnor2_1
+XTAP_TAPCELL_ROW_7_110 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_13_134 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0600_ _0225_ _0223_ _0230_ _0231_ VGND VGND VPWR VPWR _0232_ sky130_fd_sc_hd__o31a_1
+X_0531_ _0180_ net9 _0182_ net175 VGND VGND VPWR VPWR _0198_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_0_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_36_226 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1014_ net100 _0112_ VGND VGND VPWR VPWR acc0.A\[0\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0939__74 clknet_1_1__leaf__0465_ VGND VGND VPWR VPWR net141 sky130_fd_sc_hd__inv_2
+X_0729_ _0350_ net242 VGND VGND VPWR VPWR _0358_ sky130_fd_sc_hd__or2_1
+Xclkbuf_1_1__f__0460_ clknet_0__0460_ VGND VGND VPWR VPWR clknet_1_1__leaf__0460_
++ sky130_fd_sc_hd__clkbuf_16
+X_0862__4 clknet_1_0__leaf__0458_ VGND VGND VPWR VPWR net71 sky130_fd_sc_hd__inv_2
+XFILLER_0_14_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_14_23 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0881__21 clknet_1_0__leaf__0460_ VGND VGND VPWR VPWR net88 sky130_fd_sc_hd__inv_2
+XFILLER_0_38_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_30_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0514_ _0181_ net2 _0186_ acc0.A\[10\] VGND VGND VPWR VPWR _0189_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_36_109 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_29_183 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_35_Left_74 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_2_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0918__55 clknet_1_1__leaf__0463_ VGND VGND VPWR VPWR net122 sky130_fd_sc_hd__inv_2
+X_0933__69 clknet_1_0__leaf__0464_ VGND VGND VPWR VPWR net136 sky130_fd_sc_hd__inv_2
+X_0994_ net80 _0092_ VGND VGND VPWR VPWR net39 sky130_fd_sc_hd__dfxtp_1
+Xclkbuf_0__0462_ _0462_ VGND VGND VPWR VPWR clknet_0__0462_ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_5_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_5_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_5_43 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_32_101 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_11_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_23_123 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xinput6 A[14] VGND VGND VPWR VPWR net6 sky130_fd_sc_hd__clkbuf_1
+X_0977_ _0489_ VGND VGND VPWR VPWR _0167_ sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_14_Right_14 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_23_Right_23 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_28_195 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_32_Right_32 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0693_ acc0.A\[24\] net52 VGND VGND VPWR VPWR _0325_ sky130_fd_sc_hd__or2_1
+X_0762_ _0369_ net213 _0383_ _0352_ VGND VGND VPWR VPWR _0101_ sky130_fd_sc_hd__o211a_1
+X_0831_ _0253_ _0434_ VGND VGND VPWR VPWR _0438_ sky130_fd_sc_hd__xor2_1
+XPHY_EDGE_ROW_22_Left_61 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_2_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1030_ net116 net209 VGND VGND VPWR VPWR acc0.A\[30\] sky130_fd_sc_hd__dfxtp_1
+Xinput31 B[8] VGND VGND VPWR VPWR net31 sky130_fd_sc_hd__clkbuf_1
+X_0814_ _0423_ _0290_ _0401_ VGND VGND VPWR VPWR _0424_ sky130_fd_sc_hd__and3_1
+Xinput20 B[12] VGND VGND VPWR VPWR net20 sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_33_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0745_ _0326_ _0250_ _0312_ VGND VGND VPWR VPWR _0370_ sky130_fd_sc_hd__nand3_1
+X_0676_ _0306_ _0307_ VGND VGND VPWR VPWR _0308_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_28_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_30_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_7_111 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_13_135 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0530_ net175 _0195_ _0197_ VGND VGND VPWR VPWR _0147_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_28_99 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_36_227 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1013_ net99 _0111_ VGND VGND VPWR VPWR net60 sky130_fd_sc_hd__dfxtp_1
+XPHY_EDGE_ROW_4_Right_4 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0728_ _0333_ _0356_ VGND VGND VPWR VPWR _0357_ sky130_fd_sc_hd__and2_1
+X_0659_ acc0.A\[8\] net66 VGND VGND VPWR VPWR _0291_ sky130_fd_sc_hd__or2_1
+X_0513_ net188 _0179_ _0188_ VGND VGND VPWR VPWR _0155_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_12_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_29_162 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_29_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0993_ net79 _0091_ VGND VGND VPWR VPWR net38 sky130_fd_sc_hd__dfxtp_1
+Xclkbuf_0__0461_ _0461_ VGND VGND VPWR VPWR clknet_0__0461_ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_5_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_23_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xinput7 A[15] VGND VGND VPWR VPWR net7 sky130_fd_sc_hd__clkbuf_1
+X_0976_ _0488_ _0466_ control0.count\[0\] VGND VGND VPWR VPWR _0489_ sky130_fd_sc_hd__mux2_1
+XFILLER_0_14_146 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_37_205 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_20_116 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_28_196 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0830_ _0369_ net212 _0437_ _0399_ VGND VGND VPWR VPWR _0087_ sky130_fd_sc_hd__o211a_1
+X_0692_ acc0.A\[24\] net52 VGND VGND VPWR VPWR _0324_ sky130_fd_sc_hd__nand2_1
+X_0761_ _0219_ _0382_ VGND VGND VPWR VPWR _0383_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_11_149 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0959_ net33 _0467_ _0470_ _0477_ VGND VGND VPWR VPWR _0160_ sky130_fd_sc_hd__a211o_1
+XFILLER_0_25_208 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0888__28 clknet_1_1__leaf__0460_ VGND VGND VPWR VPWR net95 sky130_fd_sc_hd__inv_2
+Xinput32 B[9] VGND VGND VPWR VPWR net32 sky130_fd_sc_hd__clkbuf_1
+X_0813_ _0288_ _0289_ VGND VGND VPWR VPWR _0423_ sky130_fd_sc_hd__nor2_1
+Xinput21 B[13] VGND VGND VPWR VPWR net21 sky130_fd_sc_hd__clkbuf_1
+Xinput10 A[3] VGND VGND VPWR VPWR net10 sky130_fd_sc_hd__clkbuf_1
+X_0675_ acc0.A\[16\] net43 VGND VGND VPWR VPWR _0307_ sky130_fd_sc_hd__or2_1
+X_0744_ _0350_ VGND VGND VPWR VPWR _0369_ sky130_fd_sc_hd__clkbuf_4
+XTAP_TAPCELL_ROW_7_112 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_13_136 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_105 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_0_127 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1012_ net98 _0110_ VGND VGND VPWR VPWR net59 sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_36_228 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0727_ _0332_ _0327_ _0329_ _0330_ VGND VGND VPWR VPWR _0356_ sky130_fd_sc_hd__nand4_1
+X_0589_ acc0.A\[28\] net56 VGND VGND VPWR VPWR _0221_ sky130_fd_sc_hd__nand2_1
+X_0658_ acc0.A\[8\] net66 VGND VGND VPWR VPWR _0290_ sky130_fd_sc_hd__nand2_1
+X_0512_ _0181_ net3 _0186_ acc0.A\[11\] VGND VGND VPWR VPWR _0188_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_25_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_26_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0992_ net78 _0090_ VGND VGND VPWR VPWR net37 sky130_fd_sc_hd__dfxtp_1
+Xclkbuf_0__0460_ _0460_ VGND VGND VPWR VPWR clknet_0__0460_ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_26_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_17_177 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0923__60 clknet_1_0__leaf__0463_ VGND VGND VPWR VPWR net127 sky130_fd_sc_hd__inv_2
+Xinput8 A[1] VGND VGND VPWR VPWR net8 sky130_fd_sc_hd__clkbuf_1
+X_0975_ control0.state\[2\] _0486_ VGND VGND VPWR VPWR _0488_ sky130_fd_sc_hd__and2_1
+XFILLER_0_37_217 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_28_197 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0760_ _0237_ _0381_ VGND VGND VPWR VPWR _0382_ sky130_fd_sc_hd__xnor2_1
+X_0691_ _0315_ _0322_ VGND VGND VPWR VPWR _0323_ sky130_fd_sc_hd__or2_1
+X_0958_ control0.state\[1\] _0471_ _0476_ _0468_ VGND VGND VPWR VPWR _0477_ sky130_fd_sc_hd__and4_1
+XFILLER_0_34_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_33_35 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_33_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xinput11 A[4] VGND VGND VPWR VPWR net11 sky130_fd_sc_hd__clkbuf_1
+X_0743_ _0219_ net237 _0367_ _0368_ _0345_ VGND VGND VPWR VPWR _0105_ sky130_fd_sc_hd__o221a_1
+Xinput33 init VGND VGND VPWR VPWR net33 sky130_fd_sc_hd__clkbuf_1
+Xinput22 B[14] VGND VGND VPWR VPWR net22 sky130_fd_sc_hd__clkbuf_1
+X_0812_ _0369_ net217 _0422_ _0399_ VGND VGND VPWR VPWR _0090_ sky130_fd_sc_hd__o211a_1
+Xclkbuf_1_0__f_clk clknet_0_clk VGND VGND VPWR VPWR clknet_1_0__leaf_clk sky130_fd_sc_hd__clkbuf_16
+X_0674_ acc0.A\[16\] net43 VGND VGND VPWR VPWR _0306_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_35_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_7_113 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0893__32 clknet_1_1__leaf__0461_ VGND VGND VPWR VPWR net99 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_13_137 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_36_229 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1011_ net97 _0109_ VGND VGND VPWR VPWR net57 sky130_fd_sc_hd__dfxtp_1
+X_0726_ _0219_ net227 _0354_ _0355_ _0345_ VGND VGND VPWR VPWR _0109_ sky130_fd_sc_hd__o221a_1
+X_0588_ acc0.A\[30\] net59 VGND VGND VPWR VPWR _0220_ sky130_fd_sc_hd__nand2_1
+X_0657_ acc0.A\[9\] net67 VGND VGND VPWR VPWR _0289_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_33_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0511_ net192 _0179_ _0187_ VGND VGND VPWR VPWR _0156_ sky130_fd_sc_hd__a21o_1
+X_0872__13 clknet_1_1__leaf__0459_ VGND VGND VPWR VPWR net80 sky130_fd_sc_hd__inv_2
+XFILLER_0_29_175 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_32_210 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0709_ acc0.A\[31\] net60 VGND VGND VPWR VPWR _0341_ sky130_fd_sc_hd__nand2_1
+X_0991_ net77 _0089_ VGND VGND VPWR VPWR net67 sky130_fd_sc_hd__dfxtp_1
+X_0909__47 clknet_1_1__leaf__0462_ VGND VGND VPWR VPWR net114 sky130_fd_sc_hd__inv_2
+XFILLER_0_1_223 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_17_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_31_90 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_1_86 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xinput9 A[2] VGND VGND VPWR VPWR net9 sky130_fd_sc_hd__buf_1
+X_0974_ net159 _0486_ _0468_ VGND VGND VPWR VPWR _0166_ sky130_fd_sc_hd__o21ba_1
+XFILLER_0_22_181 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_13_181 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_20_107 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_20_129 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0690_ _0318_ _0321_ VGND VGND VPWR VPWR _0322_ sky130_fd_sc_hd__or2_1
+XFILLER_0_11_107 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_11_118 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_10_Right_10 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0957_ _0475_ _0472_ _0474_ _0473_ VGND VGND VPWR VPWR _0476_ sky130_fd_sc_hd__or4_4
+XFILLER_0_10_173 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_10_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0865__7 clknet_1_1__leaf__0458_ VGND VGND VPWR VPWR net74 sky130_fd_sc_hd__inv_2
+XFILLER_0_33_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_16_146 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_26_Left_65 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_33_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xinput12 A[5] VGND VGND VPWR VPWR net12 sky130_fd_sc_hd__clkbuf_1
+X_0742_ _0315_ _0366_ _0343_ VGND VGND VPWR VPWR _0368_ sky130_fd_sc_hd__a21o_1
+Xinput34 rst VGND VGND VPWR VPWR net34 sky130_fd_sc_hd__buf_1
+XPHY_EDGE_ROW_10_Left_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xinput23 B[15] VGND VGND VPWR VPWR net23 sky130_fd_sc_hd__clkbuf_1
+X_0673_ _0287_ _0289_ _0295_ _0304_ VGND VGND VPWR VPWR _0305_ sky130_fd_sc_hd__o31a_1
+X_0811_ _0402_ _0421_ _0346_ VGND VGND VPWR VPWR _0422_ sky130_fd_sc_hd__a21o_1
+Xclkbuf_1_0__f__0465_ clknet_0__0465_ VGND VGND VPWR VPWR clknet_1_0__leaf__0465_
++ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_28_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1010_ net96 _0108_ VGND VGND VPWR VPWR net56 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0725_ _0221_ _0333_ _0353_ _0343_ VGND VGND VPWR VPWR _0355_ sky130_fd_sc_hd__a31o_1
+X_0656_ acc0.A\[9\] net67 VGND VGND VPWR VPWR _0288_ sky130_fd_sc_hd__and2_1
+X_0587_ _0218_ VGND VGND VPWR VPWR _0219_ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_18_80 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_14_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_38_121 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0510_ _0181_ net4 _0186_ acc0.A\[12\] VGND VGND VPWR VPWR _0187_ sky130_fd_sc_hd__a22o_1
+Xhold1 acc0.A\[5\] VGND VGND VPWR VPWR net148 sky130_fd_sc_hd__dlygate4sd3_1
+XPHY_EDGE_ROW_8_Right_8 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_32_211 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_13_Left_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0708_ acc0.A\[31\] net60 VGND VGND VPWR VPWR _0340_ sky130_fd_sc_hd__or2_1
+X_0639_ _0256_ _0270_ VGND VGND VPWR VPWR _0271_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_0_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0990_ net76 _0088_ VGND VGND VPWR VPWR net66 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_10_6 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_23_127 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_1_87 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0914__51 clknet_1_1__leaf__0463_ VGND VGND VPWR VPWR net118 sky130_fd_sc_hd__inv_2
+X_0973_ net240 _0161_ _0487_ _0369_ VGND VGND VPWR VPWR _0165_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_14_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_22_193 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_6_135 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_6_102 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0956_ comp0.B\[2\] comp0.B\[1\] comp0.B\[0\] comp0.B\[15\] VGND VGND VPWR VPWR _0475_
++ sky130_fd_sc_hd__or4_4
+XFILLER_0_19_219 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_1_Left_40 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_33_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xinput13 A[6] VGND VGND VPWR VPWR net13 sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_16_147 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_24_180 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0810_ _0283_ _0420_ VGND VGND VPWR VPWR _0421_ sky130_fd_sc_hd__nand2_1
+X_0741_ _0315_ _0366_ VGND VGND VPWR VPWR _0367_ sky130_fd_sc_hd__nor2_1
+Xinput24 B[1] VGND VGND VPWR VPWR net24 sky130_fd_sc_hd__clkbuf_1
+Xclkbuf_1_0__f__0464_ clknet_0__0464_ VGND VGND VPWR VPWR clknet_1_0__leaf__0464_
++ sky130_fd_sc_hd__clkbuf_16
+X_0672_ _0280_ _0296_ _0301_ _0303_ VGND VGND VPWR VPWR _0304_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_15_222 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_0_119 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_21_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0724_ _0221_ _0333_ _0353_ VGND VGND VPWR VPWR _0354_ sky130_fd_sc_hd__a21oi_1
+X_0586_ control0.add VGND VGND VPWR VPWR _0218_ sky130_fd_sc_hd__buf_2
+X_0655_ _0280_ _0283_ _0286_ VGND VGND VPWR VPWR _0287_ sky130_fd_sc_hd__or3b_1
+XFILLER_0_19_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1069_ clknet_1_0__leaf_clk _0167_ VGND VGND VPWR VPWR control0.count\[0\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_38_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_30_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_4_98 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xhold2 acc0.A\[0\] VGND VGND VPWR VPWR net149 sky130_fd_sc_hd__dlygate4sd3_1
+XTAP_TAPCELL_ROW_32_212 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0707_ _0221_ _0333_ _0334_ _0335_ _0338_ VGND VGND VPWR VPWR _0339_ sky130_fd_sc_hd__a311o_1
+X_0569_ acc0.A\[29\] _0216_ _0195_ net190 VGND VGND VPWR VPWR _0127_ sky130_fd_sc_hd__a22o_1
+X_0638_ acc0.A\[4\] net62 VGND VGND VPWR VPWR _0270_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_35_103 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_35_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_8_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_1_203 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_1_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_5_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_17_136 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_31_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_23_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_1_88 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_36_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0972_ control0.state\[1\] _0471_ _0468_ _0487_ net231 VGND VGND VPWR VPWR _0164_
++ sky130_fd_sc_hd__a32o_1
+XFILLER_0_14_106 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_9_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_2_38 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_6_114 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0955_ comp0.B\[6\] comp0.B\[5\] comp0.B\[4\] comp0.B\[3\] VGND VGND VPWR VPWR _0474_
++ sky130_fd_sc_hd__or4_4
+Xinput14 A[7] VGND VGND VPWR VPWR net14 sky130_fd_sc_hd__clkbuf_1
+X_0740_ _0324_ _0359_ VGND VGND VPWR VPWR _0366_ sky130_fd_sc_hd__nand2_1
+Xinput25 B[2] VGND VGND VPWR VPWR net25 sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_16_148 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_1_0__f__0463_ clknet_0__0463_ VGND VGND VPWR VPWR clknet_1_0__leaf__0463_
++ sky130_fd_sc_hd__clkbuf_16
+XTAP_TAPCELL_ROW_24_181 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0671_ acc0.A\[15\] net42 _0302_ VGND VGND VPWR VPWR _0303_ sky130_fd_sc_hd__a21oi_1
+XFILLER_0_15_201 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0869_ clknet_1_0__leaf__0457_ VGND VGND VPWR VPWR _0459_ sky130_fd_sc_hd__buf_1
+XTAP_TAPCELL_ROW_38_240 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_28_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0884__24 clknet_1_0__leaf__0460_ VGND VGND VPWR VPWR net91 sky130_fd_sc_hd__inv_2
+XFILLER_0_8_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0723_ _0335_ _0334_ VGND VGND VPWR VPWR _0353_ sky130_fd_sc_hd__and2b_1
+X_0585_ _0181_ net1 _0216_ net149 VGND VGND VPWR VPWR _0112_ sky130_fd_sc_hd__a22o_1
+X_0654_ _0284_ _0285_ VGND VGND VPWR VPWR _0286_ sky130_fd_sc_hd__and2b_1
+XFILLER_0_18_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1068_ clknet_1_0__leaf_clk _0166_ VGND VGND VPWR VPWR net35 sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_4_99 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xhold3 acc0.A\[21\] VGND VGND VPWR VPWR net150 sky130_fd_sc_hd__dlygate4sd3_1
+XTAP_TAPCELL_ROW_32_213 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_212 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0706_ _0337_ VGND VGND VPWR VPWR _0338_ sky130_fd_sc_hd__inv_2
+X_0568_ net208 _0216_ _0195_ acc0.A\[29\] VGND VGND VPWR VPWR _0128_ sky130_fd_sc_hd__a22o_1
+X_0499_ _0171_ control0.sh VGND VGND VPWR VPWR _0178_ sky130_fd_sc_hd__and2_1
+X_0637_ _0263_ _0267_ _0268_ _0261_ VGND VGND VPWR VPWR _0269_ sky130_fd_sc_hd__a211oi_1
+XFILLER_0_31_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_35_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_9_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_1_215 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_5_38 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_5_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_1_89 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0971_ _0181_ _0487_ _0467_ VGND VGND VPWR VPWR _0163_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_36_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_27_190 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_6_126 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0954_ comp0.B\[14\] comp0.B\[13\] comp0.B\[12\] comp0.B\[11\] VGND VGND VPWR VPWR
++ _0473_ sky130_fd_sc_hd__or4_4
+XFILLER_0_10_132 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_10_165 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_5_192 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_16_149 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xinput15 A[8] VGND VGND VPWR VPWR net15 sky130_fd_sc_hd__clkbuf_1
+Xclkbuf_1_0__f__0462_ clknet_0__0462_ VGND VGND VPWR VPWR clknet_1_0__leaf__0462_
++ sky130_fd_sc_hd__clkbuf_16
+Xinput26 B[3] VGND VGND VPWR VPWR net26 sky130_fd_sc_hd__clkbuf_1
+X_0670_ acc0.A\[15\] net42 net41 acc0.A\[14\] VGND VGND VPWR VPWR _0302_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_23_72 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0799_ _0411_ _0298_ _0404_ _0343_ VGND VGND VPWR VPWR _0413_ sky130_fd_sc_hd__a31o_1
+XFILLER_0_2_195 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_38_241 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_8_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_12_130 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0722_ _0347_ _0349_ _0351_ _0352_ VGND VGND VPWR VPWR _0110_ sky130_fd_sc_hd__o211a_1
+X_0653_ acc0.A\[11\] net38 VGND VGND VPWR VPWR _0285_ sky130_fd_sc_hd__nand2_1
+X_0584_ _0181_ net23 _0216_ net157 VGND VGND VPWR VPWR _0113_ sky130_fd_sc_hd__a22o_1
+X_1067_ clknet_1_1__leaf_clk _0165_ VGND VGND VPWR VPWR control0.add sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_26_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_35_222 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_38_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xhold4 _0120_ VGND VGND VPWR VPWR net151 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_4_224 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_29_124 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0705_ _0220_ _0336_ VGND VGND VPWR VPWR _0337_ sky130_fd_sc_hd__and2_1
+X_0636_ acc0.A\[3\] net61 VGND VGND VPWR VPWR _0268_ sky130_fd_sc_hd__and2_1
+X_0567_ net162 _0216_ _0195_ acc0.A\[30\] VGND VGND VPWR VPWR _0129_ sky130_fd_sc_hd__a22o_1
+X_0498_ _0172_ net7 _0174_ net247 _0177_ VGND VGND VPWR VPWR _0159_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_9_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_17_Right_17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_35_127 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_26_Right_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0926__62 clknet_1_1__leaf__0464_ VGND VGND VPWR VPWR net129 sky130_fd_sc_hd__inv_2
+X_0941__76 clknet_1_1__leaf__0465_ VGND VGND VPWR VPWR net143 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_35_Right_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_17_Left_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0619_ acc0.A\[7\] net65 VGND VGND VPWR VPWR _0251_ sky130_fd_sc_hd__or2_1
+XFILLER_0_16_171 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_16_193 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_23_119 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_31_152 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_31_163 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0970_ _0485_ _0484_ _0487_ VGND VGND VPWR VPWR _0162_ sky130_fd_sc_hd__a21oi_2
+X_0905__43 clknet_1_0__leaf__0462_ VGND VGND VPWR VPWR net110 sky130_fd_sc_hd__inv_2
+XFILLER_0_22_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0920__57 clknet_1_0__leaf__0463_ VGND VGND VPWR VPWR net124 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_19_158 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_27_191 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_10_100 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_12_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0953_ comp0.B\[10\] comp0.B\[9\] comp0.B\[8\] comp0.B\[7\] VGND VGND VPWR VPWR _0472_
++ sky130_fd_sc_hd__or4_4
+XFILLER_0_10_155 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_33_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xinput16 A[9] VGND VGND VPWR VPWR net16 sky130_fd_sc_hd__clkbuf_1
+Xinput27 B[4] VGND VGND VPWR VPWR net27 sky130_fd_sc_hd__clkbuf_1
+Xclkbuf_1_0__f__0461_ clknet_0__0461_ VGND VGND VPWR VPWR clknet_1_0__leaf__0461_
++ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_15_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_23_95 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_2_130 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0798_ _0298_ _0404_ _0411_ VGND VGND VPWR VPWR _0412_ sky130_fd_sc_hd__a21oi_1
+XFILLER_0_3_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_5_Left_44 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_21_206 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_12_131 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0721_ _0208_ VGND VGND VPWR VPWR _0352_ sky130_fd_sc_hd__clkbuf_4
+X_0583_ acc0.A\[16\] _0183_ _0217_ net165 VGND VGND VPWR VPWR _0114_ sky130_fd_sc_hd__a22o_1
+X_0652_ acc0.A\[11\] net38 VGND VGND VPWR VPWR _0284_ sky130_fd_sc_hd__nor2_1
+X_1066_ clknet_1_1__leaf_clk net232 VGND VGND VPWR VPWR control0.sh sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_34_72 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_35_223 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_7_200 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xhold5 comp0.B\[10\] VGND VGND VPWR VPWR net152 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_29_136 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0704_ acc0.A\[30\] net59 VGND VGND VPWR VPWR _0336_ sky130_fd_sc_hd__or2_1
+X_0566_ _0182_ VGND VGND VPWR VPWR _0216_ sky130_fd_sc_hd__clkbuf_4
+X_0635_ _0264_ _0265_ _0266_ VGND VGND VPWR VPWR _0267_ sky130_fd_sc_hd__o21ai_1
+XFILLER_0_17_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0497_ acc0.A\[15\] _0176_ VGND VGND VPWR VPWR _0177_ sky130_fd_sc_hd__or2_1
+XFILLER_0_29_72 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_1049_ net135 _0147_ VGND VGND VPWR VPWR acc0.A\[3\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_35_117 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_26_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_34_194 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_31_73 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0618_ _0222_ _0223_ _0232_ _0249_ VGND VGND VPWR VPWR _0250_ sky130_fd_sc_hd__o211a_1
+X_0549_ net171 _0176_ VGND VGND VPWR VPWR _0207_ sky130_fd_sc_hd__or2_1
+XFILLER_0_6_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_36_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_36_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XPHY_EDGE_ROW_34_Left_73 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_22_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_13_120 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_6_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XTAP_TAPCELL_ROW_19_159 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0952_ control0.state\[0\] VGND VGND VPWR VPWR _0471_ sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_27_192 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_2_90 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_10_112 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_12_64 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0896__35 clknet_1_1__leaf__0461_ VGND VGND VPWR VPWR net102 sky130_fd_sc_hd__inv_2
+Xclkbuf_1_0__f__0460_ clknet_0__0460_ VGND VGND VPWR VPWR clknet_1_0__leaf__0460_
++ sky130_fd_sc_hd__clkbuf_16
+Xinput17 B[0] VGND VGND VPWR VPWR net17 sky130_fd_sc_hd__clkbuf_1
+Xinput28 B[5] VGND VGND VPWR VPWR net28 sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_21_Left_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0935_ clknet_1_1__leaf__0457_ VGND VGND VPWR VPWR _0465_ sky130_fd_sc_hd__buf_1
+XFILLER_0_2_197 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0797_ _0297_ _0299_ VGND VGND VPWR VPWR _0411_ sky130_fd_sc_hd__and2b_1
+XFILLER_0_8_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_12_132 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0720_ _0350_ net239 VGND VGND VPWR VPWR _0351_ sky130_fd_sc_hd__or2_1
+X_0582_ net219 _0183_ _0217_ net221 VGND VGND VPWR VPWR _0115_ sky130_fd_sc_hd__a22o_1
+X_0651_ _0281_ _0282_ VGND VGND VPWR VPWR _0283_ sky130_fd_sc_hd__nand2_1
+X_0875__16 clknet_1_1__leaf__0459_ VGND VGND VPWR VPWR net83 sky130_fd_sc_hd__inv_2
+X_1065_ clknet_1_1__leaf_clk _0163_ VGND VGND VPWR VPWR control0.reset sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_35_224 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0849_ _0219_ net222 _0451_ _0399_ VGND VGND VPWR VPWR _0082_ sky130_fd_sc_hd__o211a_1
+Xhold6 _0139_ VGND VGND VPWR VPWR net153 sky130_fd_sc_hd__dlygate4sd3_1
+X_0703_ acc0.A\[29\] net57 VGND VGND VPWR VPWR _0335_ sky130_fd_sc_hd__nor2_1
+X_0565_ _0208_ net17 _0173_ net201 _0215_ VGND VGND VPWR VPWR _0130_ sky130_fd_sc_hd__o221a_1
+X_0496_ _0175_ VGND VGND VPWR VPWR _0176_ sky130_fd_sc_hd__clkbuf_2
+X_0634_ acc0.A\[1\] net47 VGND VGND VPWR VPWR _0266_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_29_84 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_3_Right_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_0_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_0_63 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_0_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1048_ net134 _0146_ VGND VGND VPWR VPWR acc0.A\[2\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_28_170 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xclkbuf_1_1__f_clk clknet_0_clk VGND VGND VPWR VPWR clknet_1_1__leaf_clk sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_25_151 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_173 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0617_ _0238_ _0248_ VGND VGND VPWR VPWR _0249_ sky130_fd_sc_hd__or2_1
+X_0548_ _0172_ net31 _0174_ net173 _0206_ VGND VGND VPWR VPWR _0138_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_31_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_9_159 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_6_73 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_13_132 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0860__2 clknet_1_0__leaf__0458_ VGND VGND VPWR VPWR net69 sky130_fd_sc_hd__inv_2
+X_0951_ control0.state\[1\] _0161_ comp0.B\[0\] VGND VGND VPWR VPWR _0470_ sky130_fd_sc_hd__and3b_1
+XFILLER_0_27_213 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XTAP_TAPCELL_ROW_27_193 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_2_91 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_37_95 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_37_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+Xinput18 B[10] VGND VGND VPWR VPWR net18 sky130_fd_sc_hd__clkbuf_1
+Xinput29 B[6] VGND VGND VPWR VPWR net29 sky130_fd_sc_hd__clkbuf_1
+X_0796_ _0369_ net238 _0410_ _0399_ VGND VGND VPWR VPWR _0094_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_3_63 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_21_166 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_29_200 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_12_133 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0581_ net206 _0183_ _0217_ net219 VGND VGND VPWR VPWR _0116_ sky130_fd_sc_hd__a22o_1
+X_0650_ acc0.A\[10\] net37 VGND VGND VPWR VPWR _0282_ sky130_fd_sc_hd__or2_1
+X_1064_ clknet_1_0__leaf_clk _0162_ VGND VGND VPWR VPWR control0.state\[2\] sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_35_225 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_34_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_34_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0938__73 clknet_1_0__leaf__0465_ VGND VGND VPWR VPWR net140 sky130_fd_sc_hd__inv_2
+X_0779_ _0347_ _0395_ _0396_ _0352_ VGND VGND VPWR VPWR _0097_ sky130_fd_sc_hd__o211a_1
+X_0848_ _0446_ _0450_ _0350_ VGND VGND VPWR VPWR _0451_ sky130_fd_sc_hd__o21ai_1
+XFILLER_0_38_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xhold7 acc0.A\[4\] VGND VGND VPWR VPWR net154 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_37_193 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0702_ acc0.A\[29\] net57 VGND VGND VPWR VPWR _0334_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_20_43 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0633_ acc0.A\[1\] net47 VGND VGND VPWR VPWR _0265_ sky130_fd_sc_hd__nor2_1
+X_0564_ comp0.B\[0\] _0175_ VGND VGND VPWR VPWR _0215_ sky130_fd_sc_hd__or2_1
+X_0495_ control0.reset control0.sh VGND VGND VPWR VPWR _0175_ sky130_fd_sc_hd__or2_1
+X_1047_ net133 _0145_ VGND VGND VPWR VPWR acc0.A\[1\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_0_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_0_75 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_34_130 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_34_174 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0917__54 clknet_1_1__leaf__0463_ VGND VGND VPWR VPWR net121 sky130_fd_sc_hd__inv_2
+X_0932__68 clknet_1_0__leaf__0464_ VGND VGND VPWR VPWR net135 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_13_Right_13 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_22_Right_22 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_31_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0616_ _0240_ _0246_ _0247_ _0241_ VGND VGND VPWR VPWR _0248_ sky130_fd_sc_hd__o22a_1
+XFILLER_0_25_196 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0547_ comp0.B\[8\] _0176_ VGND VGND VPWR VPWR _0206_ sky130_fd_sc_hd__or2_1
+XPHY_EDGE_ROW_31_Right_31 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_22_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_22_177 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_13_144 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0911__49 clknet_1_1__leaf__0462_ VGND VGND VPWR VPWR net116 sky130_fd_sc_hd__inv_2
+X_0950_ _0469_ VGND VGND VPWR VPWR _0161_ sky130_fd_sc_hd__clkbuf_1
+Xclkbuf_1_1__f__0459_ clknet_0__0459_ VGND VGND VPWR VPWR clknet_1_1__leaf__0459_
++ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_27_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XTAP_TAPCELL_ROW_2_92 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_10_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_5_174 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xinput19 B[11] VGND VGND VPWR VPWR net19 sky130_fd_sc_hd__clkbuf_1
+XTAP_TAPCELL_ROW_15_142 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_23_10 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0795_ _0405_ _0409_ _0346_ VGND VGND VPWR VPWR _0410_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_30_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_38_234 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_75 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XTAP_TAPCELL_ROW_21_167 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_29_201 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0580_ acc0.A\[19\] _0183_ _0217_ net206 VGND VGND VPWR VPWR _0117_ sky130_fd_sc_hd__a22o_1
+X_1063_ clknet_1_1__leaf_clk _0161_ VGND VGND VPWR VPWR control0.state\[1\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_34_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_7_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_7_214 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_34_97 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0778_ _0218_ net44 VGND VGND VPWR VPWR _0396_ sky130_fd_sc_hd__or2_1
+X_0847_ _0263_ _0267_ VGND VGND VPWR VPWR _0450_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_38_128 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_9_Left_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xhold8 acc0.A\[26\] VGND VGND VPWR VPWR net155 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_29_106 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0701_ _0327_ _0329_ _0330_ _0332_ VGND VGND VPWR VPWR _0333_ sky130_fd_sc_hd__a31o_1
+X_0563_ _0208_ net24 _0173_ net203 _0214_ VGND VGND VPWR VPWR _0131_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_20_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0632_ net149 net36 VGND VGND VPWR VPWR _0264_ sky130_fd_sc_hd__nand2_1
+X_0494_ _0173_ VGND VGND VPWR VPWR _0174_ sky130_fd_sc_hd__buf_2
+X_1046_ net132 net158 VGND VGND VPWR VPWR comp0.B\[14\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_9_52 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_34_186 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_34_197 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_31_98 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0615_ _0242_ _0244_ VGND VGND VPWR VPWR _0247_ sky130_fd_sc_hd__nor2_1
+X_0546_ _0172_ net32 _0174_ net152 _0205_ VGND VGND VPWR VPWR _0139_ sky130_fd_sc_hd__o221a_1
+XFILLER_0_15_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1029_ net115 net191 VGND VGND VPWR VPWR acc0.A\[29\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_16_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_31_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_22_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_13_156 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0529_ _0180_ net10 _0186_ net170 VGND VGND VPWR VPWR _0197_ sky130_fd_sc_hd__a22o_1
+XPHY_EDGE_ROW_38_Left_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_4_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0880_ clknet_1_0__leaf__0457_ VGND VGND VPWR VPWR _0460_ sky130_fd_sc_hd__buf_1
+Xclkbuf_1_1__f__0458_ clknet_0__0458_ VGND VGND VPWR VPWR clknet_1_1__leaf__0458_
++ sky130_fd_sc_hd__clkbuf_16
+XTAP_TAPCELL_ROW_2_93 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_24_218 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0887__27 clknet_1_1__leaf__0460_ VGND VGND VPWR VPWR net94 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_15_143 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_23_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_23_99 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_2_189 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0794_ _0297_ _0404_ _0300_ _0277_ VGND VGND VPWR VPWR _0409_ sky130_fd_sc_hd__o211ai_1
+XTAP_TAPCELL_ROW_38_235 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_21_168 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_18_22 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XPHY_EDGE_ROW_25_Left_64 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1062_ clknet_1_1__leaf_clk _0160_ VGND VGND VPWR VPWR control0.state\[0\] sky130_fd_sc_hd__dfxtp_1
+X_0777_ _0309_ _0394_ VGND VGND VPWR VPWR _0395_ sky130_fd_sc_hd__xnor2_1
+X_0846_ _0219_ net233 _0448_ _0449_ _0345_ VGND VGND VPWR VPWR _0083_ sky130_fd_sc_hd__o221a_1
+Xhold9 _0125_ VGND VGND VPWR VPWR net156 sky130_fd_sc_hd__dlygate4sd3_1
+X_0700_ _0221_ _0331_ VGND VGND VPWR VPWR _0332_ sky130_fd_sc_hd__nand2_1
+X_0562_ net201 _0175_ VGND VGND VPWR VPWR _0214_ sky130_fd_sc_hd__or2_1
+XFILLER_0_20_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0631_ _0261_ _0262_ VGND VGND VPWR VPWR _0263_ sky130_fd_sc_hd__nor2_1
+X_0493_ _0171_ control0.sh VGND VGND VPWR VPWR _0173_ sky130_fd_sc_hd__nand2_2
+XFILLER_0_0_99 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_1045_ net131 net184 VGND VGND VPWR VPWR comp0.B\[13\] sky130_fd_sc_hd__dfxtp_1
+X_0829_ _0429_ _0435_ _0436_ VGND VGND VPWR VPWR _0437_ sky130_fd_sc_hd__o21ai_1
+XFILLER_0_28_162 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_7_Right_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_0_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0614_ _0243_ _0244_ _0245_ VGND VGND VPWR VPWR _0246_ sky130_fd_sc_hd__or3_1
+X_0545_ comp0.B\[9\] _0176_ VGND VGND VPWR VPWR _0205_ sky130_fd_sc_hd__or2_1
+X_1028_ net114 _0126_ VGND VGND VPWR VPWR acc0.A\[28\] sky130_fd_sc_hd__dfxtp_1
+XPHY_EDGE_ROW_12_Left_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_26_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_13_102 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_6_65 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0528_ net170 _0195_ _0196_ VGND VGND VPWR VPWR _0148_ sky130_fd_sc_hd__a21o_1
+Xclkbuf_1_1__f__0457_ clknet_0__0457_ VGND VGND VPWR VPWR clknet_1_1__leaf__0457_
++ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_10_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0901__40 clknet_1_0__leaf__0461_ VGND VGND VPWR VPWR net107 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_9_120 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_15_144 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0793_ _0219_ net42 _0407_ _0408_ _0345_ VGND VGND VPWR VPWR _0095_ sky130_fd_sc_hd__o221a_1
+XTAP_TAPCELL_ROW_38_236 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_21_169 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_0__0459_ _0459_ VGND VGND VPWR VPWR clknet_0__0459_ sky130_fd_sc_hd__clkbuf_16
+X_0892__31 clknet_1_1__leaf__0461_ VGND VGND VPWR VPWR net98 sky130_fd_sc_hd__inv_2
+X_1061_ net147 _0159_ VGND VGND VPWR VPWR acc0.A\[15\] sky130_fd_sc_hd__dfxtp_2
+X_0845_ _0261_ _0446_ _0447_ _0350_ VGND VGND VPWR VPWR _0449_ sky130_fd_sc_hd__o31ai_1
+XFILLER_0_11_222 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0776_ _0387_ _0308_ _0306_ VGND VGND VPWR VPWR _0394_ sky130_fd_sc_hd__o21ai_1
+XFILLER_0_38_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0929__65 clknet_1_1__leaf__0464_ VGND VGND VPWR VPWR net132 sky130_fd_sc_hd__inv_2
+X_0944__79 clknet_1_1__leaf__0465_ VGND VGND VPWR VPWR net146 sky130_fd_sc_hd__inv_2
+X_0561_ _0208_ net25 _0173_ net185 _0213_ VGND VGND VPWR VPWR _0132_ sky130_fd_sc_hd__o221a_1
+X_0492_ _0171_ VGND VGND VPWR VPWR _0172_ sky130_fd_sc_hd__buf_2
+X_0630_ acc0.A\[2\] net58 VGND VGND VPWR VPWR _0262_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_29_99 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1044_ net130 net194 VGND VGND VPWR VPWR comp0.B\[12\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_28_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0871__12 clknet_1_1__leaf__0459_ VGND VGND VPWR VPWR net79 sky130_fd_sc_hd__inv_2
+X_0828_ _0429_ _0435_ _0343_ VGND VGND VPWR VPWR _0436_ sky130_fd_sc_hd__a21oi_1
+X_0759_ _0226_ _0373_ VGND VGND VPWR VPWR _0381_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_28_185 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0863__5 clknet_1_1__leaf__0458_ VGND VGND VPWR VPWR net72 sky130_fd_sc_hd__inv_2
+XFILLER_0_19_185 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_34_144 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0613_ acc0.A\[18\] net45 VGND VGND VPWR VPWR _0245_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_25_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_144 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_188 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0908__46 clknet_1_1__leaf__0462_ VGND VGND VPWR VPWR net113 sky130_fd_sc_hd__inv_2
+X_0544_ _0172_ net18 _0174_ net198 _0204_ VGND VGND VPWR VPWR _0140_ sky130_fd_sc_hd__o221a_1
+X_1027_ net113 net156 VGND VGND VPWR VPWR acc0.A\[27\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_22_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_16_122 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xhold90 net53 VGND VGND VPWR VPWR net237 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_26_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_9_108 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_13_169 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0527_ _0180_ net11 _0186_ net154 VGND VGND VPWR VPWR _0196_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_37_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_5_166 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_33_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XTAP_TAPCELL_ROW_24_178 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_9_121 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_15_145 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0792_ _0406_ _0400_ _0405_ _0343_ VGND VGND VPWR VPWR _0408_ sky130_fd_sc_hd__a31o_1
+XFILLER_0_23_79 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_23_220 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XTAP_TAPCELL_ROW_38_237 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_1_191 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xclkbuf_0__0458_ _0458_ VGND VGND VPWR VPWR clknet_0__0458_ sky130_fd_sc_hd__clkbuf_16
+XPHY_EDGE_ROW_29_Right_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_38_Right_38 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1060_ net146 _0158_ VGND VGND VPWR VPWR acc0.A\[14\] sky130_fd_sc_hd__dfxtp_1
+X_0775_ _0347_ _0392_ _0393_ _0352_ VGND VGND VPWR VPWR _0098_ sky130_fd_sc_hd__o211a_1
+X_0913_ clknet_1_1__leaf__0457_ VGND VGND VPWR VPWR _0463_ sky130_fd_sc_hd__buf_1
+X_0844_ _0261_ _0446_ _0447_ VGND VGND VPWR VPWR _0448_ sky130_fd_sc_hd__o21a_1
+XFILLER_0_37_131 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_20_69 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0560_ comp0.B\[2\] _0175_ VGND VGND VPWR VPWR _0213_ sky130_fd_sc_hd__or2_1
+X_0491_ control0.reset VGND VGND VPWR VPWR _0171_ sky130_fd_sc_hd__inv_2
+XFILLER_0_29_23 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_1043_ net129 net196 VGND VGND VPWR VPWR comp0.B\[11\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_0_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_0_79 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_28_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0827_ _0430_ _0434_ _0273_ VGND VGND VPWR VPWR _0435_ sky130_fd_sc_hd__o21ai_1
+X_0758_ _0347_ _0379_ _0380_ _0352_ VGND VGND VPWR VPWR _0102_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_9_99 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0689_ _0319_ _0320_ VGND VGND VPWR VPWR _0321_ sky130_fd_sc_hd__or2_1
+XFILLER_0_19_120 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_19_197 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_34_134 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_34_156 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_15_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0612_ acc0.A\[18\] net45 VGND VGND VPWR VPWR _0244_ sky130_fd_sc_hd__and2_1
+X_0543_ net152 _0176_ VGND VGND VPWR VPWR _0204_ sky130_fd_sc_hd__or2_1
+X_1026_ net112 _0124_ VGND VGND VPWR VPWR acc0.A\[26\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_30_181 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xhold80 net57 VGND VGND VPWR VPWR net227 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold91 net41 VGND VGND VPWR VPWR net238 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_6_45 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0526_ _0178_ VGND VGND VPWR VPWR _0195_ sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_13_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_1009_ net95 _0107_ VGND VGND VPWR VPWR net55 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_175 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0899__38 clknet_1_0__leaf__0461_ VGND VGND VPWR VPWR net105 sky130_fd_sc_hd__inv_2
+XFILLER_0_12_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_27_207 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_18_154 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_5_156 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0509_ _0182_ VGND VGND VPWR VPWR _0186_ sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_24_179 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_2_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_32_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0791_ _0400_ _0405_ _0406_ VGND VGND VPWR VPWR _0407_ sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_38_238 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_3_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0878__19 clknet_1_0__leaf__0459_ VGND VGND VPWR VPWR net86 sky130_fd_sc_hd__inv_2
+X_0989_ net75 _0087_ VGND VGND VPWR VPWR net65 sky130_fd_sc_hd__dfxtp_1
+Xclkbuf_0__0457_ _0457_ VGND VGND VPWR VPWR clknet_0__0457_ sky130_fd_sc_hd__clkbuf_16
+XFILLER_0_20_213 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_20_224 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0774_ _0218_ net45 VGND VGND VPWR VPWR _0393_ sky130_fd_sc_hd__or2_1
+X_0843_ _0260_ _0268_ VGND VGND VPWR VPWR _0447_ sky130_fd_sc_hd__or2_1
+XFILLER_0_20_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_20_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_20_37 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_29_Left_68 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1042_ net128 _0140_ VGND VGND VPWR VPWR comp0.B\[10\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_28_121 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0688_ acc0.A\[26\] net54 VGND VGND VPWR VPWR _0320_ sky130_fd_sc_hd__nor2_1
+X_0757_ _0350_ net243 VGND VGND VPWR VPWR _0380_ sky130_fd_sc_hd__or2_1
+XFILLER_0_3_221 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_10_70 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0826_ _0255_ _0433_ VGND VGND VPWR VPWR _0434_ sky130_fd_sc_hd__or2b_1
+X_0934__70 clknet_1_1__leaf__0464_ VGND VGND VPWR VPWR net137 sky130_fd_sc_hd__inv_2
+XFILLER_0_19_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_34_124 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_34_168 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_15_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_25_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0611_ _0241_ _0242_ VGND VGND VPWR VPWR _0243_ sky130_fd_sc_hd__or2_1
+X_0542_ _0172_ net19 _0174_ net195 _0203_ VGND VGND VPWR VPWR _0141_ sky130_fd_sc_hd__o221a_1
+X_1025_ net111 net200 VGND VGND VPWR VPWR acc0.A\[25\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_16_179 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_21_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0809_ _0295_ _0401_ _0289_ VGND VGND VPWR VPWR _0420_ sky130_fd_sc_hd__a21o_1
+Xhold92 net59 VGND VGND VPWR VPWR net239 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold70 net37 VGND VGND VPWR VPWR net217 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold81 acc0.A\[12\] VGND VGND VPWR VPWR net228 sky130_fd_sc_hd__dlygate4sd3_1
+X_0525_ net154 _0179_ _0194_ VGND VGND VPWR VPWR _0149_ sky130_fd_sc_hd__a21o_1
+XPHY_EDGE_ROW_16_Left_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1008_ net94 _0106_ VGND VGND VPWR VPWR net54 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_27_219 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xoutput60 net60 VGND VGND VPWR VPWR pp[31] sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_18_155 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_5_113 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0508_ net228 _0179_ _0185_ VGND VGND VPWR VPWR _0157_ sky130_fd_sc_hd__a21o_1
+X_0790_ acc0.A\[15\] net42 VGND VGND VPWR VPWR _0406_ sky130_fd_sc_hd__xor2_1
+XTAP_TAPCELL_ROW_38_239 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0988_ net74 _0086_ VGND VGND VPWR VPWR net64 sky130_fd_sc_hd__dfxtp_1
+X_0883__23 clknet_1_0__leaf__0460_ VGND VGND VPWR VPWR net90 sky130_fd_sc_hd__inv_2
+X_0842_ _0263_ _0267_ VGND VGND VPWR VPWR _0446_ sky130_fd_sc_hd__and2_1
+XFILLER_0_11_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0773_ _0386_ _0388_ VGND VGND VPWR VPWR _0392_ sky130_fd_sc_hd__xor2_1
+XTAP_TAPCELL_ROW_34_220 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_EDGE_ROW_4_Left_43 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_0_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_1041_ net127 net153 VGND VGND VPWR VPWR comp0.B\[9\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_9_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0825_ _0258_ _0432_ VGND VGND VPWR VPWR _0433_ sky130_fd_sc_hd__or2_1
+X_0687_ acc0.A\[26\] net54 VGND VGND VPWR VPWR _0319_ sky130_fd_sc_hd__and2_1
+X_0756_ _0225_ _0378_ VGND VGND VPWR VPWR _0379_ sky130_fd_sc_hd__xnor2_1
+XFILLER_0_10_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_19_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XPHY_EDGE_ROW_30_Left_69 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_25_169 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_0_225 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0610_ acc0.A\[19\] net46 VGND VGND VPWR VPWR _0242_ sky130_fd_sc_hd__and2_1
+X_0541_ comp0.B\[11\] _0176_ VGND VGND VPWR VPWR _0203_ sky130_fd_sc_hd__or2_1
+X_1024_ net110 _0122_ VGND VGND VPWR VPWR acc0.A\[24\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_15_8 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0808_ _0346_ _0417_ _0418_ _0419_ _0345_ VGND VGND VPWR VPWR _0091_ sky130_fd_sc_hd__o311a_1
+X_0739_ _0347_ _0364_ _0365_ _0352_ VGND VGND VPWR VPWR _0106_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_22_117 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_22_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xhold93 control0.state\[1\] VGND VGND VPWR VPWR net240 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold60 _0117_ VGND VGND VPWR VPWR net207 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold71 acc0.A\[1\] VGND VGND VPWR VPWR net218 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_26_37 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+Xhold82 acc0.A\[13\] VGND VGND VPWR VPWR net229 sky130_fd_sc_hd__dlygate4sd3_1
+X_0524_ _0180_ net12 _0186_ net148 VGND VGND VPWR VPWR _0194_ sky130_fd_sc_hd__a22o_1
+X_1007_ net93 _0105_ VGND VGND VPWR VPWR net53 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_20_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_36_209 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_33_Left_72 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xoutput61 net61 VGND VGND VPWR VPWR pp[3] sky130_fd_sc_hd__clkbuf_4
+Xoutput50 net50 VGND VGND VPWR VPWR pp[22] sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_18_156 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0507_ _0181_ net5 _0183_ acc0.A\[13\] VGND VGND VPWR VPWR _0185_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_3_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0987_ net73 _0085_ VGND VGND VPWR VPWR net63 sky130_fd_sc_hd__dfxtp_1
+X_0866__8 clknet_1_1__leaf__0458_ VGND VGND VPWR VPWR net75 sky130_fd_sc_hd__inv_2
+XTAP_TAPCELL_ROW_20_162 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_18_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0868__10 clknet_1_0__leaf__0458_ VGND VGND VPWR VPWR net77 sky130_fd_sc_hd__inv_2
+XPHY_EDGE_ROW_16_Right_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_34_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0772_ _0369_ net223 _0391_ _0352_ VGND VGND VPWR VPWR _0099_ sky130_fd_sc_hd__o211a_1
+XPHY_EDGE_ROW_25_Right_25 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0841_ _0347_ _0444_ _0445_ _0399_ VGND VGND VPWR VPWR _0084_ sky130_fd_sc_hd__o211a_1
+XFILLER_0_11_204 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XPHY_EDGE_ROW_34_Right_34 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XTAP_TAPCELL_ROW_34_221 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_4_91 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_37_167 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_37_123 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_1040_ net126 net174 VGND VGND VPWR VPWR comp0.B\[8\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_0_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_28_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_28_156 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_0755_ _0227_ _0374_ VGND VGND VPWR VPWR _0378_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_9_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_28_178 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0824_ _0431_ _0271_ VGND VGND VPWR VPWR _0432_ sky130_fd_sc_hd__and2_1
+X_0686_ _0316_ _0317_ VGND VGND VPWR VPWR _0318_ sky130_fd_sc_hd__or2b_1
+XFILLER_0_35_80 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_19_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0925__61 clknet_1_1__leaf__0464_ VGND VGND VPWR VPWR net128 sky130_fd_sc_hd__inv_2
+X_0940__75 clknet_1_1__leaf__0465_ VGND VGND VPWR VPWR net142 sky130_fd_sc_hd__inv_2
+XFILLER_0_31_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0540_ _0172_ net20 _0174_ net193 _0202_ VGND VGND VPWR VPWR _0142_ sky130_fd_sc_hd__o221a_1
+X_1023_ net109 net177 VGND VGND VPWR VPWR acc0.A\[23\] sky130_fd_sc_hd__dfxtp_1
+X_0738_ _0350_ net244 VGND VGND VPWR VPWR _0365_ sky130_fd_sc_hd__or2_1
+X_0807_ _0218_ net246 VGND VGND VPWR VPWR _0419_ sky130_fd_sc_hd__or2_1
+XPHY_EDGE_ROW_2_Right_2 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_0669_ _0276_ _0277_ _0300_ VGND VGND VPWR VPWR _0301_ sky130_fd_sc_hd__or3_1
+XFILLER_0_1_81 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xhold83 acc0.A\[6\] VGND VGND VPWR VPWR net230 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold94 net51 VGND VGND VPWR VPWR net241 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold50 acc0.A\[27\] VGND VGND VPWR VPWR net197 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold61 acc0.A\[30\] VGND VGND VPWR VPWR net208 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold72 acc0.A\[17\] VGND VGND VPWR VPWR net219 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_6_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0904__42 clknet_1_0__leaf__0462_ VGND VGND VPWR VPWR net109 sky130_fd_sc_hd__inv_2
+X_0523_ net148 _0179_ _0193_ VGND VGND VPWR VPWR _0150_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_8_112 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_1006_ net92 _0104_ VGND VGND VPWR VPWR net52 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_12_184 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_12_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+Xoutput62 net62 VGND VGND VPWR VPWR pp[4] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_37_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+Xoutput51 net51 VGND VGND VPWR VPWR pp[23] sky130_fd_sc_hd__buf_2
+Xoutput40 net40 VGND VGND VPWR VPWR pp[13] sky130_fd_sc_hd__buf_2
+XTAP_TAPCELL_ROW_18_157 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_0506_ net229 _0179_ _0184_ VGND VGND VPWR VPWR _0158_ sky130_fd_sc_hd__a21o_1
+XFILLER_0_4_181 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_7_80 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_13_94 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0986_ net72 _0084_ VGND VGND VPWR VPWR net62 sky130_fd_sc_hd__dfxtp_1
+XTAP_TAPCELL_ROW_6_106 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_37_230 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_20_163 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_0_0_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+X_0771_ _0243_ _0389_ _0390_ VGND VGND VPWR VPWR _0391_ sky130_fd_sc_hd__a21bo_1
+X_0840_ _0218_ net62 VGND VGND VPWR VPWR _0445_ sky130_fd_sc_hd__or2_1
+XFILLER_0_24_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+X_0969_ _0468_ _0486_ VGND VGND VPWR VPWR _0487_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_28_135 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+X_0754_ _0219_ net241 _0376_ _0377_ _0345_ VGND VGND VPWR VPWR _0103_ sky130_fd_sc_hd__o221a_1
+X_0685_ acc0.A\[27\] net55 VGND VGND VPWR VPWR _0317_ sky130_fd_sc_hd__or2_1
+X_0823_ _0260_ _0269_ VGND VGND VPWR VPWR _0431_ sky130_fd_sc_hd__nor2_1
+XFILLER_0_19_71 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_27_190 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_25_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+X_1022_ net108 net151 VGND VGND VPWR VPWR acc0.A\[22\] sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_16_149 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+X_0737_ _0321_ _0360_ VGND VGND VPWR VPWR _0364_ sky130_fd_sc_hd__xor2_1
+X_0668_ _0297_ _0298_ _0299_ VGND VGND VPWR VPWR _0300_ sky130_fd_sc_hd__o21a_1
+X_0806_ _0281_ _0402_ _0286_ VGND VGND VPWR VPWR _0418_ sky130_fd_sc_hd__a21oi_1
+X_0599_ acc0.A\[23\] net51 VGND VGND VPWR VPWR _0231_ sky130_fd_sc_hd__nand2_1
+XFILLER_0_1_93 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+Xhold40 acc0.A\[20\] VGND VGND VPWR VPWR net187 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold95 net56 VGND VGND VPWR VPWR net242 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold84 control0.sh VGND VGND VPWR VPWR net231 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold73 net48 VGND VGND VPWR VPWR net220 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold62 _0128_ VGND VGND VPWR VPWR net209 sky130_fd_sc_hd__dlygate4sd3_1
+Xhold51 comp0.B\[11\] VGND VGND VPWR VPWR net198 sky130_fd_sc_hd__dlygate4sd3_1
+XFILLER_0_6_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0522_ _0180_ net13 _0186_ acc0.A\[6\] VGND VGND VPWR VPWR _0193_ sky130_fd_sc_hd__a22o_1
+XFILLER_0_8_124 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+X_1005_ net91 _0103_ VGND VGND VPWR VPWR net51 sky130_fd_sc_hd__dfxtp_1
+XFILLER_0_8_168 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+Xoutput52 net52 VGND VGND VPWR VPWR pp[24] sky130_fd_sc_hd__buf_2
+Xoutput41 net41 VGND VGND VPWR VPWR pp[14] sky130_fd_sc_hd__buf_2
+Xoutput63 net63 VGND VGND VPWR VPWR pp[5] sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_37_27 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+XFILLER_0_5_127 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_0_26_222 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+X_0505_ _0181_ net6 _0183_ acc0.A\[14\] VGND VGND VPWR VPWR _0184_ sky130_fd_sc_hd__a22o_1
+.ends
+

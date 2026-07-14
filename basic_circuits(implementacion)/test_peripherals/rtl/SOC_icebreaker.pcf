@@ -1,0 +1,6 @@
+set_io  clk    35
+set_io  resetn 10
+set_io  LEDS   37
+set_io  RXD    6
+set_io  TXD    9
+

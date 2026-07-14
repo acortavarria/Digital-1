@@ -1,0 +1,402 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Mon May  4 23:49:22 2026
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/basic_circuits/test_peripherals/rtl/bench.vcd"
+[dumpfile_mtime] "Mon May  4 23:43:36 2026"
+[dumpfile_size] 205639923
+[savefile] "/Work/Embedded/digital_UN/basic_circuits/test_peripherals/rtl/test_cpu_load.gtkw"
+[timestart] 5347851000
+[size] 1648 951
+[pos] -1 -1
+*-20.770798 7705581000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bench.
+[treeopen] bench.uut.
+[treeopen] bench.uut.bcd2bin0.bcd2bin0.
+[treeopen] bench.uut.bin2bcd0.
+[treeopen] bench.uut.bin2bcd0.bin2bcd0.
+[treeopen] bench.uut.CPU.
+[treeopen] bench.uut.mult1.
+[treeopen] bench.uut.per_uart.
+[sst_width] 462
+[signals_width] 346
+[sst_expanded] 1
+[sst_vpaned_height] 692
+@28
+bench.uut.resetn
+@c00028
+bench.uut.LEDS
+@1401200
+-group_end
+@22
+[color] 6
+bench.uut.CPU.PC[23:0]
+bench.uut.CPU.state[3:0]
+@28
+bench.uut.CPU.mem_rstrb
+@c00022
+[color] 3
+bench.uut.CPU.writeBackData[31:0]
+@28
+[color] 3
+(0)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(1)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(2)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(3)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(4)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(5)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(6)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(7)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(8)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(9)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(10)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(11)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(12)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(13)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(14)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(15)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(16)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(17)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(18)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(19)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(20)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(21)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(22)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(23)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(24)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(25)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(26)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(27)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(28)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(29)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(30)bench.uut.CPU.writeBackData[31:0]
+[color] 3
+(31)bench.uut.CPU.writeBackData[31:0]
+@1401200
+-group_end
+@28
+[color] 3
+bench.uut.CPU.writeBack
+@22
+[color] 3
+bench.uut.CPU.rdId[4:0]
+bench.uut.CPU.rs1[31:0]
+bench.uut.CPU.rs2[31:0]
+@c00022
+[color] 5
+bench.uut.CPU.mem_addr[31:0]
+@28
+[color] 5
+(0)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(1)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(2)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(3)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(4)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(5)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(6)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(7)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(8)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(9)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(10)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(11)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(12)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(13)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(14)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(15)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(16)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(17)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(18)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(19)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(20)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(21)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(22)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(23)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(24)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(25)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(26)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(27)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(28)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(29)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(30)bench.uut.CPU.mem_addr[31:0]
+[color] 5
+(31)bench.uut.CPU.mem_addr[31:0]
+@1401200
+-group_end
+@22
+[color] 5
+bench.uut.CPU.mem_rdata[31:0]
+[color] 5
+bench.uut.CPU.mem_wmask[3:0]
+[color] 5
+bench.uut.CPU.mem_wdata[31:0]
+bench.uut.CPU.aluIn1[31:0]
+bench.uut.CPU.aluIn2[31:0]
+bench.uut.CPU.aluOut[31:0]
+@28
+[color] 3
+bench.uut.RXD
+[color] 3
+bench.uut.TXD
+@c00820
+[color] 3
+bench.uut.per_uart.uart0.tx_data[7:0]
+@28
+[color] 3
+(0)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(1)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(2)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(3)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(4)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(5)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(6)bench.uut.per_uart.uart0.tx_data[7:0]
+[color] 3
+(7)bench.uut.per_uart.uart0.tx_data[7:0]
+@1401200
+-group_end
+@28
+bench.uut.per_uart.cs
+@22
+bench.uut.per_uart.d_in[31:0]
+@28
+bench.uut.per_uart.uart0.tx_wr
+bench.uut.per_uart.tx_busy
+bench.uut.per_uart.rd
+bench.uut.per_uart.wr
+bench.uut.per_uart.rx_avail
+@22
+bench.uut.per_uart.rx_data[7:0]
+@200
+-
+-REGISTER BANK
+@22
+[color] 2
+bench.uut.CPU.\registerFile[0][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[1][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[2][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[3][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[4][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[5][31:0]
+@c00022
+[color] 2
+bench.uut.CPU.\registerFile[6][31:0]
+@28
+[color] 2
+(0)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(1)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(2)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(3)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(4)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(5)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(6)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(7)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(8)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(9)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(10)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(11)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(12)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(13)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(14)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(15)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(16)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(17)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(18)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(19)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(20)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(21)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(22)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(23)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(24)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(25)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(26)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(27)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(28)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(29)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(30)bench.uut.CPU.\registerFile[6][31:0]
+[color] 2
+(31)bench.uut.CPU.\registerFile[6][31:0]
+@1401200
+-group_end
+@22
+[color] 2
+bench.uut.CPU.\registerFile[7][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[8][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[9][31:0]
+@24
+[color] 2
+bench.uut.CPU.\registerFile[10][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[11][31:0]
+@22
+[color] 2
+bench.uut.CPU.\registerFile[12][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[13][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[14][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[15][31:0]
+[color] 2
+bench.uut.CPU.\registerFile[16][31:0]
+@200
+-
+@20000
+-
+@22
+bench.uut.RAM.\MEM[1024][31:0]
+bench.uut.RAM.\MEM[1023][31:0]
+bench.uut.RAM.\MEM[1022][31:0]
+bench.uut.RAM.\MEM[1021][31:0]
+bench.uut.RAM.\MEM[1020][31:0]
+@200
+-MULTIPLIER
+@22
+bench.uut.mult1.A[15:0]
+bench.uut.mult1.B[15:0]
+bench.uut.mult1.addr[4:0]
+@28
+bench.uut.mult1.cs
+bench.uut.mult1.rd
+bench.uut.mult1.wr
+bench.uut.mult1.mult1.init
+@22
+bench.uut.mult1.mult1.B[15:0]
+@28
+bench.uut.mult1.mult1.done
+bench.uut.LEDS
+@22
+bench.uut.mult1.mult1.pp[31:0]
+bench.uut.mult1.s[4:0]
+@20000
+-
+@22
+bench.uut.mult1.d_out[31:0]
+bench.uut.mult1.result[31:0]
+@200
+-
+-BIN2BCD
+@22
+bench.uut.bin2bcd0.A[15:0]
+@28
+bench.uut.bin2bcd0.cs
+@23
+bench.uut.bin2bcd0.result[19:0]
+@28
+bench.uut.bin2bcd0.init
+bench.uut.bin2bcd0.done
+@200
+-
+-BCD2BIN
+@22
+bench.uut.bcd2bin0.A[19:0]
+@28
+bench.uut.bcd2bin0.cs
+@22
+bench.uut.bcd2bin0.result[15:0]
+@28
+bench.uut.bcd2bin0.init
+bench.uut.bcd2bin0.done
+[pattern_trace] 1
+[pattern_trace] 0

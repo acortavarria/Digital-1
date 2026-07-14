@@ -1,0 +1,77 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Thu Oct 23 13:14:23 2025
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/bcd2bin/bcd2bin_TB.vcd"
+[dumpfile_mtime] "Thu Oct 23 12:44:24 2025"
+[dumpfile_size] 21035
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/bcd2bin/sim_post_syn_bin2bcd.gtkw"
+[timestart] 0
+[size] 1648 951
+[pos] -1 -1
+*-19.000000 119900 119900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bcd2bin_TB.
+[treeopen] bcd2bin_TB.uut.
+[sst_width] 278
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 608
+@22
+bcd2bin_TB.uut.A[19:0]
+@28
+bcd2bin_TB.uut.clk
+bcd2bin_TB.uut.init
+bcd2bin_TB.uut.done
+@22
+bcd2bin_TB.uut.result[16:0]
+bcd2bin_TB.uut.rsr40.data[35:0]
+@200
+-
+@28
+bcd2bin_TB.uut.w_sel
+@200
+-COMP0
+@22
+bcd2bin_TB.uut.comp0.in_A[3:0]
+bcd2bin_TB.uut.comp0.in_B[3:0]
+bcd2bin_TB.uut.comp1.Result[3:0]
+@200
+-
+-COMP1
+@22
+bcd2bin_TB.uut.comp1.in_A[3:0]
+bcd2bin_TB.uut.comp1.in_B[3:0]
+bcd2bin_TB.uut.comp2.Result[3:0]
+@200
+-
+-COMP2
+@22
+bcd2bin_TB.uut.comp2.in_A[3:0]
+bcd2bin_TB.uut.comp2.in_B[3:0]
+bcd2bin_TB.uut.comp3.Result[3:0]
+@200
+-
+-COMP3
+@22
+bcd2bin_TB.uut.comp3.Result[3:0]
+bcd2bin_TB.uut.comp3.in_A[3:0]
+bcd2bin_TB.uut.comp3.in_B[3:0]
+@200
+-
+-COMP4
+@22
+bcd2bin_TB.uut.comp4.Result[3:0]
+bcd2bin_TB.uut.comp4.in_A[3:0]
+bcd2bin_TB.uut.comp4.in_B[3:0]
+bcd2bin_TB.uut.w_LD[4:0]
+@28
+bcd2bin_TB.uut.w_add
+@23
+bcd2bin_TB.uut.w_dmi[3:0]
+@22
+bcd2bin_TB.uut.w_umi[3:0]
+bcd2bin_TB.uut.w_cen[3:0]
+bcd2bin_TB.uut.w_dec[3:0]
+bcd2bin_TB.uut.w_uni[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,67 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Thu Nov  6 05:08:36 2025
+[*]
+[dumpfile] "(null)"
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/led_panel/led_panel_8_sim.gtkw"
+[timestart] 6565000
+[size] 1648 951
+[pos] -1 -1
+*-20.900002 12230000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] led_panel_8_TB.
+[treeopen] led_panel_8_TB.uut.
+[treeopen] led_panel_8_TB.uut.count_row.
+[sst_width] 278
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 498
+@28
+led_panel_8_TB.uut.clk
+led_panel_8_TB.uut.init
+led_panel_8_TB.uut.rst
+[color] 2
+led_panel_8_TB.LATCH
+[color] 2
+led_panel_8_TB.uut.NOE
+[color] 2
+led_panel_8_TB.uut.LP_CLK
+@22
+[color] 2
+led_panel_8_TB.uut.ROW[4:0]
+[color] 2
+led_panel_8_TB.uut.COL[5:0]
+@28
+[color] 2
+led_panel_8_TB.uut.RGB0[2:0]
+[color] 2
+led_panel_8_TB.uut.RGB1[2:0]
+@820
+led_panel_8_TB.uut.ctrl0.state_name[320:1]
+@28
+led_panel_8_TB.uut.w_INC_C
+led_panel_8_TB.uut.w_INC_R
+led_panel_8_TB.uut.w_INC_D
+led_panel_8_TB.uut.w_ZC
+led_panel_8_TB.uut.w_ZD
+led_panel_8_TB.uut.w_ZR
+led_panel_8_TB.uut.w_RST_C
+led_panel_8_TB.uut.w_RST_D
+led_panel_8_TB.uut.w_RST_R
+@22
+led_panel_8_TB.uut.PIX_ADDR[10:0]
+@28
+led_panel_8_TB.uut.PX_CLK_EN
+@23
+led_panel_8_TB.uut.mem0.\MEM[0][5:0]
+led_panel_8_TB.uut.mem0.\MEM[1][5:0]
+led_panel_8_TB.uut.mem0.\MEM[2][5:0]
+led_panel_8_TB.uut.mem0.\MEM[3][5:0]
+led_panel_8_TB.uut.mem0.\MEM[4][5:0]
+led_panel_8_TB.uut.mem0.\MEM[5][5:0]
+led_panel_8_TB.uut.mem0.\MEM[6][5:0]
+led_panel_8_TB.uut.mem0.\MEM[7][5:0]
+led_panel_8_TB.uut.mem0.\MEM[8][5:0]
+led_panel_8_TB.uut.mem0.\MEM[9][5:0]
+led_panel_8_TB.uut.mem0.\MEM[10][5:0]
+[pattern_trace] 1
+[pattern_trace] 0

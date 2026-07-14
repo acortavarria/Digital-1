@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Thu Oct 16 01:25:19 2025
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/bin2bcd/perip_bin2bcd_TB.vcd"
+[dumpfile_mtime] "Thu Oct 16 01:24:28 2025"
+[dumpfile_size] 25983
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/bin2bcd/perip_bin2bcd.gtkw"
+[timestart] 0
+[size] 1648 951
+[pos] -325 -176
+*-19.000000 1614000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] peripheral_bin2bcd_TB.
+[treeopen] peripheral_bin2bcd_TB.uut.
+[sst_width] 278
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 498
+@28
+peripheral_bin2bcd_TB.uut.clk
+peripheral_bin2bcd_TB.uut.reset
+@22
+peripheral_bin2bcd_TB.uut.d_in[15:0]
+peripheral_bin2bcd_TB.uut.d_out[31:0]
+@28
+peripheral_bin2bcd_TB.uut.cs
+peripheral_bin2bcd_TB.uut.rd
+peripheral_bin2bcd_TB.uut.wr
+peripheral_bin2bcd_TB.uut.init
+@22
+peripheral_bin2bcd_TB.uut.A[15:0]
+@28
+peripheral_bin2bcd_TB.uut.done
+@22
+peripheral_bin2bcd_TB.uut.result[19:0]
+[pattern_trace] 1
+[pattern_trace] 0

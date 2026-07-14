@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Thu Oct 16 01:43:46 2025
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/bin2bcd/bin2bcd_TB.vcd"
+[dumpfile_mtime] "Thu Oct 16 01:43:04 2025"
+[dumpfile_size] 27601
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/bin2bcd/sim_bin2bcd.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-16.000000 1661000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bin2bcd_TB.
+[treeopen] bin2bcd_TB.uut.
+[sst_width] 278
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 280
+@28
+bin2bcd_TB.uut.clk
+bin2bcd_TB.uut.rst
+bin2bcd_TB.uut.init
+bin2bcd_TB.uut.done
+@23
+bin2bcd_TB.uut.A[15:0]
+@22
+bin2bcd_TB.uut.lsr40.data[35:0]
+@820
+bin2bcd_TB.uut.control0.state_name[320:1]
+@28
+bin2bcd_TB.uut.control0.ld
+bin2bcd_TB.uut.control0.sh
+bin2bcd_TB.uut.control0.sel
+bin2bcd_TB.uut.control0.ld_msb
+bin2bcd_TB.uut.control0.add
+bin2bcd_TB.uut.control0.z
+@22
+bin2bcd_TB.uut.result[19:0]
+[pattern_trace] 1
+[pattern_trace] 0

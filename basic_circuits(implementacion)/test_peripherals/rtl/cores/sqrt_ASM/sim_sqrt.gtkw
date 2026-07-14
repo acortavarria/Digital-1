@@ -1,0 +1,52 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Tue Oct  7 12:58:51 2025
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/sqrt_ASM/sqrt_TB.vcd"
+[dumpfile_mtime] "Tue Oct  7 12:55:51 2025"
+[dumpfile_size] 7619
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/sqrt_ASM/sim_sqrt.gtkw"
+[timestart] 0
+[size] 1648 951
+[pos] -1 -1
+*-16.000000 97300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sqrt_TB.
+[treeopen] sqrt_TB.uut.
+[sst_width] 278
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 279
+@28
+sqrt_TB.uut.clk
+sqrt_TB.uut.rst
+@24
+sqrt_TB.uut.A[15:0]
+@29
+[color] 3
+sqrt_TB.uut.init
+[color] 3
+sqrt_TB.uut.control0.msb
+@28
+[color] 2
+sqrt_TB.uut.w_sh
+[color] 2
+sqrt_TB.uut.w_r0
+[color] 2
+sqrt_TB.uut.w_ld
+[color] 2
+sqrt_TB.uut.w_ld_tmp
+[color] 2
+sqrt_TB.uut.w_lda2
+@820
+sqrt_TB.uut.control0.state_name[320:1]
+@28
+sqrt_TB.uut.done
+@22
+sqrt_TB.uut.result[15:0]
+sqrt_TB.uut.w_lda2_in[15:0]
+sqrt_TB.uut.w_lda_out[15:0]
+sqrt_TB.uut.lsr20.data[31:0]
+sqrt_TB.uut.lsr_R.out_r[15:0]
+sqrt_TB.uut.lsr_TMP.out_r[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

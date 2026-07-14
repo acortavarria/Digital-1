@@ -1,0 +1,90 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Fri Dec  5 00:38:13 2025
+[*]
+[dumpfile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/PWM_LED_panel/pwm_led_panel_TB.vcd"
+[dumpfile_mtime] "Fri Dec  5 00:37:20 2025"
+[dumpfile_size] 42380225
+[savefile] "/Work/Embedded/digital_UN/femtoRV/basic/rtl/cores/PWM_LED_panel/pwm_led_panel_sim.gtkw"
+[timestart] 7731049000
+[size] 1648 951
+[pos] -1 -1
+*-19.000000 7732490000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pwm_led_panel_TB.
+[treeopen] pwm_led_panel_TB.uut.
+[treeopen] pwm_led_panel_TB.uut.load0.
+[sst_width] 278
+[signals_width] 249
+[sst_expanded] 1
+[sst_vpaned_height] 608
+@28
+[color] 2
+pwm_led_panel_TB.uut.rst
+[color] 2
+pwm_led_panel_TB.uut.NOE
+@22
+pwm_led_panel_TB.uut.ROW[4:0]
+@800028
+pwm_led_panel_TB.uut.RGB0[2:0]
+@28
+(0)pwm_led_panel_TB.uut.RGB0[2:0]
+(1)pwm_led_panel_TB.uut.RGB0[2:0]
+(2)pwm_led_panel_TB.uut.RGB0[2:0]
+@1001200
+-group_end
+@800028
+pwm_led_panel_TB.uut.RGB1[2:0]
+@28
+(0)pwm_led_panel_TB.uut.RGB1[2:0]
+(1)pwm_led_panel_TB.uut.RGB1[2:0]
+(2)pwm_led_panel_TB.uut.RGB1[2:0]
+@1001200
+-group_end
+@28
+pwm_led_panel_TB.uut.LP_CLK
+pwm_led_panel_TB.uut.LATCH
+pwm_led_panel_TB.uut.load0.clk_en_out
+@22
+pwm_led_panel_TB.uut.load0.lsr_g1.outc[15:0]
+@28
+pwm_led_panel_TB.uut.load0.lsr_cfg0.load
+pwm_led_panel_TB.uut.load0.lsr_g0.state[2:0]
+pwm_led_panel_TB.uut.load0.lsr_g0.load
+pwm_led_panel_TB.uut.load0.lsr_g0.state[2:0]
+pwm_led_panel_TB.uut.load0.lsr_g0.shift
+pwm_led_panel_TB.uut.load0.count_l0.start
+@22
+pwm_led_panel_TB.uut.load0.count_l0.load[3:0]
+pwm_led_panel_TB.uut.load0.ctr_cfg0.num_drivers[3:0]
+@28
+pwm_led_panel_TB.uut.load0.lsr_cfg0.shift
+pwm_led_panel_TB.uut.load0.ctr_cfg0.clk
+pwm_led_panel_TB.uut.load0.ctr_cfg0.rst
+@22
+pwm_led_panel_TB.uut.load0.ctr_cfg0.latches[3:0]
+@28
+pwm_led_panel_TB.uut.load0.ctr_cfg0.done_latch
+@820
+pwm_led_panel_TB.uut.load0.ctr_cfg0.state_name[320:1]
+@28
+pwm_led_panel_TB.uut.load0.lsr_cfg0.shift
+pwm_led_panel_TB.uut.load0.lsr_cfg0.load
+pwm_led_panel_TB.uut.load0.send_data
+pwm_led_panel_TB.uut.load0.send_config
+pwm_led_panel_TB.uut.send_data
+@22
+pwm_led_panel_TB.uut.state[3:0]
+@28
+pwm_led_panel_TB.uut.load0.pixel_clk_en
+@22
+pwm_led_panel_TB.uut.load0.pixel_data[5:0]
+pwm_led_panel_TB.uut.load0.state[3:0]
+pwm_led_panel_TB.uut.load0.count_pixel[16:0]
+@28
+pwm_led_panel_TB.uut.load0.done_data
+@29
+pwm_led_panel_TB.uut.init_show
+@22
+pwm_led_panel_TB.uut.load0.row_count[5:0]
+[pattern_trace] 1
+[pattern_trace] 0

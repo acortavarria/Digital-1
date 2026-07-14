@@ -2,9 +2,11 @@ TARGET = BintoBcd
 TOP = BintoBcd
 
 OBJS+=BintoBcd.v
-OBJS+=AjusteBCD.v
+OBJS+=comparador.v
+OBJS+=contador.v
 OBJS+=fsm.v
 OBJS+=RegistroBcd.v
+OBJS+=SumadorRestador5_C2.v
 PER_OBJS = perip_mult.v $(OBJS)
 
 BUILD_DIR = build
