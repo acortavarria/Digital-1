@@ -12,7 +12,6 @@ module multiplicador_top_TB;
     wire [31:0] result;
     wire done;
 
-    // Instanciación del módulo TOP
     multiplicador_top uut (
         .clk(clk),
         .reset(reset),
@@ -23,7 +22,7 @@ module multiplicador_top_TB;
         .done(done)
     );
 
-    // Parámetros del Reloj
+
     parameter PERIOD          = 40;
     parameter real DUTY_CYCLE = 0.5;
     parameter OFFSET          = 0;
@@ -38,20 +37,20 @@ module multiplicador_top_TB;
     end
 
     initial begin
-        // Inicialización de estímulos
+        
         #0 reset = 0; init = 0; A = 16'd0; B = 16'd0;
         
-        // Reset inicial del sistema
+        
         @(posedge clk);
         reset = 1;
         @(posedge clk);
         reset = 0;
         
-        // Configurar operandos: 7 x 9 = 63
+    
         @(posedge clk);
         A = 16'd7; 
         B = 16'd9;
-        init = 1; // Pulso de inicio
+        init = 1; 
         
         @(posedge clk);
         init = 0; 
@@ -62,14 +61,13 @@ module multiplicador_top_TB;
         
         #2000;
         
-        // Fin de la simulación controlada
-        $display("Simulacion completa. Resultado final de %d x %d = %d", A, B, result);
+        
     end
 
     initial begin: TEST_CASE
         $dumpfile("Multiplicador_TB.vcd");
         $dumpvars(-1, uut);
-        #(100000) $finish; // Límite de seguridad
+        #(100000) $finish; 
     end
 
 endmodule

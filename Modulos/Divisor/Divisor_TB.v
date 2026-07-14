@@ -12,7 +12,7 @@ module Divisor_Top_TB;
     wire [15:0] Cociente;
     wire done;
 
-    // Instanciación del módulo TOP del divisor
+    
     Divisor_Top uut (
         .clk(clk),
         .reset(reset),
@@ -23,7 +23,6 @@ module Divisor_Top_TB;
         .done(done)
     );
 
-    // Parámetros del Reloj
     parameter PERIOD          = 40;
     parameter real DUTY_CYCLE = 0.5;
     parameter OFFSET          = 0;
@@ -38,38 +37,32 @@ module Divisor_Top_TB;
     end
 
     initial begin
-        // Inicialización
         #0 reset = 0; init = 0; A = 16'd0; B = 16'd0;
         
-        // Reset global del sistema
         @(posedge clk);
         reset = 1;
         @(posedge clk);
         reset = 0;
         
-        // Configurar la operación: 100 / 5
         @(posedge clk);
         A = 16'd100;
         B = 16'd5;
-        init = 1;               // Pulso de inicio de la máquina de estados
+        init = 1;               
         
         @(posedge clk);
-        init = 0;               // Apagar init para evitar bucles de reinicio
+        init = 0;              
         
-        // Esperar la bandera de finalización de cómputo de la división
         @(posedge done);
         
-        // Dar un margen de tiempo para observar el ciclo de espera final (zz) en GTKWave
         #2000;
         
-        $display("Simulacion del Divisor completada.");
-        $display("Operacion: %d / %d = %d", A, B, Cociente);
+        
     end
 
     initial begin: TEST_CASE
         $dumpfile("Divisor_TB.vcd");
         $dumpvars(-1, uut);
-        #(100000) $finish; // Fin seguro de simulación
+        #(100000) $finish; 
     end
 
 endmodule
