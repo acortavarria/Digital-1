@@ -65,19 +65,6 @@ COMM_OBJS+= cores/test/perip_test.v
 #COMM_OBJS+= cores/test/mult/control_mult.v
 #COMM_OBJS+= cores/test/mult/rsr.v
 
-#COMM_OBJS+= cores/test/multiplicador/multiplier.v
-#COMM_OBJS+= cores/test/multiplicador/accumulator.v
-#COMM_OBJS+= cores/test/multiplicador/control_unit.v
-#COMM_OBJS+= cores/test/multiplicador/shift_register.v
-
-#COMM_OBJS+=cores/test/div/div.v
-
-#COMM_OBJS+=cores/test/sqrt/addc2.v
-#COMM_OBJS+=cores/test/sqrt/control.v 	
-#COMM_OBJS+=cores/test/sqrt/count.v 
-#COMM_OBJS+=cores/test/sqrt/lsr.v 
-#COMM_OBJS+=cores/test/sqrt/lsr2.v  
-#COMM_OBJS+=cores/test/sqrt/sqrt.v
 
 #COMM_OBJS+= cores/test/Multiplicador/Multiplicador.v
 #COMM_OBJS+= cores/test/Multiplicador/contador.v
