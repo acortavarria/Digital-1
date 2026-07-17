@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Fri Jul 17 01:00:03 2026
+[*]
+[dumpfile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/BintoBcd/BinToBcd_Top_TB.vcd"
+[dumpfile_mtime] "Fri Jul 17 00:56:04 2026"
+[dumpfile_size] 29727
+[savefile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/BintoBcd/BintoBcd_TB.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-18.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] BinToBcd_Top_TB.
+[treeopen] BinToBcd_Top_TB.uut.
+[sst_width] 201
+[signals_width] 167
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+BinToBcd_Top_TB.uut.clk
+BinToBcd_Top_TB.uut.ControlUnit.init
+@800024
+BinToBcd_Top_TB.uut.bin[12:0]
+@1001204
+-group_end
+@28
+BinToBcd_Top_TB.uut.bcd[15:0]
+BinToBcd_Top_TB.uut.done
+@821
+BinToBcd_Top_TB.uut.ControlUnit.state_name[88:1]
+[pattern_trace] 1
+[pattern_trace] 0

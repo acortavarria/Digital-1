@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Fri Jul 17 00:54:34 2026
+[*]
+[dumpfile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/RaizCuadrada/Raiz_Top_TB.vcd"
+[dumpfile_mtime] "Fri Jul 17 00:51:10 2026"
+[dumpfile_size] 143754
+[savefile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/RaizCuadrada/RaizCuadrada_TB.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-18.904131 1140000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Raiz_Top_TB.
+[treeopen] Raiz_Top_TB.uut.
+[sst_width] 201
+[signals_width] 217
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+Raiz_Top_TB.uut.clk
+Raiz_Top_TB.uut.init
+@24
+Raiz_Top_TB.uut.A[15:0]
+@28
+Raiz_Top_TB.uut.done
+@24
+Raiz_Top_TB.uut.Raiz[15:0]
+@820
+Raiz_Top_TB.uut.ControlUnit.state_name[48:1]
+[pattern_trace] 1
+[pattern_trace] 0

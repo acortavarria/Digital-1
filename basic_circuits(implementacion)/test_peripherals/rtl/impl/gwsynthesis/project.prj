@@ -4,37 +4,37 @@
     <Version>beta</Version>
     <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NES"/>
     <FileList>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/perip_uart.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/add_sub_c2.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/mux2.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/count.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/lsr4.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/reg_msb.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/rsr4.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bram/bram.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/perip_test.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/contador.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/fsm.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/comparador.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroAext2.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroC.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v" type="verilog"/>
-        <File path="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/perip_uart.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/add_sub_c2.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/mux2.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/count.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/lsr4.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/reg_msb.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/rsr4.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bram/bram.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/perip_test.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/contador.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/fsm.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/comparador.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroAext2.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroC.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v" type="verilog"/>
+        <File path="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/SOC.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="enable_dsrm" value="0"/>
         <Option type="global_freq" value="100.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/gwsynthesis/project.vg"/>
+        <Option type="output_file" value="/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/gwsynthesis/project.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="1"/>
         <Option type="vcc" value="0.9"/>

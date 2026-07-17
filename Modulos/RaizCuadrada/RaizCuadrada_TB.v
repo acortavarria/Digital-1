@@ -53,19 +53,18 @@ module Raiz_Top_TB;
         init = 0; 
         
     
-        @(posedge done);
-        
-        #2000;
-        
-        
-        
-        A = 16'd49;
-        init = 1;
-        @(posedge clk);
-        init = 0;
-        
-        @(posedge done);
-        #2000;
+ @(posedge done);
+    #2000;
+    
+    @(posedge clk);      
+    A = 16'd49;          
+    init = 1;
+    
+    @(posedge clk);      
+    init = 0;
+    
+    @(posedge done);
+    #2000;
         
         
     end

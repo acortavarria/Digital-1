@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Fri Jul 17 00:26:28 2026
+[*]
+[dumpfile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/Multiplicador/Multiplicador_TB.vcd"
+[dumpfile_mtime] "Fri Jul 17 00:19:06 2026"
+[dumpfile_size] 71205
+[savefile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/Multiplicador/Multiplicador_TB.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-18.000000 2797000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] multiplicador_top_TB.
+[treeopen] multiplicador_top_TB.uut.
+[sst_width] 201
+[signals_width] 173
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+multiplicador_top_TB.uut.clk
+@22
+multiplicador_top_TB.uut.A[15:0]
+multiplicador_top_TB.uut.B[15:0]
+@24
+multiplicador_top_TB.uut.result[31:0]
+@28
+multiplicador_top_TB.uut.init
+multiplicador_top_TB.uut.done
+@820
+multiplicador_top_TB.uut.control_unit.state_name[80:1]
+[pattern_trace] 1
+[pattern_trace] 0

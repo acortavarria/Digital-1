@@ -1,7 +1,7 @@
-Reading netlist file: "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/gwsynthesis/project.vg"
-Parsing netlist file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/gwsynthesis/project.vg" completed
+Reading netlist file: "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/gwsynthesis/project.vg"
+Parsing netlist file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/gwsynthesis/project.vg" completed
 Processing netlist completed
-Reading constraint file: "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/sipeed_tang_primer_25k.cst"
+Reading constraint file: "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/sipeed_tang_primer_25k.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -20,10 +20,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/pnr/project.power.html" completed
-Generate file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/pnr/project.pin.html" completed
-Generate file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/pnr/project.rpt.html" completed
-Generate file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/pnr/project.rpt.txt" completed
-Generate file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/pnr/project.tr.html" completed
-Thu Jul  9 02:22:40 2026
+Generate file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/pnr/project.power.html" completed
+Generate file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/pnr/project.pin.html" completed
+Generate file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/pnr/project.rpt.html" completed
+Generate file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/pnr/project.rpt.txt" completed
+Generate file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/pnr/project.tr.html" completed
+Tue Jul 14 09:41:30 2026
 

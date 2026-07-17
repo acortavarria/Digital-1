@@ -83,6 +83,22 @@ COMM_OBJS+= cores/test/perip_test.v
 #COMM_OBJS+= cores/test/Divisor/RegistroC.v
 #COMM_OBJS+= cores/test/Divisor/SumadorRestador17_C2.v
 
+#COMM_OBJS+= cores/test/BintoBcd/contador.v
+#COMM_OBJS+= cores/test/BintoBcd/fsm.v
+#COMM_OBJS+= cores/test/BintoBcd/comparador.v
+#COMM_OBJS+= cores/test/BintoBcd/BintoBcd.v
+#COMM_OBJS+= cores/test/BintoBcd/SumadorRestador5_C2.v
+#COMM_OBJS+= cores/test/BintoBcd/RegistroBcd.v
+
+#COMM_OBJS+= cores/test/BcdtoBin/contador.v
+#COMM_OBJS+= cores/test/BcdtoBin/fsm.v
+#COMM_OBJS+= cores/test/BcdtoBin/comparador.v
+#COMM_OBJS+= cores/test/BcdtoBin/BcdtoBin.v
+#COMM_OBJS+= cores/test/BcdtoBin/SumadorRestador5_C2.v
+#COMM_OBJS+= cores/test/BcdtoBin/RegistroBcd.v
+
+
+
 COMM_OBJS+= cores/test/RaizCuadrada/contador.v
 COMM_OBJS+= cores/test/RaizCuadrada/fsm.v
 COMM_OBJS+= cores/test/RaizCuadrada/comparador.v

@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Fri Jul 17 00:31:14 2026
+[*]
+[dumpfile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/Divisor/Divisor_TB.vcd"
+[dumpfile_mtime] "Fri Jul 17 00:27:43 2026"
+[dumpfile_size] 73361
+[savefile] "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/Modulos/Divisor/Divisor_TB.gtkw"
+[timestart] 1600000
+[size] 1000 600
+[pos] -1 -1
+*-18.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Divisor_Top_TB.
+[treeopen] Divisor_Top_TB.uut.
+[sst_width] 201
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+Divisor_Top_TB.uut.clk
+@22
+Divisor_Top_TB.uut.A[15:0]
+Divisor_Top_TB.uut.B[15:0]
+Divisor_Top_TB.uut.Cociente[15:0]
+@29
+Divisor_Top_TB.uut.done
+[pattern_trace] 1
+[pattern_trace] 0

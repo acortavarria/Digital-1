@@ -1,72 +1,72 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/perip_uart.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v'
-WARN  (EX3801) : Parameter 'divisor' becomes localparam in 'uart' with formal parameter declaration list("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":24)
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/add_sub_c2.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/mux2.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/count.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/lsr4.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/reg_msb.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/rsr4.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bram/bram.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/perip_test.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/contador.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/fsm.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/comparador.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroAext2.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroC.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v'
-Analyzing Verilog file '/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v'
-Compiling module 'SOC'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v":2)
-Compiling module 'FemtoRV32'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":2)
-WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":165)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":206)
-WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":259)
-Compiling module 'bram'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bram/bram.v":3)
-Extracting RAM for identifier 'MEM'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bram/bram.v":12)
-WARN  (EX2412) : Illegal entry at ./firmware.hex:513 for index 2048 in range [0:2047]("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bram/bram.v":15)
-Compiling module 'peripheral_uart(clk_freq=50000000)'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/perip_uart.v":1)
-Compiling module 'uart(freq_hz=50000000)'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":5)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":39)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":88)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":91)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":137)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/uart/uart.v":140)
-Compiling module 'peripheral_bin2bcd'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v":1)
-Compiling module 'bin2bcd'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":1)
-Compiling module 'lsr4'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/lsr4.v":1)
-Compiling module 'mux'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/mux2.v":1)
-Compiling module 'add_sub_c2'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/add_sub_c2.v":1)
-Compiling module 'reg_msb'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/reg_msb.v":1)
-Compiling module 'cnt_bin2bcd'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/count.v":1)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/count.v":16)
-Compiling module 'ctrl_b2b'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v":1)
-WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v":63)
-Compiling module 'peripheral_bcd2bin'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v":1)
-Compiling module 'bcd2bin'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":1)
-Compiling module 'rsr4'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/rsr4.v":1)
-Compiling module 'peripheral_test'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/perip_test.v":1)
-WARN  (EX3073) : Port 'A' remains unconnected for this instance("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":34)
-Compiling module 'Raiz_Top'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":1)
-Compiling module 'fsm_raiz'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/fsm.v":1)
-Compiling module 'RegistroAext2'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroAext2.v":1)
-Compiling module 'RegistroCociente'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroC.v":1)
-Compiling module 'SumadorRestador_C2'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v":1)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v":15)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'sum'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":42)
-Compiling module 'contador'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/contador.v":1)
-Compiling module 'comparador'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/comparador.v":1)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 16 for port 'Raiz'("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/perip_test.v":75)
-WARN  (EX1998) : Net 'div_dout[31]' does not have a driver("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v":50)
-WARN  (EX1998) : Net 'sqrt_dout[31]' does not have a driver("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/SOC.v":51)
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/perip_uart.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v'
+WARN  (EX3801) : Parameter 'divisor' becomes localparam in 'uart' with formal parameter declaration list("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":24)
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/add_sub_c2.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/mux2.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/count.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/lsr4.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/reg_msb.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/rsr4.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bram/bram.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/perip_test.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/contador.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/fsm.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/comparador.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroAext2.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroC.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v'
+Analyzing Verilog file '/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/SOC.v'
+Compiling module 'SOC'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/SOC.v":2)
+Compiling module 'FemtoRV32'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":2)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":165)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":206)
+WARN  (EX3826) : Synthesis - simulation differences may occur when using parallel_case directive("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/cpu/femtorv32_quark_V2.v":259)
+Compiling module 'bram'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bram/bram.v":3)
+Extracting RAM for identifier 'MEM'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bram/bram.v":12)
+WARN  (EX2412) : Illegal entry at ./firmware.hex:513 for index 2048 in range [0:2047]("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bram/bram.v":15)
+Compiling module 'peripheral_uart(clk_freq=50000000)'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/perip_uart.v":1)
+Compiling module 'uart(freq_hz=50000000)'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":5)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":39)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":88)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":91)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":137)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/uart/uart.v":140)
+Compiling module 'peripheral_bin2bcd'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/perip_bin2bcd.v":1)
+Compiling module 'bin2bcd'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":1)
+Compiling module 'lsr4'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/lsr4.v":1)
+Compiling module 'mux'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/mux2.v":1)
+Compiling module 'add_sub_c2'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/add_sub_c2.v":1)
+Compiling module 'reg_msb'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/reg_msb.v":1)
+Compiling module 'cnt_bin2bcd'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/count.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/count.v":16)
+Compiling module 'ctrl_b2b'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v":1)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/ctrl_b2b.v":63)
+Compiling module 'peripheral_bcd2bin'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/perip_bcd2bin.v":1)
+Compiling module 'bcd2bin'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":1)
+Compiling module 'rsr4'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/rsr4.v":1)
+Compiling module 'peripheral_test'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/perip_test.v":1)
+WARN  (EX3073) : Port 'A' remains unconnected for this instance("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":34)
+Compiling module 'Raiz_Top'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":1)
+Compiling module 'fsm_raiz'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/fsm.v":1)
+Compiling module 'RegistroAext2'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroAext2.v":1)
+Compiling module 'RegistroCociente'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RegistroC.v":1)
+Compiling module 'SumadorRestador_C2'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/SumadorRestador17_C2.v":15)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'sum'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":42)
+Compiling module 'contador'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/contador.v":1)
+Compiling module 'comparador'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/comparador.v":1)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 16 for port 'Raiz'("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/perip_test.v":75)
+WARN  (EX1998) : Net 'div_dout[31]' does not have a driver("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/SOC.v":50)
+WARN  (EX1998) : Net 'sqrt_dout[31]' does not have a driver("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/SOC.v":51)
 NOTE  (EX0101) : Current top module is "SOC"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -84,18 +84,18 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "mux" instantiated to "mux0" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":30)
-WARN  (NL0002) : The module "mux" instantiated to "mux1" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":31)
-WARN  (NL0002) : The module "mux" instantiated to "mux2" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":32)
-WARN  (NL0002) : The module "mux" instantiated to "mux3" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":33)
-WARN  (NL0002) : The module "mux" instantiated to "mux4" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":34)
-WARN  (NL0002) : The module "mux" instantiated to "mux0" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":31)
-WARN  (NL0002) : The module "mux" instantiated to "mux1" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":32)
-WARN  (NL0002) : The module "mux" instantiated to "mux2" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":33)
-WARN  (NL0002) : The module "mux" instantiated to "mux3" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":34)
-WARN  (NL0002) : The module "mux" instantiated to "mux4" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":35)
-WARN  (NL0002) : The module "comparador" instantiated to "Comp_I" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":51)
-WARN  (NL0002) : The module "comparador" instantiated to "Comp_Wait" is swept in optimizing("/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":59)
-[95%] Generate netlist file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/gwsynthesis/project.vg" completed
-[100%] Generate report file "/home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/gwsynthesis/project_syn.rpt.html" completed
+WARN  (NL0002) : The module "mux" instantiated to "mux0" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":30)
+WARN  (NL0002) : The module "mux" instantiated to "mux1" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":31)
+WARN  (NL0002) : The module "mux" instantiated to "mux2" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":32)
+WARN  (NL0002) : The module "mux" instantiated to "mux3" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":33)
+WARN  (NL0002) : The module "mux" instantiated to "mux4" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bcd2bin/bcd2bin.v":34)
+WARN  (NL0002) : The module "mux" instantiated to "mux0" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":31)
+WARN  (NL0002) : The module "mux" instantiated to "mux1" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":32)
+WARN  (NL0002) : The module "mux" instantiated to "mux2" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":33)
+WARN  (NL0002) : The module "mux" instantiated to "mux3" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":34)
+WARN  (NL0002) : The module "mux" instantiated to "mux4" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/bin2bcd/bin2bcd.v":35)
+WARN  (NL0002) : The module "comparador" instantiated to "Comp_I" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":51)
+WARN  (NL0002) : The module "comparador" instantiated to "Comp_Wait" is swept in optimizing("/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/cores/test/RaizCuadrada/RaizCuadrada.v":59)
+[95%] Generate netlist file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/gwsynthesis/project.vg" completed
+[100%] Generate report file "/home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/gwsynthesis/project_syn.rpt.html" completed
 GowinSynthesis finish

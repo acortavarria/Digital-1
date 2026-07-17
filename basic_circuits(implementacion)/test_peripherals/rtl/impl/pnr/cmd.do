@@ -1,9 +1,9 @@
--d /home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/gwsynthesis/project.vg
+-d /home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/gwsynthesis/project.vg
 -p GW5A-25A-MBGA121N-1
 -pn GW5A-LV25MG121NES
--cst /home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/sipeed_tang_primer_25k.cst
--cfg /home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/impl/pnr/device.cfg
--sdc /home/angelmcs/digital_UN/basic_circuits/test_peripherals/rtl/sipeed_tang_primer_25k.sdc
+-cst /home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/sipeed_tang_primer_25k.cst
+-cfg /home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/impl/pnr/device.cfg
+-sdc /home/angelmcs/Documentos/Digital1 verilog/Digital-1/basic_circuits(implementacion)/test_peripherals/rtl/sipeed_tang_primer_25k.sdc
 -bit
 -tr
 -ph
